@@ -14,20 +14,19 @@
 
 ## Overview
 
-This project provides a complete pipeline — from data collection to model inference — for classifying bird species
-found in Colombia based on their songs and calls. The classifier is trained on recordings sourced from
-[Xeno-Canto](https://xeno-canto.org) via their API v3.
+This project provides a notebook-first pipeline for collecting and preparing Colombian bird song data from
+[Xeno-Canto](https://xeno-canto.org) API v3. The current workflow fetches metadata, filters species/recordings,
+and downloads MP3 files to Google Drive, ready for mel-spectrogram and tensor generation.
 
-**Colombia is one of the most biodiverse countries in the world, home to over 1,900 bird species.**
-This project currently covers **1,570+ species** with **36,900+ recordings**.
+The main execution entrypoint is [pre-processing.ipynb](pre-processing.ipynb).
 
 ---
 
 ## Pipeline
 
 ```
-Fetch metadata  →  Filter species  →  Download audio  →  Train model  →  Predict
-     ✅                  🔜                 🔜                🔜             🔜
+Setup/Auth  →  Mount Drive  →  Fetch metadata  →  Filter species  →  Download audio  →  Mel-spectrogram  →  Tensor export
+          ✅              ✅               ✅                 ✅                ✅                 🔜                🔜
 ```
 
 ---
@@ -37,28 +36,54 @@ Fetch metadata  →  Filter species  →  Download audio  →  Train model  → 
 ```
 colombian-bird-song-identifier/
 │
-├── data/                               # Downloaded data — gitignored
+├── data/                               # Local/legacy data artifacts
 │   ├── raw/                            # Raw API responses (one JSON per page)
-│   │   ├── page_0001.json
-│   │   ├── page_0002.json
-│   │   └── ...
-│   ├── audio/                          # Audio files organised by species
-│   │   ├── Amazona amazonica/
-│   │   │   ├── XC123456.mp3
-│   │   │   └── XC123457.mp3
-│   │   └── ...
-│   ├── colombia_birds_by_species.json  # Full grouped metadata
-│   └── colombia_birds_filtered.json   # Metadata after threshold filtering
+│   ├── recordings/                     # Downloaded audio (if running locally)
+│   ├── colombia_birds_by_species.json  # Grouped metadata output
+│   └── colombia_birds_filtered.json    # Filtered metadata output
 │
-├── fetch_metadata.py                   # Step 1 — fetch metadata from Xeno-Canto
-├── filter_species.py                   # Step 2 — filter by quality, length, count
-├── requirements.txt                    # Python dependencies
-└── .env                                # API key (gitignored)
+├── pre-processing.ipynb                # Main Colab workflow (active)
+├── PREPROCESSING_CONTEXT.md            # Plan for mel/tensor phases
+├── fetch_metadata.py.retired           # Legacy script (retired)
+├── filter_species.py.retired           # Legacy script (retired)
+├── requirements.txt                    # Local Python dependencies
+└── .env                                # Optional local env file (gitignored)
 ```
 
 ---
 
-## Setup
+## Quick Start (Colab)
+
+1. Open [pre-processing.ipynb](pre-processing.ipynb) in Google Colab.
+2. Run Cell 1 and Cell 2.
+3. In Cell 3, paste your Xeno-Canto API key when prompted.
+
+Generate your key from: https://xeno-canto.org/account/api
+
+Important: you must provide your own key. The notebook cannot access your account or generate keys.
+
+### Colab in VS Code-based IDEs
+
+You can also run this notebook from VS Code-based IDEs that support Google Colab notebooks.
+
+- Open [pre-processing.ipynb](pre-processing.ipynb) from your IDE and connect it to a Colab runtime.
+- Use the same execution order as in Colab (Cell 1, Cell 2, then Cell 3 for API key input).
+- Keep in mind that local file-upload dialogs may differ by IDE integration, but this notebook avoids that flow by fetching metadata directly in runtime.
+
+---
+
+## Notebook Outputs
+
+- Temporary runtime metadata:
+     - /content/data/raw/page_NNNN.json
+     - /content/data/colombia_birds_by_species.json
+     - /content/data/colombia_birds_filtered.json
+- Persistent audio output on Drive:
+     - /content/drive/MyDrive/bird_songs/<Species_Name>/XC{id}.mp3
+
+---
+
+## Local Setup (Optional)
 
 **Prerequisites:** [Python 3.12](https://www.python.org/) and [uv](https://github.com/astral-sh/uv).
 
@@ -72,7 +97,7 @@ uv venv .venv
 uv pip install --python .venv/Scripts/python.exe -r requirements.txt
 ```
 
-Create a `.env` file in the project root with your [Xeno-Canto API key](https://xeno-canto.org/account):
+Create a .env file in the project root with your Xeno-Canto API key:
 
 ```env
 XC_API_KEY=your_key_here
@@ -80,71 +105,17 @@ XC_API_KEY=your_key_here
 
 ---
 
-## Usage
+## Current Status
 
-### Step 1 — Fetch recording metadata ✅
-
-Downloads metadata for all bird recordings made in Colombia from Xeno-Canto and groups them by species.
-Raw API responses are cached in `data/raw/` so the step does not need to be re-run if the data is already present.
-
-```bash
-.venv/Scripts/python.exe fetch_metadata.py
-```
-
-**Output:** `data/colombia_birds_by_species.json`
-
-Each recording entry includes:
-
-| Field | Description |
-|---|---|
-| `id` | Xeno-Canto recording ID |
-| `quality` | Quality rating (`A` best → `E` worst) |
-| `length` | Duration (`mm:ss`) |
-| `file` | Direct MP3 download URL |
-| `file_name` | Original filename (`XC{id}.mp3`) |
-| `type` | Sound type (song, call, …) |
-| `lat` / `lon` | Recording coordinates |
-| `date` | Recording date |
-| `also` | Background species present |
-
----
-
-### Step 2 — Filter species 🔜
-
-Pre-process the metadata before downloading audio by discarding species and individual recordings that do not
-meet configurable thresholds. Species with too few valid recordings after filtering are dropped entirely.
-
-```bash
-.venv/Scripts/python.exe filter_species.py [OPTIONS]
-```
-
-| Option | Description | Default |
-|---|---|---|
-| `--min-quality` | Minimum quality rating to keep (`A`–`E`) | `C` |
-| `--min-length` | Minimum recording length (seconds) | — |
-| `--max-length` | Maximum recording length (seconds) | — |
-| `--min-recordings` | Minimum recordings a species must have after filtering | — |
-
-**Output:** `data/colombia_birds_filtered.json`
-
----
-
-### Step 3 — Download audio 🔜
-
-Download the MP3 files for all recordings in the filtered dataset, saving them into per-species subfolders
-under `data/audio/`. Files are named `XC{id}.{ext}` (e.g. `XC694038.mp3`).
-
----
-
-### Step 4 — Train the model 🔜
-
-Convert audio to mel-spectrograms and train a CNN-based classifier on the resulting images.
-
----
-
-### Step 5 — Predict 🔜
-
-Run inference on a new audio file to return the most likely bird species.
+- Implemented in notebook:
+     - Step 1 Setup and API key input
+     - Step 2 Drive mount and runtime path setup
+     - Step 3 Metadata fetch and species grouping
+     - Step 4 Metadata filtering
+     - Step 5 Concurrent audio download to Drive
+- Planned next:
+     - Step 6 Automated chunking and mel-spectrogram generation
+     - Step 7 Tensor export for model training
 
 ---
 
@@ -154,4 +125,10 @@ Recording metadata and audio are provided by [Xeno-Canto](https://xeno-canto.org
 wildlife sounds from around the world, powered by the Xeno-Canto Foundation and Naturalis Biodiversity Center.
 
 > Recordings are © their respective recordists. See the `license` field of each recording for terms of use.
+
+---
+
+## License
+
+This project is licensed under MIT. See [LICENSE](LICENSE).
 
