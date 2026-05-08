@@ -34,7 +34,10 @@ Because MP3 files can range from a few seconds to a full minute, we must chop th
 
 ### D. Amplitude Normalization
 - **Peak Normalization**: Scale each surviving chunk so its maximum absolute amplitude is `1.0`. Normalizing *after* segmentation ensures quiet bird calls in otherwise loud recordings are boosted to a standard level. 
-*(If you want to perform manual spot-checking, this is the stage where the normalized `.wav` arrays could be saved/auditioned temporarily before tensor conversion)*.
+
+### E. Export 3-Second Audio Chunks
+- **Format & Structure**: The raw files downloaded from Xeno-Canto are `.mp3`. During loading (`librosa.load`), they are decoded into raw audio arrays. We must then save the processed, 3-second chunks as uncompressed `.wav` files. 
+- **Directory Mirroring**: Save the output `.wav` chunks in a new directory (e.g., `processed_audio/`) mirroring the original folder structure (separated by species folders: `Species_X/XC12345_chunk1.wav`). This makes it easy to validate the dataset, audition specific calls, and track data lineage before spectrogram conversion.
 
 ---
 
@@ -51,6 +54,20 @@ This phase transforms the surviving 3-second audio chunks into images (spectrogr
 - **Output Shape**: `(128, 188)` (128 mel frequency bands x 188 time frames for a 3-second clip at 32kHz).
 - **Scale**: Convert power spectrogram to Decibels (log scale) using `librosa.power_to_db`.
 
+### B. Diagnostic Visualization for Normalization Selection
+- **Goal**: Before locking in the final tensor normalization, generate summary plots from a representative sample of spectrogram chunks across many species and recording conditions.
+- **Spectrogram Panels**: Plot side-by-side examples of raw log-Mel tensors for quiet, medium, and loud recordings to verify whether bird calls remain visible against the background.
+- **Value Distribution Plots**: Build histograms of all log-Mel dB values and mark key percentiles (`1`, `5`, `50`, `95`, `99`). This helps choose a stable clipping range such as `[-80, 0]` dB instead of guessing.
+- **Per-Band Statistics**: Plot mean and standard deviation per Mel bin across the sampled training chunks. This reveals whether per-frequency standardization is justified.
+- **Normalization Comparisons**: Visualize the same chunk under multiple candidate normalizations: fixed-range min-max on clipped dB values, dataset-level z-score, and optionally PCEN. Compare which one preserves bird structure while avoiding background amplification.
+- **Sampling Rule**: Use only the future training split for these statistics and plots so the chosen normalization does not leak information from validation or test data.
+
+### C. Final Tensor Normalization
+- **Default Choice**: After converting to log-Mel dB, clip the tensor to a fixed range such as `[-80, 0]` dB and scale it to `[0, 1]`. This is a strong baseline for bird audio because it keeps values bounded and comparable across files.
+- **Alternative Choice**: If the diagnostic plots show strong frequency-dependent variance, compute training-set mean and standard deviation per Mel bin and apply z-score normalization using only training data.
+- **Avoid Per-Chunk Scaling**: Do not apply per-spectrogram min-max normalization as the final export format, because it can over-amplify noisy background-only chunks and erase useful loudness contrast between examples.
+- **Metadata**: Save the selected normalization method and its parameters (for example, dB clip range or per-band mean/std arrays) alongside the tensor index so inference uses the exact same transformation.
+
 ---
 
 ## 📦 Step 8: Export Tensors for Training
@@ -65,7 +82,12 @@ Saving raw `.wav` chunks or individual `.png`/`.npy` files for every 3-second cl
 - `np.savez_compressed` or `np.savez` offers rapid read speeds during the PyTorch/TensorFlow DataLoader phase.
 
 ### C. Metadata Tracking (Index)
-- Alongside the tensors, generate an index file (`tensor_index.json` or `.csv`) mapping chunk counts per species and pre-calculating the Train/Validation/Test split boundaries (e.g., 70/15/15) so data leakage is prevented during training.
+- Alongside the tensors, generate an index file (`tensor_index.json`) that records chunk counts per species and pre-calculates **5-fold cross-validation** split boundaries so data leakage is prevented during training.
+
+- **Fold Strategy**: Assign each chunk to one of 5 equally-sized folds (each fold ≈ 20% of the species' chunks). Assignment is done by sequential index after a deterministic shuffle (`random_seed = 42`) so results are reproducible.
+- **Usage**: For each of the 5 possible experiments, one fold serves as the **test set** (20%) and the remaining 4 folds serve as the **training set** (80%). At minimum, 3 distinct train/test combinations should be run per model.
+- **Index structure**: For each species, the index stores the fold assignment for every chunk as a list of integers (`0`–`4`), rather than fixed index ranges, so any combination of folds can be selected at training time without rewriting the index.
+- **No separate validation split at export time**: Validation can be carved out of the training folds at training time (e.g., hold out one training fold), keeping the preprocessing step decoupled from specific training configurations.
 
 ---
 
@@ -88,9 +110,30 @@ Saving raw `.wav` chunks or individual `.png`/`.npy` files for every 3-second cl
        ▼  (peak normalization)
 [5] Normalized Chunks [-1.0, 1.0]
        │
+       ├──> (soundfile.write)
+       │    [Drive: processed_audio/Species_X/XC12345_chunk01.wav]
+       │
        ▼  (librosa.feature.melspectrogram)
 [6] Mel-Spectrogram DB Tensors (shape: 128 x 188)
        │
        ▼  (numpy.savez)
 [Drive: bird_tensors/Species_X.npz]
+```
+
+**5-Fold Cross-Validation Layout (per species)**
+```text
+Chunks (shuffled, seed=42):  [ 0  1  2  3  4  5  6  7  8  9  ... ]
+                               └─fold 0─┘└─fold 1─┘└─fold 2─┘ ...
+
+Fold used as TEST →  Folds used as TRAIN        Experiment
+       0             1 + 2 + 3 + 4  (80%)           A
+       1             0 + 2 + 3 + 4  (80%)           B
+       2             0 + 1 + 3 + 4  (80%)           C
+      (3)            0 + 1 + 2 + 4  (80%)          (D)
+      (4)            0 + 1 + 2 + 3  (80%)          (E)
+
+tensor_index.json per species:
+  { "chunk_count": N,
+    "npz_file": "Species_X.npz",
+    "fold_assignments": [0, 2, 1, 4, 3, 0, ...]  ← one int per chunk }
 ```
