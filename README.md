@@ -89,7 +89,7 @@ You can also run this notebook from VS Code-based IDEs that support Google Colab
 
 ```bash
 # Clone the repository
-git clone https://github.com/your-username/colombian-bird-song-identifier.git
+git clone https://github.com/mrobayoba/colombian-bird-song-identifier.git
 cd colombian-bird-song-identifier
 
 # Create a virtual environment and install dependencies
