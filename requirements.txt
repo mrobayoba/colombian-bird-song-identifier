@@ -5,3 +5,4 @@ soundfile==0.13.1
 scipy==1.17.0
 matplotlib==3.9.0
 numpy==2.4.2
+sounddevice==0.5.1
