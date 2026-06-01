@@ -1,0 +1,5 @@
+fastapi>=0.110
+uvicorn[standard]>=0.29
+numpy>=1.26
+tensorflow>=2.16          # must match the version that trained the .keras model
+-e ../../libs/contracts
