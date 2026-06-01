@@ -6,5 +6,4 @@ pydantic>=2.6
 # enabled when CBSI_USE_STUBS=false:
 motor>=3.4
 redis>=5.0
-# shared contracts (editable local install):
--e ../../libs/contracts
+
