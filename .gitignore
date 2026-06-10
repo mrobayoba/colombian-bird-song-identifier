@@ -9,3 +9,11 @@
 
 # Downloaded metadata and audio
 data/
+
+bird_models/fold2_best.weights.h5
+
+.venv312/
+
+
+
+

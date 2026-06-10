@@ -84,12 +84,27 @@ services:
   #     dockerfile: services/bird-identifier-agent/Dockerfile
   #   container_name: cbsi-identifier
   #   environment:
-  #     MODEL_PATH: "/models/resnet50v2_fold0.keras"
+  #     WEIGHTS_PATH:   "/models/fold2_best_weights.h5"
   #     LABEL_MAP_PATH: "/models/label_map.json"
   #   volumes:
   #     # Point this at wherever you copied the trained model + label_map.
-  #     - ${HOME}/bird_models:/models:ro
+  #     - ./bird_models:/models:ro
   #   expose: ["8000"]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
   #
   # birddex-mcp:
   #   build:
