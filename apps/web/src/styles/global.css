@@ -1,0 +1,87 @@
+/* ─────────────────────────────────────────────────────────────────────────
+   Cantos — design tokens
+   Palette drawn from Andean cloud-forest birds in the label_map:
+   the deep teal of a Coeligena's gorget, the ignited orange of
+   Anisognathus igniventris (Scarlet-bellied Mountain Tanager), parchment
+   for field-notebook text. Sound-first product → the recorder is the hero.
+   ───────────────────────────────────────────────────────────────────────── */
+@import url("https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,9..144,700&family=Inter:wght@400;500;600&family=Spline+Sans+Mono:wght@400;500&display=swap");
+
+:root {
+  --forest-900: #08231f;
+  --forest-800: #0d3b34;
+  --forest-700: #124a41;
+  --forest-600: #1b6055;
+  --moss-400: #5c9a86;
+  --parchment: #f3ead8;
+  --parchment-dim: #c9bfa9;
+  --tanager: #f0531c;
+  --tanager-soft: #ff7a47;
+  --gold: #e8a93b;
+
+  --vu: #e8a93b; /* vulnerable / warning-ish statuses */
+  --lc: #5c9a86; /* least concern */
+  --cr: #f0531c; /* critically endangered */
+
+  --font-display: "Fraunces", Georgia, serif;
+  --font-body: "Inter", system-ui, sans-serif;
+  --font-mono: "Spline Sans Mono", ui-monospace, monospace;
+
+  --radius: 18px;
+  --radius-sm: 11px;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+}
+
+body {
+  background:
+    radial-gradient(
+      ellipse 120% 80% at 50% -10%,
+      var(--forest-700),
+      var(--forest-900) 70%
+    ),
+    var(--forest-900);
+  color: var(--parchment);
+  font-family: var(--font-body);
+  -webkit-font-smoothing: antialiased;
+  overflow-x: hidden;
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  max-width: 460px;
+  margin: 0 auto;
+  padding: 0 20px;
+  position: relative;
+}
+
+button {
+  font-family: inherit;
+  cursor: pointer;
+  border: none;
+  background: none;
+  color: inherit;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation-duration: 0.001ms !important;
+    transition-duration: 0.001ms !important;
+  }
+}
+
+::selection {
+  background: var(--tanager);
+  color: var(--parchment);
+}

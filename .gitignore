@@ -14,6 +14,11 @@ bird_models/fold2_best.weights.h5
 
 .venv312/
 
+infra/docker/.env
+
+
+
+
 
 
 

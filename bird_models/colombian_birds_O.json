@@ -1,0 +1,3174 @@
+{
+  "generated_at": "2026-06-10T16:48:48.632575Z",
+  "total_species": 132,
+  "species": {
+    "Acropternis orthonyx": {
+      "scientific_name": "Acropternis orthonyx",
+      "english_name": "Ocellated Tapaculo",
+      "inat_sightings": 114,
+      "xeno_canto_recordings": 53,
+      "description": "El tapaculo ocelado​ (en Colombia y Perú) (Acropternis orthonyx), también denominado pasto pilche (en Ecuador), gran pájaro ratón (en Venezuela), churrín ocelado o tapacola ocelado,​ es una especie de ave paseriforme de la familia Rhinocryptidae, la única del género Acropternis. Es nativo de los Andes del noroeste de América del Sur.",
+      "description_source": "Wikipedia ES",
+      "conservation_status": {
+        "code": "LC",
+        "label_es": "Preocupación menor",
+        "label_en": "Least Concern"
+      },
+      "taxonomy": {
+        "kingdom": "Animalia",
+        "phylum": "Chordata",
+        "class": "Aves",
+        "order": "Passeriformes",
+        "family": "Rhinocryptidae",
+        "genus": "Acropternis",
+        "species": "orthonyx"
+      },
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Acropternis_orthonyx_173294293.jpg/960px-Acropternis_orthonyx_173294293.jpg",
+      "info_url": "https://es.wikipedia.org/wiki/Acropternis_orthonyx"
+    },
+    "Amazona farinosa": {
+      "scientific_name": "Amazona farinosa",
+      "english_name": "Southern Mealy Amazon",
+      "inat_sightings": 2233,
+      "xeno_canto_recordings": 47,
+      "description": "El loro corona azul,​ loro verde o loro harinoso (Amazona farinosa) es una especie de ave de la familia Psittacidae ampliamente distribuida desde América del Sur, pasando por América Central hasta México. Habita en las selvas tropicales, espacios de árboles esparcidos y manglares. Se cría comúnmente en cautiverio y tiene una excelente capacidad para imitar palabras.",
+      "description_source": "Wikipedia ES",
+      "conservation_status": {
+        "code": "NT",
+        "label_es": "Casi amenazada",
+        "label_en": "Near Threatened"
+      },
+      "taxonomy": {
+        "kingdom": "Animalia",
+        "phylum": "Chordata",
+        "class": "Aves",
+        "order": "Psittaciformes",
+        "family": "Psittacidae",
+        "genus": "Amazona",
+        "species": "farinosa"
+      },
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/c/ce/Amazona_farinosa_DT_-S_Bataboro-_1112_%282%29_%2820661740419%29.jpg",
+      "info_url": "https://es.wikipedia.org/wiki/Amazona_farinosa"
+    },
+    "Andigena nigrirostris": {
+      "scientific_name": "Andigena nigrirostris",
+      "english_name": "Black-billed Mountain Toucan",
+      "inat_sightings": 416,
+      "xeno_canto_recordings": 47,
+      "description": "El tucán celeste o terlaque pechiazul, (Andigena nigrirostris) es un ave de la familia Ramphastidae que habita en los bosques húmedos de las montañas de los Andes, en Ecuador, noroeste de Perú,​ Colombia y Venezuela, entre los 1.600 y 3.200 m s. n. m.",
+      "description_source": "Wikipedia ES",
+      "conservation_status": {
+        "code": "LC",
+        "label_es": "Preocupación menor",
+        "label_en": "Least Concern"
+      },
+      "taxonomy": {
+        "kingdom": "Animalia",
+        "phylum": "Chordata",
+        "class": "Aves",
+        "order": "Piciformes",
+        "family": "Ramphastidae",
+        "genus": "Andigena",
+        "species": "nigrirostris"
+      },
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/37/Black-billed-Mountain-Toucan.jpg/960px-Black-billed-Mountain-Toucan.jpg",
+      "info_url": "https://es.wikipedia.org/wiki/Andigena_nigrirostris"
+    },
+    "Anisognathus igniventris": {
+      "scientific_name": "Anisognathus igniventris",
+      "english_name": "Scarlet-bellied Mountain Tanager",
+      "inat_sightings": 1884,
+      "xeno_canto_recordings": 38,
+      "description": "La tangara ventriescarlata​ (Anisognathus igniventris), también denominada tangara ventrinaranja, tangara-montana ventriflama (en Ecuador), tangara-de-montaña de vientre escarlata (en Perú), tangará escarlata o clarinero escarlata (en Colombia) o cachaquito vientre rojo (en Venezuela),​ es una especie de ave paseriforme de la familia Thraupidae, perteneciente al género Anisognathus. Algunos autores sostienen que se divide en dos especies.​ Es nativa de la región andina del noroeste y oeste de América del Sur.",
+      "description_source": "Wikipedia ES",
+      "conservation_status": {
+        "code": "LC",
+        "label_es": "Preocupación menor",
+        "label_en": "Least Concern"
+      },
+      "taxonomy": {
+        "kingdom": "Animalia",
+        "phylum": "Chordata",
+        "class": "Aves",
+        "order": "Passeriformes",
+        "family": "Thraupidae",
+        "genus": "Anisognathus",
+        "species": "igniventris"
+      },
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/e/ea/Anisognathus_igniventris_Scarlet-bellied_Mountain-Tanager.jpg",
+      "info_url": "https://es.wikipedia.org/wiki/Anisognathus_igniventris"
+    },
+    "Arremon assimilis": {
+      "scientific_name": "Arremon assimilis",
+      "english_name": "Grey-browed Brushfinch",
+      "inat_sightings": 586,
+      "xeno_canto_recordings": 74,
+      "description": "El cerquero picofino (Arremon assimilis),​ también denominado matorralero cejigrís y corbatico merideño,​ es una especie de ave paseriforme de la familia Passerellidae propia de los Andes septentrionales.",
+      "description_source": "Wikipedia ES",
+      "conservation_status": {
+        "code": "LC",
+        "label_es": "Preocupación menor",
+        "label_en": "Least Concern"
+      },
+      "taxonomy": {
+        "kingdom": "Animalia",
+        "phylum": "Chordata",
+        "class": "Aves",
+        "order": "Passeriformes",
+        "family": "Passerellidae",
+        "genus": "Arremon",
+        "species": "assimilis"
+      },
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/Buarremon_assimilis_%28Atlapetes_listado%29_%2822654443455%29.jpg/960px-Buarremon_assimilis_%28Atlapetes_listado%29_%2822654443455%29.jpg",
+      "info_url": "https://es.wikipedia.org/wiki/Arremon_assimilis"
+    },
+    "Arremon brunneinucha": {
+      "scientific_name": "Arremon brunneinucha",
+      "english_name": "Chestnut-capped Brushfinch",
+      "inat_sightings": 1241,
+      "xeno_canto_recordings": 50,
+      "description": "El saltón gargantillo (Arremon brunneinucha) también denominado rascadorcito gorricastaño,​ cerquero coronicastaño, gorrión montés collarejo, pinzón collarejo, matorralero gorricastaño, saltón cabecicastaño y saltón gorgiblanco,​ es una especie de ave paseriforme de la familia Passerellidae que se distribuye por los altiplanos de México a Perú. Ha sido ubicado también dentro del género Buarremon, y ocasionalmente en Atlapetes. Es un ave común en el sotobosque de bosques húmedos de montaña, en zonas de crecimiento secundario y en barrancas, desde los 900 hasta los 2 500 m de altitud snm.",
+      "description_source": "Wikipedia ES",
+      "conservation_status": {
+        "code": "LC",
+        "label_es": "Preocupación menor",
+        "label_en": "Least Concern"
+      },
+      "taxonomy": {
+        "kingdom": "Animalia",
+        "phylum": "Chordata",
+        "class": "Aves",
+        "order": "Passeriformes",
+        "family": "Passerellidae",
+        "genus": "Arremon",
+        "species": "brunneinucha"
+      },
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/Arremon_brunneinucha_Santa_Elena.JPG/960px-Arremon_brunneinucha_Santa_Elena.JPG",
+      "info_url": "https://es.wikipedia.org/wiki/Arremon_brunneinucha"
+    },
+    "Arremonops conirostris": {
+      "scientific_name": "Arremonops conirostris",
+      "english_name": "Black-striped Sparrow",
+      "inat_sightings": 1329,
+      "xeno_canto_recordings": 43,
+      "description": "El cerquero negrilistado (Arremonops conirostris),​ también conocido como pinzón conirrostro (en Colombia),​ pinzón cabecilistado (Costa Rica),​ chingolo negrilistado (Ecuador),​ pinzón cabecilistado (Nicaragua)​ y curtío (Venezuela),​ es una especie de ave paseriforme de la familia Passerellidae nativa del norte de Honduras hasta el oeste de Ecuador, norte de Brasil y Venezuela.",
+      "description_source": "Wikipedia ES",
+      "conservation_status": {
+        "code": "LC",
+        "label_es": "Preocupación menor",
+        "label_en": "Least Concern"
+      },
+      "taxonomy": {
+        "kingdom": "Animalia",
+        "phylum": "Chordata",
+        "class": "Aves",
+        "order": "Passeriformes",
+        "family": "Passerellidae",
+        "genus": "Arremonops",
+        "species": "conirostris"
+      },
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/5/5d/Black-striped_Sparrow_%28Arremonops_conirostris%29.jpg",
+      "info_url": "https://es.wikipedia.org/wiki/Arremonops_conirostris"
+    },
+    "Atlapetes pallidinucha": {
+      "scientific_name": "Atlapetes pallidinucha",
+      "english_name": "Pale-naped Brushfinch",
+      "inat_sightings": 696,
+      "xeno_canto_recordings": 54,
+      "description": "El Atlapetes nuca blanca. Atlapetes nuquipálido (Atlapetes pallidinucha),​ también denominado matorralero nuquipálido o gorrión montés cabeciblanco,​ Atlapetes nuca blanca[Phelps, WH Jr & R Meyer de Schauensee, 1979] .es una especie de ave paseriforme de la familia Passerellidae endémica de las montañas del noroeste de Sudamérica.",
+      "description_source": "Wikipedia ES",
+      "conservation_status": {
+        "code": "LC",
+        "label_es": "Preocupación menor",
+        "label_en": "Least Concern"
+      },
+      "taxonomy": {
+        "kingdom": "Animalia",
+        "phylum": "Chordata",
+        "class": "Aves",
+        "order": "Passeriformes",
+        "family": "Passerellidae",
+        "genus": "Atlapetes",
+        "species": "pallidinucha"
+      },
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Atlapetes_pallidinucha_236930949.jpg/960px-Atlapetes_pallidinucha_236930949.jpg",
+      "info_url": "https://es.wikipedia.org/wiki/Atlapetes_pallidinucha"
+    },
+    "Atlapetes schistaceus": {
+      "scientific_name": "Atlapetes schistaceus",
+      "english_name": "Slaty Brushfinch",
+      "inat_sightings": 549,
+      "xeno_canto_recordings": 56,
+      "description": "El atlapetes pizarroso (Atlapetes schistaceus),​ también denominado gorrión montés pizarra, matorralero pizarroso y saltón de sombrero de pelo,​ es una especie de ave paseriforme de la familia Passerellidae que habita en el noroeste de Sudamérica.",
+      "description_source": "Wikipedia ES",
+      "conservation_status": {
+        "code": "LC",
+        "label_es": "Preocupación menor",
+        "label_en": "Least Concern"
+      },
+      "taxonomy": {
+        "kingdom": "Animalia",
+        "phylum": "Chordata",
+        "class": "Aves",
+        "order": "Passeriformes",
+        "family": "Passerellidae",
+        "genus": "Atlapetes",
+        "species": "schistaceus"
+      },
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/BuarremonSmit1875.jpg/960px-BuarremonSmit1875.jpg",
+      "info_url": "https://es.wikipedia.org/wiki/Atlapetes_schistaceus"
+    },
+    "Aulacorhynchus albivitta": {
+      "scientific_name": "Aulacorhynchus albivitta",
+      "english_name": "White-throated Toucanet",
+      "inat_sightings": 1530,
+      "xeno_canto_recordings": 45,
+      "description": "El tucanete gorjiblanco (Aulacorhynchus albivitta)​ es una especie de ave piciforme de la familia Ramphastidae propia de Sudamérica. Es considerada como subespecie del tucán esmeralda (Aulacorhynchus prasinus) por algunas autoridades taxonómicas No se conocen subespecies.",
+      "description_source": "Wikipedia ES",
+      "conservation_status": {
+        "code": "LC",
+        "label_es": "Preocupación menor",
+        "label_en": "Least Concern"
+      },
+      "taxonomy": {
+        "kingdom": "Animalia",
+        "phylum": "Chordata",
+        "class": "Aves",
+        "order": "Piciformes",
+        "family": "Ramphastidae",
+        "genus": "Aulacorhynchus",
+        "species": "albivitta"
+      },
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Aulacorhynchus_albivitta_%2814458390459%29.jpg/960px-Aulacorhynchus_albivitta_%2814458390459%29.jpg",
+      "info_url": "https://es.wikipedia.org/wiki/Aulacorhynchus_albivitta"
+    },
+    "Basileuterus tristriatus": {
+      "scientific_name": "Basileuterus tristriatus",
+      "english_name": "Three-striped Warbler",
+      "inat_sightings": 937,
+      "xeno_canto_recordings": 51,
+      "description": "La reinita cabecilistada​ (Basileuterus tristriatus), también denominada chiví de tres rayas (en Venezuela), reinita de cabeza listada (en Perú), reinita trirrayada (en Ecuador) o arañero cabecirrayado (en Colombia),​ es una especie de ave paseriforme de la familia Parulidae perteneciente al género Basileuterus. Es nativa de regiones andinas y adyacencias del norte, noroeste y oeste de América del Sur.",
+      "description_source": "Wikipedia ES",
+      "conservation_status": {
+        "code": "LC",
+        "label_es": "Preocupación menor",
+        "label_en": "Least Concern"
+      },
+      "taxonomy": {
+        "kingdom": "Animalia",
+        "phylum": "Chordata",
+        "class": "Aves",
+        "order": "Passeriformes",
+        "family": "Parulidae",
+        "genus": "Basileuterus",
+        "species": "tristriatus"
+      },
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Basileuterus_tristriatus_map_2.svg/960px-Basileuterus_tristriatus_map_2.svg.png",
+      "info_url": "https://es.wikipedia.org/wiki/Basileuterus_tristriatus"
+    },
+    "Brotogeris jugularis": {
+      "scientific_name": "Brotogeris jugularis",
+      "english_name": "Orange-chinned Parakeet",
+      "inat_sightings": 6176,
+      "xeno_canto_recordings": 36,
+      "description": "La catita churica​ (Brotogeris jugularis), también conocido como periquito bronceado, es una especie de ave psitaciforme de la familia de los psitácidos extendida por el Neotrópico, desde el sur de México hasta Colombia y Venezuela.",
+      "description_source": "Wikipedia ES",
+      "conservation_status": {
+        "code": "LC",
+        "label_es": "Preocupación menor",
+        "label_en": "Least Concern"
+      },
+      "taxonomy": {
+        "kingdom": "Animalia",
+        "phylum": "Chordata",
+        "class": "Aves",
+        "order": "Psittaciformes",
+        "family": "Psittacidae",
+        "genus": "Brotogeris",
+        "species": "jugularis"
+      },
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Orange-chinned_Parakeet_%2816238697748%29.jpg/960px-Orange-chinned_Parakeet_%2816238697748%29.jpg",
+      "info_url": "https://es.wikipedia.org/wiki/Brotogeris_jugularis"
+    },
+    "Camptostoma obsoletum": {
+      "scientific_name": "Camptostoma obsoletum",
+      "english_name": "Southern Beardless Tyrannulet",
+      "inat_sightings": 3268,
+      "xeno_canto_recordings": 43,
+      "description": "El mosquerito silbón​ (Camptostoma obsoletum), también denominado piojito silbón (en Argentina, Paraguay y Uruguay), tiranuelo silbador (en Colombia), mosquerito silbador (en Perú y Costa Rica), tiranolete silbador sureño (en Panamá y Ecuador) o atrapamoscas lampiño (en Venezuela),​ es una especie de ave paseriforme de la familia Tyrannidae, una de las dos perteneciente al género Camptostoma. Es nativa de América Central y del Sur.",
+      "description_source": "Wikipedia ES",
+      "conservation_status": {
+        "code": "LC",
+        "label_es": "Preocupación menor",
+        "label_en": "Least Concern"
+      },
+      "taxonomy": {
+        "kingdom": "Animalia",
+        "phylum": "Chordata",
+        "class": "Aves",
+        "order": "Passeriformes",
+        "family": "Tyrannidae",
+        "genus": "Camptostoma",
+        "species": "obsoletum"
+      },
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/3/33/Southern_Beardless-Tyrannulet_-_Colombia_S4E3531_%2816847468896%29.jpg",
+      "info_url": "https://es.wikipedia.org/wiki/Camptostoma_obsoletum"
+    },
+    "Campylorhynchus griseus": {
+      "scientific_name": "Campylorhynchus griseus",
+      "english_name": "Bicolored Wren",
+      "inat_sightings": 2163,
+      "xeno_canto_recordings": 36,
+      "description": "El cucarachero currucuchú​ (en Venezuela), cucarachero chupahuevos (en Colombia) o ratona currucuchú (Campylorhynchus griseus)​ es una especie de ave paseriforme de la familia Troglodytidae perteneciente al numeroso género Campylorhynchus. Es nativa del norte de América del Sur y extremo oriental de América Central.",
+      "description_source": "Wikipedia ES",
+      "conservation_status": {
+        "code": "LC",
+        "label_es": "Preocupación menor",
+        "label_en": "Least Concern"
+      },
+      "taxonomy": {
+        "kingdom": "Animalia",
+        "phylum": "Chordata",
+        "class": "Aves",
+        "order": "Passeriformes",
+        "family": "Troglodytidae",
+        "genus": "Campylorhynchus",
+        "species": "griseus"
+      },
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/Campylorhynchus_griseus_Bicolored_Wren%3B_Boa_Vista%2C_Roraima%2C_Brazil_%28cropped%29.jpg/960px-Campylorhynchus_griseus_Bicolored_Wren%3B_Boa_Vista%2C_Roraima%2C_Brazil_%28cropped%29.jpg",
+      "info_url": "https://es.wikipedia.org/wiki/Campylorhynchus_griseus"
+    },
+    "Cantorchilus leucotis": {
+      "scientific_name": "Cantorchilus leucotis",
+      "english_name": "Buff-breasted Wren",
+      "inat_sightings": 478,
+      "xeno_canto_recordings": 92,
+      "description": "El cucarachero pechihabano​ (Cantorchilus leucotis), también denominado cucarachero anteado o cucarachero de monte (en Colombia), chochín pechihabano o soterrey pechianteado (en Ecuador), ratona vientre rojo (en Paraguay), cucarachero flanquileonado (en Venezuela), cucarachero de pecho anteado (en Perú) o sotorrey pechianteado (en Panamá),​ es una especie de ave paseriforme de la familia Troglodytidae perteneciente al numeroso género Cantorchilus. Es nativo de la mayor parte de la mitad norte de América del Sur y del extremo oriental de América Central.",
+      "description_source": "Wikipedia ES",
+      "conservation_status": {
+        "code": "LC",
+        "label_es": "Preocupación menor",
+        "label_en": "Least Concern"
+      },
+      "taxonomy": {
+        "kingdom": "Animalia",
+        "phylum": "Chordata",
+        "class": "Aves",
+        "order": "Passeriformes",
+        "family": "Troglodytidae",
+        "genus": "Cantorchilus",
+        "species": "leucotis"
+      },
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/c/cc/Cantorchilus_leucotis-Buff-breasted_Wren.jpg",
+      "info_url": "https://es.wikipedia.org/wiki/Cantorchilus_leucotis"
+    },
+    "Cantorchilus nigricapillus": {
+      "scientific_name": "Cantorchilus nigricapillus",
+      "english_name": "Bay Wren",
+      "inat_sightings": 601,
+      "xeno_canto_recordings": 37,
+      "description": "El cucarachero cabecinegro​ (Cantorchilus nigricapillus), también denominado soterrey castaño (en Costa Rica), cucarachero ribereño o cucarachero selvático (en Colombia), charralero cabecinegro (en Nicaragua), chochín cabecipinto o soterrey cabecipinto (en Ecuador), sotorrey castaño (en Panamá) o ratona de cabeza negra,​ es una especie de ave paseriforme de la familia Troglodytidae perteneciente al numeroso género Cantorchilus. Es nativo de América Central y del noroeste de América del Sur.",
+      "description_source": "Wikipedia ES",
+      "conservation_status": {
+        "code": "LC",
+        "label_es": "Preocupación menor",
+        "label_en": "Least Concern"
+      },
+      "taxonomy": {
+        "kingdom": "Animalia",
+        "phylum": "Chordata",
+        "class": "Aves",
+        "order": "Passeriformes",
+        "family": "Troglodytidae",
+        "genus": "Cantorchilus",
+        "species": "nigricapillus"
+      },
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Bay_Wren.jpg/960px-Bay_Wren.jpg",
+      "info_url": "https://es.wikipedia.org/wiki/Cantorchilus_nigricapillus"
+    },
+    "Capito auratus": {
+      "scientific_name": "Capito auratus",
+      "english_name": "Gilded Barbet",
+      "inat_sightings": 643,
+      "xeno_canto_recordings": 37,
+      "description": "Capito is a genus of birds in the family Capitonidae. They are found in humid forests in South America, with a single species extending into eastern Panama. Slightly larger than the members of the genus Eubucco, members of the genus Capito are all sexually dimorphic and thickset, and have stubby pale bills that often are tipped black.",
+      "description_source": "Wikipedia EN",
+      "conservation_status": {
+        "code": "LC",
+        "label_es": "Preocupación menor",
+        "label_en": "Least Concern"
+      },
+      "taxonomy": {
+        "kingdom": "Animalia",
+        "phylum": "Chordata",
+        "class": "Aves",
+        "order": "Piciformes",
+        "family": "Capitonidae",
+        "genus": "Capito",
+        "species": "auratus"
+      },
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/F_de_Castelnau-oiseauxPl8.jpg/960px-F_de_Castelnau-oiseauxPl8.jpg",
+      "info_url": "https://es.wikipedia.org/wiki/Capito_auratus"
+    },
+    "Catharus aurantiirostris": {
+      "scientific_name": "Catharus aurantiirostris",
+      "english_name": "Orange-billed Nightingale-Thrush",
+      "inat_sightings": 1579,
+      "xeno_canto_recordings": 77,
+      "description": "El tordo pico de oro​ (Catharus aurantiirostris), también conocido como zorzal piquianaranjado​ o zorzalito piquigualda,​ es una especie de ave paseriforme de la familia Turdidae. Es nativo de Colombia, Costa Rica, El Salvador, Guatemala, Honduras, México, Nicaragua, Panamá, Trinidad y Tobago y Venezuela.​ Su hábitat natural incluye bosque tropical y subtropical, matorrales y humedales.​",
+      "description_source": "Wikipedia ES",
+      "conservation_status": {
+        "code": "LC",
+        "label_es": "Preocupación menor",
+        "label_en": "Least Concern"
+      },
+      "taxonomy": {
+        "kingdom": "Animalia",
+        "phylum": "Chordata",
+        "class": "Aves",
+        "order": "Passeriformes",
+        "family": "Turdidae",
+        "genus": "Catharus",
+        "species": "aurantiirostris"
+      },
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/70/Orange-billed_Nightingale-Thrush.jpg/960px-Orange-billed_Nightingale-Thrush.jpg",
+      "info_url": "https://es.wikipedia.org/wiki/Catharus_aurantiirostris"
+    },
+    "Ceratopipra erythrocephala": {
+      "scientific_name": "Ceratopipra erythrocephala",
+      "english_name": "Golden-headed Manakin",
+      "inat_sightings": 580,
+      "xeno_canto_recordings": 40,
+      "description": "El saltarín cabecidorado​ (en Colombia y Venezuela) (Ceratopipra erythrocephala), también denominado saltarín capuchidorado (en Ecuador) o saltarín de cabeza dorada (en Perú),​ es una especie de ave paseriforme de la familia Pipridae perteneciente al género Ceratopipra. Es nativo del extremo sureste de América Central y del norte de América del Sur.",
+      "description_source": "Wikipedia ES",
+      "conservation_status": {
+        "code": "LC",
+        "label_es": "Preocupación menor",
+        "label_en": "Least Concern"
+      },
+      "taxonomy": {
+        "kingdom": "Animalia",
+        "phylum": "Chordata",
+        "class": "Aves",
+        "order": "Passeriformes",
+        "family": "Pipridae",
+        "genus": "Ceratopipra",
+        "species": "erythrocephala"
+      },
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/Ceratopipra_erythrocephala_Golden-headed_Manakin_%28male%29%2C_Serra_do_Navio%2C_Amap%C3%A1%2C_Brazil_%28cropped%29.jpg/960px-Ceratopipra_erythrocephala_Golden-headed_Manakin_%28male%29%2C_Serra_do_Navio%2C_Amap%C3%A1%2C_Brazil_%28cropped%29.jpg",
+      "info_url": "https://es.wikipedia.org/wiki/Ceratopipra_erythrocephala"
+    },
+    "Cercomacroides parkeri": {
+      "scientific_name": "Cercomacroides parkeri",
+      "english_name": "Parker's Antbird",
+      "inat_sightings": 61,
+      "xeno_canto_recordings": 53,
+      "description": "El hormiguero de Parker​ (Cercomacroides parkeri) es una especie de ave paseriforme de la familia Thamnophilidae perteneciente al género Cercomacroides, hasta recientemente incluida en Cercomacra.​ Es endémico de Colombia.​",
+      "description_source": "Wikipedia ES",
+      "conservation_status": {
+        "code": "LC",
+        "label_es": "Preocupación menor",
+        "label_en": "Least Concern"
+      },
+      "taxonomy": {
+        "kingdom": "Animalia",
+        "phylum": "Chordata",
+        "class": "Aves",
+        "order": "Passeriformes",
+        "family": "Thamnophilidae",
+        "genus": "Cercomacroides",
+        "species": "parkeri"
+      },
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/4/47/Cercomacra_parkeri_%28Parker%27s_Antbird%29_%287171434918%29.jpg",
+      "info_url": "https://es.wikipedia.org/wiki/Cercomacroides_parkeri"
+    },
+    "Cercomacroides tyrannina": {
+      "scientific_name": "Cercomacroides tyrannina",
+      "english_name": "Dusky Antbird",
+      "inat_sightings": 362,
+      "xeno_canto_recordings": 44,
+      "description": "El hormiguero tirano (en Colombia, México y Venezuela)​ (Cercomacroides tyrannina), también denominado hormiguerito marañero, hormiguero negruzco (en Colombia, Costa Rica, Honduras y México), hormiguero oscuro (en Ecuador) u hormiguero pizarroso (en Nicaragua),​ es una especie de ave paseriforme de la familia Thamnophilidae perteneciente al género Cercomacroides, hasta recientemente incluida en Cercomacra.​ Se encuentra en Centroamérica y Sudamérica, desde el suroriente de México hasta el occidente de Ecuador y la Amazonia brasileña.",
+      "description_source": "Wikipedia ES",
+      "conservation_status": {
+        "code": "LC",
+        "label_es": "Preocupación menor",
+        "label_en": "Least Concern"
+      },
+      "taxonomy": {
+        "kingdom": "Animalia",
+        "phylum": "Chordata",
+        "class": "Aves",
+        "order": "Passeriformes",
+        "family": "Thamnophilidae",
+        "genus": "Cercomacroides",
+        "species": "tyrannina"
+      },
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/4/44/Cercomacra_tyrannina_-_Dusky_Antbird_%28male%29.JPG",
+      "info_url": "https://es.wikipedia.org/wiki/Cercomacroides_tyrannina"
+    },
+    "Chrysomus icterocephalus": {
+      "scientific_name": "Chrysomus icterocephalus",
+      "english_name": "Yellow-hooded Blackbird",
+      "inat_sightings": 1841,
+      "xeno_canto_recordings": 40,
+      "description": "El toche de pantano, toche, turpial de agua, varillero capuchino, monjita cabiciamarilla (Chrysomus icterocephalus)​ es una especie de ave paseriforme de la familia Icteridae que vive en los humedales de América del Sur. Es el ave oficial de la ciudad de Cúcuta, en Colombia.",
+      "description_source": "Wikipedia ES",
+      "conservation_status": {
+        "code": "LC",
+        "label_es": "Preocupación menor",
+        "label_en": "Least Concern"
+      },
+      "taxonomy": {
+        "kingdom": "Animalia",
+        "phylum": "Chordata",
+        "class": "Aves",
+        "order": "Passeriformes",
+        "family": "Icteridae",
+        "genus": "Chrysomus",
+        "species": "icterocephalus"
+      },
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/Yellow_Hooded_Blackbird_004.jpg/960px-Yellow_Hooded_Blackbird_004.jpg",
+      "info_url": "https://es.wikipedia.org/wiki/Chrysomus_icterocephalus"
+    },
+    "Cinnycerthia olivascens": {
+      "scientific_name": "Cinnycerthia olivascens",
+      "english_name": "Sepia-brown Wren",
+      "inat_sightings": 70,
+      "xeno_canto_recordings": 60,
+      "description": "El cucarachero sepia​ (en Colombia), cucarachero de Sharpe (en Perú) o soterrey caferrojizo (en Ecuador) (Cinnycerthia olivascens)​ es una especie de ave paseriforme de la familia Troglodytidae perteneciente al género Cinnycerthia. Es nativo de regiones andinas del noroeste de América del Sur.",
+      "description_source": "Wikipedia ES",
+      "conservation_status": {
+        "code": "LC",
+        "label_es": "Preocupación menor",
+        "label_en": "Least Concern"
+      },
+      "taxonomy": {
+        "kingdom": "Animalia",
+        "phylum": "Chordata",
+        "class": "Aves",
+        "order": "Passeriformes",
+        "family": "Troglodytidae",
+        "genus": "Cinnycerthia",
+        "species": "olivascens"
+      },
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/a/ac/Cinnycerthia_olivascens_107039273_%28cropped%29.jpg",
+      "info_url": "https://es.wikipedia.org/wiki/Cinnycerthia_olivascens"
+    },
+    "Cistothorus apolinari": {
+      "scientific_name": "Cistothorus apolinari",
+      "english_name": "Apolinar's Wren",
+      "inat_sightings": 55,
+      "xeno_canto_recordings": 91,
+      "description": "El cucarachero de pantano, cucarachero chirriador o cucarachero de Apolinar​ (Cistothorus apolinari)​ es una especie de ave paseriforme de la familia Troglodytidae perteneciente al género Cistothorus. Es endémico de los Andes orientales de Colombia.",
+      "description_source": "Wikipedia ES",
+      "conservation_status": {
+        "code": "EN",
+        "label_es": "En peligro",
+        "label_en": "Endangered"
+      },
+      "taxonomy": {
+        "kingdom": "Animalia",
+        "phylum": "Chordata",
+        "class": "Aves",
+        "order": "Passeriformes",
+        "family": "Troglodytidae",
+        "genus": "Cistothorus",
+        "species": "apolinari"
+      },
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Cistothorus_apolinari_%2817186001322%29.jpg/960px-Cistothorus_apolinari_%2817186001322%29.jpg",
+      "info_url": "https://es.wikipedia.org/wiki/Cistothorus_apolinari"
+    },
+    "Cistothorus platensis": {
+      "scientific_name": "Cistothorus platensis",
+      "english_name": "Grass Wren",
+      "inat_sightings": 5375,
+      "xeno_canto_recordings": 49,
+      "description": "El cucarachero sabanero​ (Cistothorus platensis) es una especie de ave paseriforme de la familia Troglodytidae perteneciente al género Cistothorus. Algunos autores sostienen que se trata de múltiples especies.​ Se encuentra desde el centro de México, en América Central y del Sur hasta Tierra del Fuego e islas Malvinas.​",
+      "description_source": "Wikipedia ES",
+      "conservation_status": {
+        "code": "LC",
+        "label_es": "Preocupación menor",
+        "label_en": "Least Concern"
+      },
+      "taxonomy": {
+        "kingdom": "Animalia",
+        "phylum": "Chordata",
+        "class": "Aves",
+        "order": "Passeriformes",
+        "family": "Troglodytidae",
+        "genus": "Cistothorus",
+        "species": "platensis"
+      },
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/d/d7/Cistothorus_platensis%2C_Serra_da_Canastra%2C_Minas_Gerais%2C_Brasil.jpg",
+      "info_url": "https://es.wikipedia.org/wiki/Cistothorus_platensis"
+    },
+    "Clytoctantes alixii": {
+      "scientific_name": "Clytoctantes alixii",
+      "english_name": "Recurve-billed Bushbird",
+      "inat_sightings": 15,
+      "xeno_canto_recordings": 36,
+      "description": "El batará piquicurvo,,​ hormiguero piquicurvo (en Colombia) u hormiguero pico de hoz (en Venezuela) (Clytoctantes alixii),​ también denominado hormiguero pico de hacha,​ es una especie de ave paseriforme de la familia Thamnophilidae, una de las dos pertenecientes al género Clytoctantes. Es nativo del noroeste de América del Sur, al norte de los Andes.",
+      "description_source": "Wikipedia ES",
+      "conservation_status": {
+        "code": "EN",
+        "label_es": "En peligro",
+        "label_en": "Endangered"
+      },
+      "taxonomy": {
+        "kingdom": "Animalia",
+        "phylum": "Chordata",
+        "class": "Aves",
+        "order": "Passeriformes",
+        "family": "Thamnophilidae",
+        "genus": "Clytoctantes",
+        "species": "alixii"
+      },
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/ClytoctantesAlixiiKeulemans.jpg/960px-ClytoctantesAlixiiKeulemans.jpg",
+      "info_url": "https://es.wikipedia.org/wiki/Clytoctantes_alixii"
+    },
+    "Coereba flaveola": {
+      "scientific_name": "Coereba flaveola",
+      "english_name": "Bananaquit",
+      "inat_sightings": 20791,
+      "xeno_canto_recordings": 96,
+      "description": "El platanero​ (Coereba flaveola) es una especie de ave paseriforme de la familia Thraupidae, la única perteneciente al género Coereba. Anteriormente estuvo situada en su propia familia Coerebidae y más recientemente en incertae sedis. Es natural de la América tropical (Neotrópico), desde México y las Antillas, por América Central y del Sur, hasta Argentina.",
+      "description_source": "Wikipedia ES",
+      "conservation_status": {
+        "code": "LC",
+        "label_es": "Preocupación menor",
+        "label_en": "Least Concern"
+      },
+      "taxonomy": {
+        "kingdom": "Animalia",
+        "phylum": "Chordata",
+        "class": "Aves",
+        "order": "Passeriformes",
+        "family": "Thraupidae",
+        "genus": "Coereba",
+        "species": "flaveola"
+      },
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/Bananaquits.jpg/960px-Bananaquits.jpg",
+      "info_url": "https://es.wikipedia.org/wiki/Coereba_flaveola"
+    },
+    "Colibri coruscans": {
+      "scientific_name": "Colibri coruscans",
+      "english_name": "Sparkling Violetear",
+      "inat_sightings": 7468,
+      "xeno_canto_recordings": 53,
+      "description": "El colibrí rutilante​ (Colibri coruscans), también denominado colibrí grande (en Argentina), chillón común o colibrí chillón (en Colombia), picaflor azul (en Chile), orejivioleta ventriazul (en Ecuador), oreja-violeta de vientre azul (en Perú), colibrí orejivioleta grande (en Venezuela), colibrí verde mayor o picaflor de cara azul,​ es una especie de ave apodiforme de la familia Trochilidae, perteneciente al género Colibri. Es nativo del norte y oeste de América del Sur.",
+      "description_source": "Wikipedia ES",
+      "conservation_status": {
+        "code": "LC",
+        "label_es": "Preocupación menor",
+        "label_en": "Least Concern"
+      },
+      "taxonomy": {
+        "kingdom": "Animalia",
+        "phylum": "Chordata",
+        "class": "Aves",
+        "order": "Apodiformes",
+        "family": "Trochilidae",
+        "genus": "Colibri",
+        "species": "coruscans"
+      },
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/Colibri_coruscans.jpg/960px-Colibri_coruscans.jpg",
+      "info_url": "https://es.wikipedia.org/wiki/Colibri_coruscans"
+    },
+    "Colibri cyanotus": {
+      "scientific_name": "Colibri cyanotus",
+      "english_name": "Lesser Violetear",
+      "inat_sightings": 4478,
+      "xeno_canto_recordings": 78,
+      "description": "El colibrí oreja violeta menor (Colibri cyanotus)​ es una especie de ave apodiforme de la familia Trochilidae perteneciente al género Colibri. Es nativo del este de América Central y del norte y oeste de América del Sur.",
+      "description_source": "Wikipedia ES",
+      "conservation_status": {
+        "code": "NE",
+        "label_es": "No evaluada",
+        "label_en": "Not Evaluated"
+      },
+      "taxonomy": {
+        "kingdom": "Animalia",
+        "phylum": "Chordata",
+        "class": "Aves",
+        "order": "Apodiformes",
+        "family": "Trochilidae",
+        "genus": "Colibri",
+        "species": "cyanotus"
+      },
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Colibri_cyanotus_Lesser_Violetear_%286918294061%29.jpg/960px-Colibri_cyanotus_Lesser_Violetear_%286918294061%29.jpg",
+      "info_url": "https://es.wikipedia.org/wiki/Colibri_cyanotus"
+    },
+    "Crotophaga ani": {
+      "scientific_name": "Crotophaga ani",
+      "english_name": "Smooth-billed Ani",
+      "inat_sightings": 15571,
+      "xeno_canto_recordings": 55,
+      "description": "El garrapatero aní (Crotophaga ani),​ también conocido como garrapatero piquiliso, chulie, güisa (en Colombia), anó chico, judío, ch'ikbu'ul (en Yucatán), matacaballos de pico liso (Chile)​, maúri (en Bolivia), pirincho negro chico, tijuíl pico liso ​y vacamuchacho (en la Amazonía peruana) y tijo (en Costa Rica) es una especie de ave cuculiforme de la familia Cuculidae propia de América donde se distribuye desde Florida y la Península de Yucatán, a través de las Antillas hasta Trinidad y Tobago, y desde Costa Rica hasta el norte de Argentina, pasando por Brasil, Colombia, Bolivia, Ecuador, Venezuela Paraguay con el nombre de anó y el Perú. Re",
+      "description_source": "Wikipedia ES",
+      "conservation_status": {
+        "code": "LC",
+        "label_es": "Preocupación menor",
+        "label_en": "Least Concern"
+      },
+      "taxonomy": {
+        "kingdom": "Animalia",
+        "phylum": "Chordata",
+        "class": "Aves",
+        "order": "Cuculiformes",
+        "family": "Cuculidae",
+        "genus": "Crotophaga",
+        "species": "ani"
+      },
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/8/84/Crotophaga_ani_distr.png",
+      "info_url": "https://es.wikipedia.org/wiki/Crotophaga_ani"
+    },
+    "Cyanocorax affinis": {
+      "scientific_name": "Cyanocorax affinis",
+      "english_name": "Black-chested Jay",
+      "inat_sightings": 1941,
+      "xeno_canto_recordings": 36,
+      "description": "La chara pechinegra, urraca de pecho negro o carriquí pechiblanco (Cyanocorax affinis) es una especie de ave paseriforme de la familia Corvidae propia de América Central y el noroeste de América del Sur. Se encuentra en Colombia, Costa Rica, Panamá y Venezuela, por debajo de los 2.700 m. s.",
+      "description_source": "Wikipedia ES",
+      "conservation_status": {
+        "code": "LC",
+        "label_es": "Preocupación menor",
+        "label_en": "Least Concern"
+      },
+      "taxonomy": {
+        "kingdom": "Animalia",
+        "phylum": "Chordata",
+        "class": "Aves",
+        "order": "Passeriformes",
+        "family": "Corvidae",
+        "genus": "Cyanocorax",
+        "species": "affinis"
+      },
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/Cyanocorax_affinis.jpg/960px-Cyanocorax_affinis.jpg",
+      "info_url": "https://es.wikipedia.org/wiki/Cyanocorax_affinis"
+    },
+    "Cyanocorax violaceus": {
+      "scientific_name": "Cyanocorax violaceus",
+      "english_name": "Violaceous Jay",
+      "inat_sightings": 1253,
+      "xeno_canto_recordings": 37,
+      "description": "El colluelo (Cyanocorax violaceus), también conocido como chara violácea, carriquí violáceo, urraca corobero o urraquita violácea, es una especie de ave passeriforme perteneciente a la familia Corvidae, los cuervos y semejantes. Se encuentra en Bolivia, Brasil, Colombia, Ecuador, Guyana, Perú, y Venezuela. Su hábitat natural son los bosques húmedos de tierras bajas subtropicales o tropical y los bosques antiguos degradados.",
+      "description_source": "Wikipedia ES",
+      "conservation_status": {
+        "code": "LC",
+        "label_es": "Preocupación menor",
+        "label_en": "Least Concern"
+      },
+      "taxonomy": {
+        "kingdom": "Animalia",
+        "phylum": "Chordata",
+        "class": "Aves",
+        "order": "Passeriformes",
+        "family": "Corvidae",
+        "genus": "Cyanocorax",
+        "species": "violaceus"
+      },
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/1/16/Cyanocorax_violaceus_%28cropped%29.jpg",
+      "info_url": "https://es.wikipedia.org/wiki/Cyanocorax_violaceus"
+    },
+    "Cyanocorax yncas": {
+      "scientific_name": "Cyanocorax yncas",
+      "english_name": "Inca Jay",
+      "inat_sightings": 13400,
+      "xeno_canto_recordings": 63,
+      "description": "La chara verde (Cyanocorax yncas),​ también denominada urraca querrequerre, ken ken, urraca verde, urraca café y carriquí verdiamarillo,​ es una especie de ave paseriforme de la familia Corvidae que vive en América. Esta ave de colores vistosos se distingue de muchas otras por su compleja organización social.",
+      "description_source": "Wikipedia ES",
+      "conservation_status": {
+        "code": "LC",
+        "label_es": "Preocupación menor",
+        "label_en": "Least Concern"
+      },
+      "taxonomy": {
+        "kingdom": "Animalia",
+        "phylum": "Chordata",
+        "class": "Aves",
+        "order": "Passeriformes",
+        "family": "Corvidae",
+        "genus": "Cyanocorax",
+        "species": "yncas"
+      },
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Inca_jay_%28Cyanocorax_yncas_galeatus%29_Las_Tangaras.jpg/960px-Inca_jay_%28Cyanocorax_yncas_galeatus%29_Las_Tangaras.jpg",
+      "info_url": "https://es.wikipedia.org/wiki/Cyanocorax_yncas"
+    },
+    "Cyanolyca armillata": {
+      "scientific_name": "Cyanolyca armillata",
+      "english_name": "Black-collared Jay",
+      "inat_sightings": 157,
+      "xeno_canto_recordings": 39,
+      "description": "La chara collareja o arrendajo de cuello negro (Cyanolyca armillata)​ es una especie de ave paseriforme de la familia Corvidae propia de los bosques andinos en Ecuador, Colombia y Venezuela.​ Anteriormente se consideró conespecífica de la chara andina (Cyanolyca viridicyanus).[cita requerida]",
+      "description_source": "Wikipedia ES",
+      "conservation_status": {
+        "code": "LC",
+        "label_es": "Preocupación menor",
+        "label_en": "Least Concern"
+      },
+      "taxonomy": {
+        "kingdom": "Animalia",
+        "phylum": "Chordata",
+        "class": "Aves",
+        "order": "Passeriformes",
+        "family": "Corvidae",
+        "genus": "Cyanolyca",
+        "species": "armillata"
+      },
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Cyanolyca_armillata_Urraca_de_collar_Black-collared_Jay_%2814358336782%29.jpg/960px-Cyanolyca_armillata_Urraca_de_collar_Black-collared_Jay_%2814358336782%29.jpg",
+      "info_url": "https://es.wikipedia.org/wiki/Cyanolyca_armillata"
+    },
+    "Cyclarhis nigrirostris": {
+      "scientific_name": "Cyclarhis nigrirostris",
+      "english_name": "Black-billed Peppershrike",
+      "inat_sightings": 216,
+      "xeno_canto_recordings": 48,
+      "description": "El vireón piquinegro​ (Cyclarhis nigrirostris), también denominado verderón piquinegro (en Colombia), vireón piconegro (en Ecuador) o alegrín de pico negro,​ es una especie de ave paseriforme de la familia Vireonidae, una de las dos pertenecientes al género Cyclarhis. Es endémica del noroeste de Sudamérica.",
+      "description_source": "Wikipedia ES",
+      "conservation_status": {
+        "code": "LC",
+        "label_es": "Preocupación menor",
+        "label_en": "Least Concern"
+      },
+      "taxonomy": {
+        "kingdom": "Animalia",
+        "phylum": "Chordata",
+        "class": "Aves",
+        "order": "Passeriformes",
+        "family": "Vireonidae",
+        "genus": "Cyclarhis",
+        "species": "nigrirostris"
+      },
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/Black-billed_Peppershrike_-_Ecuador_S4E3905_%2822586281998%29.jpg/960px-Black-billed_Peppershrike_-_Ecuador_S4E3905_%2822586281998%29.jpg",
+      "info_url": "https://es.wikipedia.org/wiki/Cyclarhis_nigrirostris"
+    },
+    "Cyphorhinus thoracicus": {
+      "scientific_name": "Cyphorhinus thoracicus",
+      "english_name": "Chestnut-breasted Wren",
+      "inat_sightings": 59,
+      "xeno_canto_recordings": 68,
+      "description": "El cucarachero pechicastaño,​ cucarachero de pecho castaño o cucarachero dorsicastaño del sur (Cyphorhinus thoracicus)​ es una especie de ave paseriforme de la familia Troglodytidae perteneciente al género Cyphorhinus. Es nativo de los Andes del centro oeste de América del Sur.",
+      "description_source": "Wikipedia ES",
+      "conservation_status": {
+        "code": "LC",
+        "label_es": "Preocupación menor",
+        "label_en": "Least Concern"
+      },
+      "taxonomy": {
+        "kingdom": "Animalia",
+        "phylum": "Chordata",
+        "class": "Aves",
+        "order": "Passeriformes",
+        "family": "Troglodytidae",
+        "genus": "Cyphorhinus",
+        "species": "thoracicus"
+      },
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Cyphorhinus_thoracicus_Tschudi_1846.png/960px-Cyphorhinus_thoracicus_Tschudi_1846.png",
+      "info_url": "https://es.wikipedia.org/wiki/Cyphorhinus_thoracicus"
+    },
+    "Dendroplex picus": {
+      "scientific_name": "Dendroplex picus",
+      "english_name": "Straight-billed Woodcreeper",
+      "inat_sightings": 1652,
+      "xeno_canto_recordings": 43,
+      "description": "El trepatroncos piquirrecto​ (en Ecuador y Panamá) (Dendroplex picus), también denominado trepatroncos pico de lanza (en Colombia), trepador subesube (en Venezuela) o trepador de pico recto (en Perú),​ es una especie de ave paseriforme de la familia Furnariidae, subfamilia Dendrocolaptinae, una de las dos pertenecientes al género Dendroplex, antes incluida en Xiphorhynchus. Es nativa del extremo sureste de América Central y de extensas áreas del norte, centro y este de Sudamérica.",
+      "description_source": "Wikipedia ES",
+      "conservation_status": {
+        "code": "LC",
+        "label_es": "Preocupación menor",
+        "label_en": "Least Concern"
+      },
+      "taxonomy": {
+        "kingdom": "Animalia",
+        "phylum": "Chordata",
+        "class": "Aves",
+        "order": "Passeriformes",
+        "family": "Furnariidae",
+        "genus": "Dendroplex",
+        "species": "picus"
+      },
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/a/a7/Dendroplex_picus_-_Straight-billed_Woodcreeper.JPG",
+      "info_url": "https://es.wikipedia.org/wiki/Dendroplex_picus"
+    },
+    "Diglossa albilatera": {
+      "scientific_name": "Diglossa albilatera",
+      "english_name": "White-sided Flowerpiercer",
+      "inat_sightings": 664,
+      "xeno_canto_recordings": 37,
+      "description": "El pinchaflor flanquiblanco​ (en Ecuador) (Diglossa albilatera), también denominado pincha-flor de flanco blanco (en Perú), roba néctar de lados blancos (en Venezuela), diglosa albilátera o picaflor flanquiblanco (en Colombia),​ es una especie de ave paseriforme de la familia Thraupidae, perteneciente al numeroso género Diglossa. Es nativo de regiones montañosas del norte y noroeste de América del Sur.",
+      "description_source": "Wikipedia ES",
+      "conservation_status": {
+        "code": "LC",
+        "label_es": "Preocupación menor",
+        "label_en": "Least Concern"
+      },
+      "taxonomy": {
+        "kingdom": "Animalia",
+        "phylum": "Chordata",
+        "class": "Aves",
+        "order": "Passeriformes",
+        "family": "Thraupidae",
+        "genus": "Diglossa",
+        "species": "albilatera"
+      },
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/White-sided_Flowerpiercer_-_South_Ecuador_S4E2856_%2823391895895%29.jpg/960px-White-sided_Flowerpiercer_-_South_Ecuador_S4E2856_%2823391895895%29.jpg",
+      "info_url": "https://es.wikipedia.org/wiki/Diglossa_albilatera"
+    },
+    "Diglossa cyanea": {
+      "scientific_name": "Diglossa cyanea",
+      "english_name": "Masked Flowerpiercer",
+      "inat_sightings": 2255,
+      "xeno_canto_recordings": 37,
+      "description": "El pinchaflor enmascarado​ (en Ecuador) (Diglossa cyanea), también denominado picaflor de antifaz o diglosa de antifaz (en Colombia), roba néctar de antifaz (en Venezuela, pincha-flor enmascarado (en Perú) o diglosa enmascarada,​ es una especie de ave paseriforme de la familia Thraupidae, perteneciente al numeroso género Diglossa. Es nativo de regiones andinas y montañosas adyacentes del norte, noroeste y oeste de América del Sur.",
+      "description_source": "Wikipedia ES",
+      "conservation_status": {
+        "code": "LC",
+        "label_es": "Preocupación menor",
+        "label_en": "Least Concern"
+      },
+      "taxonomy": {
+        "kingdom": "Animalia",
+        "phylum": "Chordata",
+        "class": "Aves",
+        "order": "Passeriformes",
+        "family": "Thraupidae",
+        "genus": "Diglossa",
+        "species": "cyanea"
+      },
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/8/82/Masked_Flowerpiercer_%28Diglossopis_cyanea%29.jpg",
+      "info_url": "https://es.wikipedia.org/wiki/Diglossa_cyanea"
+    },
+    "Drymophila striaticeps": {
+      "scientific_name": "Drymophila striaticeps",
+      "english_name": "Streak-headed Antbird",
+      "inat_sightings": 126,
+      "xeno_canto_recordings": 38,
+      "description": "El hormiguerito cabeciestriado (en Colombia) u hormiguero de cabeza rayada (en Perú)​ (Drymophila striaticeps), es una especie de ave paseriforme de la familia Thamnophilidae perteneciente al género Drymophila. Es nativa de la región andina del noroeste y oeste de América del Sur. Hasta el año 2012 era considerada una subespecie de Drymophila caudata, de quien fue separada en conjunto con D.",
+      "description_source": "Wikipedia ES",
+      "conservation_status": {
+        "code": "LC",
+        "label_es": "Preocupación menor",
+        "label_en": "Least Concern"
+      },
+      "taxonomy": {
+        "kingdom": "Animalia",
+        "phylum": "Chordata",
+        "class": "Aves",
+        "order": "Passeriformes",
+        "family": "Thamnophilidae",
+        "genus": "Drymophila",
+        "species": "striaticeps"
+      },
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/Drymophila_striaticeps_%28Streak-headed_Antbird%29_-_male_%287062565647%29.jpg/960px-Drymophila_striaticeps_%28Streak-headed_Antbird%29_-_male_%287062565647%29.jpg",
+      "info_url": "https://es.wikipedia.org/wiki/Drymophila_striaticeps"
+    },
+    "Elaenia frantzii": {
+      "scientific_name": "Elaenia frantzii",
+      "english_name": "Mountain Elaenia",
+      "inat_sightings": 1242,
+      "xeno_canto_recordings": 70,
+      "description": "El fiofío montano​ (Elaenia frantzii) es una especie de ave paseriforme de la familia Tyrannidae perteneciente al numeroso género Elaenia. Es nativo de América Central y del noroeste de América del Sur.",
+      "description_source": "Wikipedia ES",
+      "conservation_status": {
+        "code": "LC",
+        "label_es": "Preocupación menor",
+        "label_en": "Least Concern"
+      },
+      "taxonomy": {
+        "kingdom": "Animalia",
+        "phylum": "Chordata",
+        "class": "Aves",
+        "order": "Passeriformes",
+        "family": "Tyrannidae",
+        "genus": "Elaenia",
+        "species": "frantzii"
+      },
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/Elaenia_frantzii_Elaenia_monta%C3%B1era_Mountain_Elaenia_%2824413147939%29.jpg/960px-Elaenia_frantzii_Elaenia_monta%C3%B1era_Mountain_Elaenia_%2824413147939%29.jpg",
+      "info_url": "https://es.wikipedia.org/wiki/Elaenia_frantzii"
+    },
+    "Euphonia laniirostris": {
+      "scientific_name": "Euphonia laniirostris",
+      "english_name": "Thick-billed Euphonia",
+      "inat_sightings": 6462,
+      "xeno_canto_recordings": 36,
+      "description": "La eufonia piquigruesa, calandria piquigruesa,​ curruñatá piquigordo o fruterito de pico grueso​ (Euphonia laniirostris) es una especie de ave paseriforme de la familia Fringillidae que se encuentra en Bolivia, Brasil, Colombia, Costa Rica, Ecuador, Panamá, Perú y Venezuela.​ Anteriormente se clasificaba en la familia Thraupidae.",
+      "description_source": "Wikipedia ES",
+      "conservation_status": {
+        "code": "LC",
+        "label_es": "Preocupación menor",
+        "label_en": "Least Concern"
+      },
+      "taxonomy": {
+        "kingdom": "Animalia",
+        "phylum": "Chordata",
+        "class": "Aves",
+        "order": "Passeriformes",
+        "family": "Fringillidae",
+        "genus": "Euphonia",
+        "species": "laniirostris"
+      },
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/Thick-billed_Euphonia_%28_Euphonia_laniirostris%29_%2819468927603%29.jpg/960px-Thick-billed_Euphonia_%28_Euphonia_laniirostris%29_%2819468927603%29.jpg",
+      "info_url": "https://es.wikipedia.org/wiki/Euphonia_laniirostris"
+    },
+    "Formicivora intermedia": {
+      "scientific_name": "Formicivora intermedia",
+      "english_name": "Northern White-fringed Antwren",
+      "inat_sightings": 319,
+      "xeno_canto_recordings": 59,
+      "description": "El hormiguerito coicorita norteño (Formicivora intermedia), también denominado coicorita del norte (en Venezuela),​ es una especie de ave paseriforme de la familia Thamnophilidae perteneciente al género Formicivora. Es nativo del norte de América del Sur y de Panamá.",
+      "description_source": "Wikipedia ES",
+      "conservation_status": {
+        "code": "LC",
+        "label_es": "Preocupación menor",
+        "label_en": "Least Concern"
+      },
+      "taxonomy": {
+        "kingdom": "Animalia",
+        "phylum": "Chordata",
+        "class": "Aves",
+        "order": "Passeriformes",
+        "family": "Thamnophilidae",
+        "genus": "Formicivora",
+        "species": "intermedia"
+      },
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d8/Northern_White-fringed_Antwren_-_Coicorita_%28Formicivora_grisea_intermedia%29_%2823558650251%29.jpg/960px-Northern_White-fringed_Antwren_-_Coicorita_%28Formicivora_grisea_intermedia%29_%2823558650251%29.jpg",
+      "info_url": "https://es.wikipedia.org/wiki/Formicivora_intermedia"
+    },
+    "Forpus conspicillatus": {
+      "scientific_name": "Forpus conspicillatus",
+      "english_name": "Spectacled Parrotlet",
+      "inat_sightings": 2607,
+      "xeno_canto_recordings": 50,
+      "description": "La cotorrita de anteojos o periquito de anteojos (Forpus conspicillatus)​​ es una especie de ave psitaciforme de la familia Psittacidae propia de Centro y Sudamérica. Su holotipo fue descrito por Frédéric de Lafresnaye en Honda, Colombia, en el valle del Río Magdalena, en 1848.",
+      "description_source": "Wikipedia ES",
+      "conservation_status": {
+        "code": "LC",
+        "label_es": "Preocupación menor",
+        "label_en": "Least Concern"
+      },
+      "taxonomy": {
+        "kingdom": "Animalia",
+        "phylum": "Chordata",
+        "class": "Aves",
+        "order": "Psittaciformes",
+        "family": "Psittacidae",
+        "genus": "Forpus",
+        "species": "conspicillatus"
+      },
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/Forpus_conspicillatus_-Colombia_-pair-8-3c.jpg/960px-Forpus_conspicillatus_-Colombia_-pair-8-3c.jpg",
+      "info_url": "https://es.wikipedia.org/wiki/Forpus_conspicillatus"
+    },
+    "Galbula leucogastra": {
+      "scientific_name": "Galbula leucogastra",
+      "english_name": "Bronzy Jacamar",
+      "inat_sightings": 170,
+      "xeno_canto_recordings": 41,
+      "description": "El jacamará bronceado​ (Galbula leucogastra), también jacamar bronceado, jacamar dorado, barranquero dorado o jacamar broncíneo, es una especie de ave piciforme de la familia Galbulidae que vive en Sudamérica.",
+      "description_source": "Wikipedia ES",
+      "conservation_status": {
+        "code": "LC",
+        "label_es": "Preocupación menor",
+        "label_en": "Least Concern"
+      },
+      "taxonomy": {
+        "kingdom": "Animalia",
+        "phylum": "Chordata",
+        "class": "Aves",
+        "order": "Piciformes",
+        "family": "Galbulidae",
+        "genus": "Galbula",
+        "species": "leucogastra"
+      },
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Purplish_Jacamar_%28Galbula_leucogastra%29.jpg/960px-Purplish_Jacamar_%28Galbula_leucogastra%29.jpg",
+      "info_url": "https://es.wikipedia.org/wiki/Galbula_leucogastra"
+    },
+    "Galbula ruficauda": {
+      "scientific_name": "Galbula ruficauda",
+      "english_name": "Rufous-tailed Jacamar",
+      "inat_sightings": 6027,
+      "xeno_canto_recordings": 36,
+      "description": "El jacamará colirrufo​ (Galbula ruficauda) es una especie de ave piciforme de la familia Galbulidae nativa de las zonas tropicales en el sur de México, América Central y América del Sur hasta el sur de Brasil y Ecuador. Son aves elegantes de colores brillantes con largos picos y colas. Alcanzan una tamaño de 25 cm de largo y tienen un pico negro de 5 cm de largo.",
+      "description_source": "Wikipedia ES",
+      "conservation_status": {
+        "code": "LC",
+        "label_es": "Preocupación menor",
+        "label_en": "Least Concern"
+      },
+      "taxonomy": {
+        "kingdom": "Animalia",
+        "phylum": "Chordata",
+        "class": "Aves",
+        "order": "Piciformes",
+        "family": "Galbulidae",
+        "genus": "Galbula",
+        "species": "ruficauda"
+      },
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/6/6b/Galbula_ruficauda_-_front.jpg",
+      "info_url": "https://es.wikipedia.org/wiki/Galbula_ruficauda"
+    },
+    "Glaucidium brasilianum": {
+      "scientific_name": "Glaucidium brasilianum",
+      "english_name": "Ferruginous Pygmy Owl",
+      "inat_sightings": 12538,
+      "xeno_canto_recordings": 37,
+      "description": "El tecolote bajeño, lechucita ferrugínea, buhíto ferrugíneo o caburé chico,​ también conocido como mochuelo caburé, aurorita o pavita (Glaucidium brasilianum) es una especie de la familia Strigidae.",
+      "description_source": "Wikipedia ES",
+      "conservation_status": {
+        "code": "LC",
+        "label_es": "Preocupación menor",
+        "label_en": "Least Concern"
+      },
+      "taxonomy": {
+        "kingdom": "Animalia",
+        "phylum": "Chordata",
+        "class": "Aves",
+        "order": "Strigiformes",
+        "family": "Strigidae",
+        "genus": "Glaucidium",
+        "species": "brasilianum"
+      },
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/5/59/Cactus_Ferruginous_Pygmy-owl.jpg",
+      "info_url": "https://es.wikipedia.org/wiki/Glaucidium_brasilianum"
+    },
+    "Grallaria bangsi": {
+      "scientific_name": "Grallaria bangsi",
+      "english_name": "Santa Marta Antpitta",
+      "inat_sightings": 69,
+      "xeno_canto_recordings": 50,
+      "description": "El tororoi o tororoí de Santa Marta​​ (Grallaria bangsi), también denominado chululú de Santa Marta,​ es una especie de ave paseriforme perteneciente al numeroso género Grallaria de la familia Grallariidae, anteriormente incluido en Formicariidae.​​ Es endémica de la Sierra Nevada de Santa Marta, en el noreste de Colombia.​",
+      "description_source": "Wikipedia ES",
+      "conservation_status": {
+        "code": "VU",
+        "label_es": "Vulnerable",
+        "label_en": "Vulnerable"
+      },
+      "taxonomy": {
+        "kingdom": "Animalia",
+        "phylum": "Chordata",
+        "class": "Aves",
+        "order": "Passeriformes",
+        "family": "Grallariidae",
+        "genus": "Grallaria",
+        "species": "bangsi"
+      },
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/Grallaria_bangsi.jpg/960px-Grallaria_bangsi.jpg",
+      "info_url": "https://es.wikipedia.org/wiki/Grallaria_bangsi"
+    },
+    "Grallaria flavotincta": {
+      "scientific_name": "Grallaria flavotincta",
+      "english_name": "Yellow-breasted Antpitta",
+      "inat_sightings": 292,
+      "xeno_canto_recordings": 42,
+      "description": "El tororoí pechiamarillo​ (Grallaria flavotincta), también denominado tororoi rufoamarillo (en Colombia) o chululú de pecho amarillo,​ es una especie de ave paseriforme perteneciente al numeroso género Grallaria de la familia Grallariidae, anteriormente incluido en Formicariidae.​​ Es nativo del noroeste de América del Sur.",
+      "description_source": "Wikipedia ES",
+      "conservation_status": {
+        "code": "LC",
+        "label_es": "Preocupación menor",
+        "label_en": "Least Concern"
+      },
+      "taxonomy": {
+        "kingdom": "Animalia",
+        "phylum": "Chordata",
+        "class": "Aves",
+        "order": "Passeriformes",
+        "family": "Grallariidae",
+        "genus": "Grallaria",
+        "species": "flavotincta"
+      },
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Grallaria_flavotincta_-Ecuador-8.jpg/960px-Grallaria_flavotincta_-Ecuador-8.jpg",
+      "info_url": "https://es.wikipedia.org/wiki/Grallaria_flavotincta"
+    },
+    "Grallaria kaestneri": {
+      "scientific_name": "Grallaria kaestneri",
+      "english_name": "Cundinamarca Antpitta",
+      "inat_sightings": 44,
+      "xeno_canto_recordings": 41,
+      "description": "El tororoí o tororoi de Cundinamarca​ (Grallaria kaestneri), también denominado chululú de Cundinamarca,​ es una especie de ave paseriforme perteneciente al numeroso género Grallaria de la familia Grallariidae, anteriormente incluido en Formicariidae.​​ Es endémica de Colombia.​",
+      "description_source": "Wikipedia ES",
+      "conservation_status": {
+        "code": "EN",
+        "label_es": "En peligro",
+        "label_en": "Endangered"
+      },
+      "taxonomy": {
+        "kingdom": "Animalia",
+        "phylum": "Chordata",
+        "class": "Aves",
+        "order": "Passeriformes",
+        "family": "Grallariidae",
+        "genus": "Grallaria",
+        "species": "kaestneri"
+      },
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Grallaria_kaestneri_237096721.jpg/960px-Grallaria_kaestneri_237096721.jpg",
+      "info_url": "https://es.wikipedia.org/wiki/Grallaria_kaestneri"
+    },
+    "Grallaria nuchalis": {
+      "scientific_name": "Grallaria nuchalis",
+      "english_name": "Chestnut-naped Antpitta",
+      "inat_sightings": 229,
+      "xeno_canto_recordings": 55,
+      "description": "El tororoí nuquicastaño​ (Grallaria nuchalis), también denominado gralaria nuquicastaña (en Ecuador), tororoi chusquero (en Colombia), tororoi de nuca castaña (en Perú) o chululú de nuca castaña,​ es una especie de ave paseriforme perteneciente al numeroso género Grallaria de la familia Grallariidae, anteriormente incluido en Formicariidae.​​ Es nativo de la región andina del noroeste de América del Sur.",
+      "description_source": "Wikipedia ES",
+      "conservation_status": {
+        "code": "LC",
+        "label_es": "Preocupación menor",
+        "label_en": "Least Concern"
+      },
+      "taxonomy": {
+        "kingdom": "Animalia",
+        "phylum": "Chordata",
+        "class": "Aves",
+        "order": "Passeriformes",
+        "family": "Grallariidae",
+        "genus": "Grallaria",
+        "species": "nuchalis"
+      },
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Chestnut-naped_Antpitta.jpg/960px-Chestnut-naped_Antpitta.jpg",
+      "info_url": "https://es.wikipedia.org/wiki/Grallaria_nuchalis"
+    },
+    "Grallaria quitensis": {
+      "scientific_name": "Grallaria quitensis",
+      "english_name": "Tawny Antpitta",
+      "inat_sightings": 795,
+      "xeno_canto_recordings": 67,
+      "description": "El tororoí leonado​ (en Colombia y Perú) (Grallaria quitensis), también denominado gralaria leonada (en Ecuador), chululú amarillento o tororoí leonado occidental,​​ es una especie de ave paseriforme de la familia Grallariidae, perteneciente al numeroso género Grallaria, anteriormente incluido en Formicariidae.​​ Algunos autores sostienen que la presente se divide en más de una especie. Es nativa de la región andina del noroeste de América del Sur.",
+      "description_source": "Wikipedia ES",
+      "conservation_status": {
+        "code": "LC",
+        "label_es": "Preocupación menor",
+        "label_en": "Least Concern"
+      },
+      "taxonomy": {
+        "kingdom": "Animalia",
+        "phylum": "Chordata",
+        "class": "Aves",
+        "order": "Passeriformes",
+        "family": "Grallariidae",
+        "genus": "Grallaria",
+        "species": "quitensis"
+      },
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/7/71/Tawny_Antpitta.jpg",
+      "info_url": "https://es.wikipedia.org/wiki/Grallaria_quitensis"
+    },
+    "Grallaria ruficapilla": {
+      "scientific_name": "Grallaria ruficapilla",
+      "english_name": "Chestnut-crowned Antpitta",
+      "inat_sightings": 712,
+      "xeno_canto_recordings": 91,
+      "description": "El tororoí compadre​ (Grallaria ruficapilla), también conocido como chululú compadre, gralaria coronicastaña (en Ecuador), tororoi comprapán (en Colombia), tororoi de corona castaña (en Perú) u hormiguero compadre (en Venezuela),​ es una especie de ave paseriforme de la familia Grallariidae perteneciente al numeroso género Grallaria, anteriormente incluido en Formicariidae.​​ Es nativo del norte y noroeste de América del Sur.",
+      "description_source": "Wikipedia ES",
+      "conservation_status": {
+        "code": "LC",
+        "label_es": "Preocupación menor",
+        "label_en": "Least Concern"
+      },
+      "taxonomy": {
+        "kingdom": "Animalia",
+        "phylum": "Chordata",
+        "class": "Aves",
+        "order": "Passeriformes",
+        "family": "Grallariidae",
+        "genus": "Grallaria",
+        "species": "ruficapilla"
+      },
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/1/1a/Chestnut-crowned_Antpitta_-_Colombia.jpg",
+      "info_url": "https://es.wikipedia.org/wiki/Grallaria_ruficapilla"
+    },
+    "Grallaria rufula": {
+      "scientific_name": "Grallaria rufula",
+      "english_name": "Muisca Antpitta",
+      "inat_sightings": 79,
+      "xeno_canto_recordings": 44,
+      "description": "El tororoí rufo​ (en Perú) (Grallaria rufula), también denominado tororoi flautista (en Colombia), gralaria rufa (en Ecuador), hormiguero pichón rufo (en Venezuela) o chululú pichón rufo,​ es una especie de ave paseriforme de la familia Grallariidae, perteneciente al numeroso género Grallaria, anteriormente incluido en Formicariidae.​​ Algunos autores sostienen que la presente se divide en más de una especie. Es nativa de la región andina del noroeste y centro oeste de América del Sur.",
+      "description_source": "Wikipedia ES",
+      "conservation_status": {
+        "code": "LC",
+        "label_es": "Preocupación menor",
+        "label_en": "Least Concern"
+      },
+      "taxonomy": {
+        "kingdom": "Animalia",
+        "phylum": "Chordata",
+        "class": "Aves",
+        "order": "Passeriformes",
+        "family": "Grallariidae",
+        "genus": "Grallaria",
+        "species": "rufula"
+      },
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/Rufous_Antpitta%2C_Tapichalaca%2C_Ecuador_%285746102588%29.jpg/960px-Rufous_Antpitta%2C_Tapichalaca%2C_Ecuador_%285746102588%29.jpg",
+      "info_url": "https://es.wikipedia.org/wiki/Grallaria_rufula"
+    },
+    "Grallaricula nana": {
+      "scientific_name": "Grallaricula nana",
+      "english_name": "Slaty-crowned Antpitta",
+      "inat_sightings": 116,
+      "xeno_canto_recordings": 50,
+      "description": "El tororoi enano (en Colombia) (Grallaricula nana), también denominado gralarita coronipizarra (en Ecuador), tororoi de corona pizarrosa (en Perú) o ponchito enano​ (en Venezuela),​ es una especie de ave paseriforme de la familia Grallariidae perteneciente al género Grallaricula, anteriormente colocado en la familia Formicariidae.​​ Es nativa del norte y noroeste de América del Sur.",
+      "description_source": "Wikipedia ES",
+      "conservation_status": {
+        "code": "LC",
+        "label_es": "Preocupación menor",
+        "label_en": "Least Concern"
+      },
+      "taxonomy": {
+        "kingdom": "Animalia",
+        "phylum": "Chordata",
+        "class": "Aves",
+        "order": "Passeriformes",
+        "family": "Grallariidae",
+        "genus": "Grallaricula",
+        "species": "nana"
+      },
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b3/Slate-crowned_Antpitta_-_Colombia_S4E1919.jpg/960px-Slate-crowned_Antpitta_-_Colombia_S4E1919.jpg",
+      "info_url": "https://es.wikipedia.org/wiki/Grallaricula_nana"
+    },
+    "Henicorhina leucophrys": {
+      "scientific_name": "Henicorhina leucophrys",
+      "english_name": "Grey-breasted Wood Wren",
+      "inat_sightings": 836,
+      "xeno_canto_recordings": 304,
+      "description": "El cucarachero pechigrís​ (Henicorhina leucophrys) es una especie de ave paseriforme de la familia Troglodytidae perteneciente al género Henicorhina. Es nativo de la América tropical (Neotrópico) donde se distribuye desde el este y oeste de México hasta el centro de Bolivia.",
+      "description_source": "Wikipedia ES",
+      "conservation_status": {
+        "code": "LC",
+        "label_es": "Preocupación menor",
+        "label_en": "Least Concern"
+      },
+      "taxonomy": {
+        "kingdom": "Animalia",
+        "phylum": "Chordata",
+        "class": "Aves",
+        "order": "Passeriformes",
+        "family": "Troglodytidae",
+        "genus": "Henicorhina",
+        "species": "leucophrys"
+      },
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Henicorhina_leucophrys_Santa_Elena.JPG/960px-Henicorhina_leucophrys_Santa_Elena.JPG",
+      "info_url": "https://es.wikipedia.org/wiki/Henicorhina_leucophrys"
+    },
+    "Henicorhina leucosticta": {
+      "scientific_name": "Henicorhina leucosticta",
+      "english_name": "White-breasted Wood Wren",
+      "inat_sightings": 576,
+      "xeno_canto_recordings": 91,
+      "description": "El cucarachero pechiblanco​ (Henicorhina leucosticta) es una especie de ave paseriforme de la familia Troglodytidae perteneciente al género Henicorhina. Es nativo de la América tropical (Neotrópico) donde se distribuye desde el centro de México hasta el norte de la Amazonia brasileña y el nororiente de Perú.​",
+      "description_source": "Wikipedia ES",
+      "conservation_status": {
+        "code": "LC",
+        "label_es": "Preocupación menor",
+        "label_en": "Least Concern"
+      },
+      "taxonomy": {
+        "kingdom": "Animalia",
+        "phylum": "Chordata",
+        "class": "Aves",
+        "order": "Passeriformes",
+        "family": "Troglodytidae",
+        "genus": "Henicorhina",
+        "species": "leucosticta"
+      },
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/Henicorhina_leucosticta_-_White-breasted_Wood_Wren%3B_Balbina%2C_Amazonas%2C_Brazil.jpg/960px-Henicorhina_leucosticta_-_White-breasted_Wood_Wren%3B_Balbina%2C_Amazonas%2C_Brazil.jpg",
+      "info_url": "https://es.wikipedia.org/wiki/Henicorhina_leucosticta"
+    },
+    "Henicorhina negreti": {
+      "scientific_name": "Henicorhina negreti",
+      "english_name": "Munchique Wood Wren",
+      "inat_sightings": 39,
+      "xeno_canto_recordings": 59,
+      "description": "El cucharero de Munchique,​ cucarachero de Nariño o ratona de Munchique (Henicorhina negreti)​ es una especie de ave paseriforme de la familia Troglodytidae perteneciente al género Henicorhina. Es endémico de una pequeña región del oeste de Colombia",
+      "description_source": "Wikipedia ES",
+      "conservation_status": {
+        "code": "VU",
+        "label_es": "Vulnerable",
+        "label_en": "Vulnerable"
+      },
+      "taxonomy": {
+        "kingdom": "Animalia",
+        "phylum": "Chordata",
+        "class": "Aves",
+        "order": "Passeriformes",
+        "family": "Troglodytidae",
+        "genus": "Henicorhina",
+        "species": "negreti"
+      },
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/b/b9/Munchique_Wood-Wren_-_Colombia_S4E3862_%2817166668302%29_%28cropped%29.jpg",
+      "info_url": "https://es.wikipedia.org/wiki/Henicorhina_negreti"
+    },
+    "Herpsilochmus dorsimaculatus": {
+      "scientific_name": "Herpsilochmus dorsimaculatus",
+      "english_name": "Spot-backed Antwren",
+      "inat_sightings": 72,
+      "xeno_canto_recordings": 42,
+      "description": "El tiluchí dorsimanchado​ (Herpsilochmus dorsimaculatus), también denominado hormiguerito dorsipunteado (en Colombia) o tiluchí espalda manchada (en Venezuela),​ es una especie de ave paseriforme de la familia Thamnophilidae perteneciente al numeroso género Herpsilochmus. Es nativo del noroeste de la región amazónica, en América del Sur.",
+      "description_source": "Wikipedia ES",
+      "conservation_status": {
+        "code": "LC",
+        "label_es": "Preocupación menor",
+        "label_en": "Least Concern"
+      },
+      "taxonomy": {
+        "kingdom": "Animalia",
+        "phylum": "Chordata",
+        "class": "Aves",
+        "order": "Passeriformes",
+        "family": "Thamnophilidae",
+        "genus": "Herpsilochmus",
+        "species": "dorsimaculatus"
+      },
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/Herpsilochmus_dorsimaculatus_Spot-backed_Antwren_%28male%29%3B_Manaus%2C_Amazonas%2C_Brazil_%28cropped%29.jpg/960px-Herpsilochmus_dorsimaculatus_Spot-backed_Antwren_%28male%29%3B_Manaus%2C_Amazonas%2C_Brazil_%28cropped%29.jpg",
+      "info_url": "https://es.wikipedia.org/wiki/Herpsilochmus_dorsimaculatus"
+    },
+    "Hylophilus flavipes": {
+      "scientific_name": "Hylophilus flavipes",
+      "english_name": "Scrub Greenlet",
+      "inat_sightings": 376,
+      "xeno_canto_recordings": 57,
+      "description": "El verdillo paticlaro​ (Hylophilus flavipes), también denominado verderón rastrojero (en Colombia), verdillo matorralero (en Costa Rica), verderón patipálido (en Venezuela) o vireillo de los matorrales,​ es una especie de ave paseriforme de la familia Vireonidae perteneciente al género Hylophilus. Algunos autores sostienen que se divide en tres especies.​ Es nativa del sureste de América Central y norte de América del Sur.",
+      "description_source": "Wikipedia ES",
+      "conservation_status": {
+        "code": "LC",
+        "label_es": "Preocupación menor",
+        "label_en": "Least Concern"
+      },
+      "taxonomy": {
+        "kingdom": "Animalia",
+        "phylum": "Chordata",
+        "class": "Aves",
+        "order": "Passeriformes",
+        "family": "Vireonidae",
+        "genus": "Hylophilus",
+        "species": "flavipes"
+      },
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/Scrub_Greenlet.jpg/960px-Scrub_Greenlet.jpg",
+      "info_url": "https://es.wikipedia.org/wiki/Hylophilus_flavipes"
+    },
+    "Icterus chrysater": {
+      "scientific_name": "Icterus chrysater",
+      "english_name": "Yellow-backed Oriole",
+      "inat_sightings": 2467,
+      "xeno_canto_recordings": 58,
+      "description": "El turpial toche (Icterus chrysater), también conocido como turpial dorsidorado, turpial montañero, bolsero dorso dorado,​ o simplemente toche o curillo, es una especie de ave paseriforme de la familia Icteridae nativa de México, América Central, Colombia y Venezuela. Su hábitat natural se compone de bosque y sabana.​ Se distinguen cuatro subespecies que se distribuyen en 3 poblaciones alopátricas.​",
+      "description_source": "Wikipedia ES",
+      "conservation_status": {
+        "code": "LC",
+        "label_es": "Preocupación menor",
+        "label_en": "Least Concern"
+      },
+      "taxonomy": {
+        "kingdom": "Animalia",
+        "phylum": "Chordata",
+        "class": "Aves",
+        "order": "Passeriformes",
+        "family": "Icteridae",
+        "genus": "Icterus",
+        "species": "chrysater"
+      },
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/9/95/Yellow-backed_Oriole.jpg",
+      "info_url": "https://es.wikipedia.org/wiki/Icterus_chrysater"
+    },
+    "Leptosittaca branickii": {
+      "scientific_name": "Leptosittaca branickii",
+      "english_name": "Golden-plumed Parakeet",
+      "inat_sightings": 185,
+      "xeno_canto_recordings": 43,
+      "description": "El perico paramuno o aratinga de pinceles (Leptosittaca branickii) es una especie de ave psitaciforme de la familia Psittacidae que puebla las selvas andinas de Colombia, Ecuador y parte del Perú.",
+      "description_source": "Wikipedia ES",
+      "conservation_status": {
+        "code": "VU",
+        "label_es": "Vulnerable",
+        "label_en": "Vulnerable"
+      },
+      "taxonomy": {
+        "kingdom": "Animalia",
+        "phylum": "Chordata",
+        "class": "Aves",
+        "order": "Psittaciformes",
+        "family": "Psittacidae",
+        "genus": "Leptosittaca",
+        "species": "branickii"
+      },
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Leptosittaca_branickii_-Tapichalaca_Reserve-8.jpg/960px-Leptosittaca_branickii_-Tapichalaca_Reserve-8.jpg",
+      "info_url": "https://es.wikipedia.org/wiki/Leptosittaca_branickii"
+    },
+    "Lophotriccus pileatus": {
+      "scientific_name": "Lophotriccus pileatus",
+      "english_name": "Scale-crested Pygmy Tyrant",
+      "inat_sightings": 469,
+      "xeno_canto_recordings": 68,
+      "description": "El cimerillo andino​ (Lophotriccus pileatus), también denominado cimerillo crestiescamado (en Ecuador), pico chato de penacho (en Venezuela), tiranuelo crestibarrado (en Colombia), mosquerito de yelmo (en Costa Rica) o tirano-pigmeo de cresta escamada (en Perú),​ es una especie de ave paseriforme de familia Tyrannidae perteneciente al género Lophotriccus. Es nativo del este de América Central y de regiones andinas del norte y oeste de América del Sur.",
+      "description_source": "Wikipedia ES",
+      "conservation_status": {
+        "code": "LC",
+        "label_es": "Preocupación menor",
+        "label_en": "Least Concern"
+      },
+      "taxonomy": {
+        "kingdom": "Animalia",
+        "phylum": "Chordata",
+        "class": "Aves",
+        "order": "Passeriformes",
+        "family": "Tyrannidae o Rhynchocyclidae",
+        "genus": "Lophotriccus",
+        "species": "pileatus"
+      },
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Scale-crested_Pygmy-Tirant.jpg/960px-Scale-crested_Pygmy-Tirant.jpg",
+      "info_url": "https://es.wikipedia.org/wiki/Lophotriccus_pileatus"
+    },
+    "Macroagelaius subalaris": {
+      "scientific_name": "Macroagelaius subalaris",
+      "english_name": "Colombian Mountain Grackle",
+      "inat_sightings": 37,
+      "xeno_canto_recordings": 42,
+      "description": "Icterids () or New World blackbirds make up a family, the Icteridae (), of small to medium-sized, often colorful, New World passerine birds. The family contains 108 species and is divided into 30 genera. Most species have black as a predominant plumage color, often enlivened by yellow, orange, or red.",
+      "description_source": "Wikipedia EN",
+      "conservation_status": {
+        "code": "EN",
+        "label_es": "En peligro",
+        "label_en": "Endangered"
+      },
+      "taxonomy": {
+        "kingdom": "Animalia",
+        "phylum": "Chordata",
+        "class": "Aves",
+        "order": "Passeriformes",
+        "family": "Icteridae",
+        "genus": "Macroagelaius",
+        "species": "subalaris"
+      },
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/4/47/Columbian_Mountain_Grackle_%28Macroagelaius_subalaris%29_%288079736640%29.jpg",
+      "info_url": "https://es.wikipedia.org/wiki/Macroagelaius_subalaris"
+    },
+    "Mecocerculus leucophrys": {
+      "scientific_name": "Mecocerculus leucophrys",
+      "english_name": "White-throated Tyrannulet",
+      "inat_sightings": 1054,
+      "xeno_canto_recordings": 71,
+      "description": "El piojito gargantilla​ (en Argentina) (Mecocerculus leucophrys), también denominado tiranuelo gorgiblanco (en Colombia), tiranillo de garganta blanca (en Perú), atrapamoscas ligero frentiblanco (en Venezuela) o tiranillo barbiblanco (en Ecuador),​ es una especie de ave paseriforme de la familia Tyrannidae perteneciente al género Mecocerculus. Es nativo de América del Sur.",
+      "description_source": "Wikipedia ES",
+      "conservation_status": {
+        "code": "LC",
+        "label_es": "Preocupación menor",
+        "label_en": "Least Concern"
+      },
+      "taxonomy": {
+        "kingdom": "Animalia",
+        "phylum": "Chordata",
+        "class": "Aves",
+        "order": "Passeriformes",
+        "family": "Tyrannidae",
+        "genus": "Mecocerculus",
+        "species": "leucophrys"
+      },
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/f/f2/White-throated_Tyrannulet_-_Colombia_S4E1366_%2816872351571%29.jpg",
+      "info_url": "https://es.wikipedia.org/wiki/Mecocerculus_leucophrys"
+    },
+    "Megascops choliba": {
+      "scientific_name": "Megascops choliba",
+      "english_name": "Tropical Screech Owl",
+      "inat_sightings": 4796,
+      "xeno_canto_recordings": 50,
+      "description": "El autillo chóliba, autillo americano, autillo tropical o lechuza tropical (Megascops choliba), también denominado currucutú común, estucurú, sumurucucu, alilicucu común, alicucu común, tamborcito común, turututú y lechucita neotropical,​ es una especie de ave estrigiforme de la familia Strigidae que vive en América. Como otras rapaces nocturnas es un depredador de pequeños animales dotado de garras, patas y pico especializados para cazar.",
+      "description_source": "Wikipedia ES",
+      "conservation_status": {
+        "code": "LC",
+        "label_es": "Preocupación menor",
+        "label_en": "Least Concern"
+      },
+      "taxonomy": {
+        "kingdom": "Animalia",
+        "phylum": "Chordata",
+        "class": "Aves",
+        "order": "Strigiformes",
+        "family": "Strigidae",
+        "genus": "Megascops",
+        "species": "choliba"
+      },
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/Tropical_Screech-Owl.jpg/960px-Tropical_Screech-Owl.jpg",
+      "info_url": "https://es.wikipedia.org/wiki/Megascops_choliba"
+    },
+    "Metallura tyrianthina": {
+      "scientific_name": "Metallura tyrianthina",
+      "english_name": "Tyrian Metaltail",
+      "inat_sightings": 1689,
+      "xeno_canto_recordings": 66,
+      "description": "La metalura tiria​ (en Ecuador) (Metallura tyrianthina), también denominado colibrí verde de cola roja, colibrí verde colirrojo (en Venezuela), colibrí tirio (en Perú) o metalura colirroja (en Colombia)​ es una especie de ave apodiforme de la familia Trochilidae (los colibríes) perteneciente al género Metallura. Es nativa de regiones andinas y montañosas adyacentes del norte y oeste de América del Sur.",
+      "description_source": "Wikipedia ES",
+      "conservation_status": {
+        "code": "LC",
+        "label_es": "Preocupación menor",
+        "label_en": "Least Concern"
+      },
+      "taxonomy": {
+        "kingdom": "Animalia",
+        "phylum": "Chordata",
+        "class": "Aves",
+        "order": "Apodiformes",
+        "family": "Trochilidae",
+        "genus": "Metallura",
+        "species": "tyrianthina"
+      },
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Metallura_tyrianthina_Metalura_colirroja_Tyrian_Metaltail_%289085484755%29.jpg/960px-Metallura_tyrianthina_Metalura_colirroja_Tyrian_Metaltail_%289085484755%29.jpg",
+      "info_url": "https://es.wikipedia.org/wiki/Metallura_tyrianthina"
+    },
+    "Milvago chimachima": {
+      "scientific_name": "Milvago chimachima",
+      "english_name": "Yellow-headed Caracara",
+      "inat_sightings": 19067,
+      "xeno_canto_recordings": 56,
+      "description": "El chimachimá o caracara chimachima​ (Daptrius chimachima), es una especie de ave falconiforme de la familia Falconidae propia de América Central y del Sur.",
+      "description_source": "Wikipedia ES",
+      "conservation_status": {
+        "code": "LC",
+        "label_es": "Preocupación menor",
+        "label_en": "Least Concern"
+      },
+      "taxonomy": {
+        "kingdom": "Animalia",
+        "phylum": "Chordata",
+        "class": "Aves",
+        "order": "Falconiformes",
+        "family": "Falconidae",
+        "genus": "Milvago",
+        "species": "chimachima"
+      },
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Gelbkopfkarakara_Milvago_chimachima.jpg/960px-Gelbkopfkarakara_Milvago_chimachima.jpg",
+      "info_url": "https://es.wikipedia.org/wiki/Daptrius_chimachima"
+    },
+    "Mimus gilvus": {
+      "scientific_name": "Mimus gilvus",
+      "english_name": "Tropical Mockingbird",
+      "inat_sightings": 19747,
+      "xeno_canto_recordings": 55,
+      "description": "El cenzontle tropical, sinsonte tropical o paraulata llanera​ (Mimus gilvus) es una especie de ave paseriforme de la familia Mimidae. Es residente y se reproduce desde el sur de México hasta el norte de Brasil, y en las Antillas Menores y otras islas del Mar Caribe. Los especímenes de Panamá y Trinidad podrían haber sido introducidos por el hombre.",
+      "description_source": "Wikipedia ES",
+      "conservation_status": {
+        "code": "LC",
+        "label_es": "Preocupación menor",
+        "label_en": "Least Concern"
+      },
+      "taxonomy": {
+        "kingdom": "Animalia",
+        "phylum": "Chordata",
+        "class": "Aves",
+        "order": "Passeriformes",
+        "family": "Mimidae",
+        "genus": "Mimus",
+        "species": "gilvus"
+      },
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Chulinga_Margarite%C3%B1a.JPG/960px-Chulinga_Margarite%C3%B1a.JPG",
+      "info_url": "https://es.wikipedia.org/wiki/Mimus_gilvus"
+    },
+    "Myadestes ralloides": {
+      "scientific_name": "Myadestes ralloides",
+      "english_name": "Andean Solitaire",
+      "inat_sightings": 470,
+      "xeno_canto_recordings": 94,
+      "description": "El solitario andino (Myadestes ralloides) es una especie de ave de la familia Turdidae, que se encuentra en Bolivia, Colombia, Ecuador, Perú y Venezuela.​",
+      "description_source": "Wikipedia ES",
+      "conservation_status": {
+        "code": "LC",
+        "label_es": "Preocupación menor",
+        "label_en": "Least Concern"
+      },
+      "taxonomy": {
+        "kingdom": "Animalia",
+        "phylum": "Chordata",
+        "class": "Aves",
+        "order": "Passeriformes",
+        "family": "Turdidae",
+        "genus": "Myadestes",
+        "species": "ralloides"
+      },
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Myadestes_ralloides_-NBII_Image_Gallery-a00174.jpg/960px-Myadestes_ralloides_-NBII_Image_Gallery-a00174.jpg",
+      "info_url": "https://es.wikipedia.org/wiki/Myadestes_ralloides"
+    },
+    "Myioborus miniatus": {
+      "scientific_name": "Myioborus miniatus",
+      "english_name": "Slate-throated Whitestart",
+      "inat_sightings": 5994,
+      "xeno_canto_recordings": 70,
+      "description": "La candelita plomiza (Myioborus miniatus),​ también denominada candelita gargantipizarra, gorginegra, pechinegra o selvática, chipe de montaña, abanico pechinegro, pavito coronado y pavito gorjigris,​ es una especie de ave paseriforme de la familia Parulidae que vive en las montañas de América, desde México hasta Bolivia.",
+      "description_source": "Wikipedia ES",
+      "conservation_status": {
+        "code": "LC",
+        "label_es": "Preocupación menor",
+        "label_en": "Least Concern"
+      },
+      "taxonomy": {
+        "kingdom": "Animalia",
+        "phylum": "Chordata",
+        "class": "Aves",
+        "order": "Passeriformes",
+        "family": "Parulidae",
+        "genus": "Myioborus",
+        "species": "miniatus"
+      },
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/0/01/Myioborus_miniatus_1.jpg",
+      "info_url": "https://es.wikipedia.org/wiki/Myioborus_miniatus"
+    },
+    "Myioborus ornatus": {
+      "scientific_name": "Myioborus ornatus",
+      "english_name": "Golden-fronted Whitestart",
+      "inat_sightings": 765,
+      "xeno_canto_recordings": 62,
+      "description": "La candelita adornada (Myioborus ornatus),​ también denominada abanico cariblanco y candelita copetiamarilla,​ es una especie de ave paseriforme de la familia Parulidae que vive en el noroeste de Sudamérica.",
+      "description_source": "Wikipedia ES",
+      "conservation_status": {
+        "code": "LC",
+        "label_es": "Preocupación menor",
+        "label_en": "Least Concern"
+      },
+      "taxonomy": {
+        "kingdom": "Animalia",
+        "phylum": "Chordata",
+        "class": "Aves",
+        "order": "Passeriformes",
+        "family": "Parulidae",
+        "genus": "Myioborus",
+        "species": "ornatus"
+      },
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/Myioborus_ornatus_-_Abanico_cariblanco_-_Golden-fronted_Whitestart_%288872557662%29.jpg/960px-Myioborus_ornatus_-_Abanico_cariblanco_-_Golden-fronted_Whitestart_%288872557662%29.jpg",
+      "info_url": "https://es.wikipedia.org/wiki/Myioborus_ornatus"
+    },
+    "Myiodynastes chrysocephalus": {
+      "scientific_name": "Myiodynastes chrysocephalus",
+      "english_name": "Golden-crowned Flycatcher",
+      "inat_sightings": 209,
+      "xeno_canto_recordings": 49,
+      "description": "El bienteveo coronidorado​ (Myiodynastes chrysocephalus), también denominado benteveo de barbijo (en Argentina), atrapamoscas corona dorada (en Perú) o benteveo de corona dorada​ es una especie de ave paseriforme de la familia Tyrannidae perteneciente al género Myiodynastes. Es nativo de regiones andinas del centro-oeste de América del Sur.",
+      "description_source": "Wikipedia ES",
+      "conservation_status": {
+        "code": "LC",
+        "label_es": "Preocupación menor",
+        "label_en": "Least Concern"
+      },
+      "taxonomy": {
+        "kingdom": "Animalia",
+        "phylum": "Chordata",
+        "class": "Aves",
+        "order": "Passeriformes",
+        "family": "Tyrannidae",
+        "genus": "Myiodynastes",
+        "species": "chrysocephalus"
+      },
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Myiodynastes_chrysocephalus-2.jpg/960px-Myiodynastes_chrysocephalus-2.jpg",
+      "info_url": "https://es.wikipedia.org/wiki/Myiodynastes_chrysocephalus"
+    },
+    "Myiothlypis coronata": {
+      "scientific_name": "Myiothlypis coronata",
+      "english_name": "Russet-crowned Warbler",
+      "inat_sightings": 512,
+      "xeno_canto_recordings": 42,
+      "description": "La reinita coronirroja​ (Myiothlypis coronata), también denominada chiví corona anaranjada (en Venezuela), arañero coronado (en Colombia), reinita coronirrojiza (en Ecuador) o reinita de corona rojiza (en Perú),​ es una especie de ave paseriforme de la familia Parulidae perteneciente al género Myiothlypis, anteriormente situada en el género Basileuterus. Es nativa de regiones andinas del noroeste y oeste de América del Sur.",
+      "description_source": "Wikipedia ES",
+      "conservation_status": {
+        "code": "LC",
+        "label_es": "Preocupación menor",
+        "label_en": "Least Concern"
+      },
+      "taxonomy": {
+        "kingdom": "Animalia",
+        "phylum": "Chordata",
+        "class": "Aves",
+        "order": "Passeriformes",
+        "family": "Parulidae",
+        "genus": "Myiothlypis",
+        "species": "coronata"
+      },
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/Russet-crowned_Warbler_-_Ecuador_S4E4123_%2823066978665%29.jpg/960px-Russet-crowned_Warbler_-_Ecuador_S4E4123_%2823066978665%29.jpg",
+      "info_url": "https://es.wikipedia.org/wiki/Myiothlypis_coronata"
+    },
+    "Myiothlypis fulvicauda": {
+      "scientific_name": "Myiothlypis fulvicauda",
+      "english_name": "Buff-rumped Warbler",
+      "inat_sightings": 1477,
+      "xeno_canto_recordings": 61,
+      "description": "La reinita culiparda​ (Myiothlypis fulvicauda) es una especie de ave paseriforme de la familia Parulidae perteneciente al género Myiothlypis, anteriormente situada en el género Phaeothlypis. Es nativa de América del Sur y Central.",
+      "description_source": "Wikipedia ES",
+      "conservation_status": {
+        "code": "LC",
+        "label_es": "Preocupación menor",
+        "label_en": "Least Concern"
+      },
+      "taxonomy": {
+        "kingdom": "Animalia",
+        "phylum": "Chordata",
+        "class": "Aves",
+        "order": "Passeriformes",
+        "family": "Parulidae",
+        "genus": "Myiothlypis",
+        "species": "fulvicauda"
+      },
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/Myiothlypis_fulvicauda_Ara%C3%B1ero_ribere%C3%B1o_Buff-rumped_Warbler_%287558817478%29.jpg/960px-Myiothlypis_fulvicauda_Ara%C3%B1ero_ribere%C3%B1o_Buff-rumped_Warbler_%287558817478%29.jpg",
+      "info_url": "https://es.wikipedia.org/wiki/Myiothlypis_fulvicauda"
+    },
+    "Myiothlypis nigrocristata": {
+      "scientific_name": "Myiothlypis nigrocristata",
+      "english_name": "Black-crested Warbler",
+      "inat_sightings": 480,
+      "xeno_canto_recordings": 84,
+      "description": "La reinita crestinegra​ (en Ecuador) (Myiothlypis nigrocristata), también denominada chiví guicherito (en Venezuela), arañero cabecinegro (en Colombia) o reinita de cresta negra (en Perú),​ es una especie de ave paseriforme de la familia Parulidae perteneciente al género Myiothlypis, anteriormente situada en el género Basileuterus. Es nativa de regiones andinas del noroeste de América del Sur.",
+      "description_source": "Wikipedia ES",
+      "conservation_status": {
+        "code": "LC",
+        "label_es": "Preocupación menor",
+        "label_en": "Least Concern"
+      },
+      "taxonomy": {
+        "kingdom": "Animalia",
+        "phylum": "Chordata",
+        "class": "Aves",
+        "order": "Passeriformes",
+        "family": "Parulidae",
+        "genus": "Myiothlypis",
+        "species": "nigrocristata"
+      },
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/8/82/Black-crested_Warbler_%28Basileuterus_nigrocristatus%29.jpg",
+      "info_url": "https://es.wikipedia.org/wiki/Myiothlypis_nigrocristata"
+    },
+    "Myiozetetes cayanensis": {
+      "scientific_name": "Myiozetetes cayanensis",
+      "english_name": "Rusty-margined Flycatcher",
+      "inat_sightings": 3675,
+      "xeno_canto_recordings": 57,
+      "description": "El bienteveo alicastaño​ (Myiozetetes cayanensis), también denominado mosquero alicastaño (en Ecuador, Panamá y Costa Rica), atrapamoscas de pecho amarillo (en Venezuela), mosquero llorón (en Ecuador), suelda crestinegra (en Colombia), mosquero de ala castaña (en Perú) o pitogüe mediano alas rufas (en Paraguay),​ es una especie de ave paseriforme de la familia Tyrannidae, perteneciente al género Myiozetetes. Es nativo del este de América Central, norte y centro de América del Sur.",
+      "description_source": "Wikipedia ES",
+      "conservation_status": {
+        "code": "LC",
+        "label_es": "Preocupación menor",
+        "label_en": "Least Concern"
+      },
+      "taxonomy": {
+        "kingdom": "Animalia",
+        "phylum": "Chordata",
+        "class": "Aves",
+        "order": "Passeriformes",
+        "family": "Tyrannidae",
+        "genus": "Myiozetetes",
+        "species": "cayanensis"
+      },
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d8/Rusty-margined_Flycatcher_%28Myiozetetes_cayanensis%29_%2828043538964%29.jpg/960px-Rusty-margined_Flycatcher_%28Myiozetetes_cayanensis%29_%2828043538964%29.jpg",
+      "info_url": "https://es.wikipedia.org/wiki/Myiozetetes_cayanensis"
+    },
+    "Nyctidromus albicollis": {
+      "scientific_name": "Nyctidromus albicollis",
+      "english_name": "Pauraque",
+      "inat_sightings": 7242,
+      "xeno_canto_recordings": 43,
+      "description": "El chotacabras pauraque​ (Nyctidromus albicollis) es una especie de ave caprimulgiforme, una de las dos únicas pertenecientes al género Nyctidromus que integra la familia Caprimulgidae conocidos como chotacabras. Es nativo de la América tropical (Neotrópico) y, con excepción de las aves en regiones más septentrionales, es en gran medida residente durante todo el año.",
+      "description_source": "Wikipedia ES",
+      "conservation_status": {
+        "code": "LC",
+        "label_es": "Preocupación menor",
+        "label_en": "Least Concern"
+      },
+      "taxonomy": {
+        "kingdom": "Animalia",
+        "phylum": "Chordata",
+        "class": "Aves",
+        "order": "Caprimulgiformes",
+        "family": "Caprimulgidae",
+        "genus": "Nyctidromus",
+        "species": "albicollis"
+      },
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/Nyctidromus_%28Hydropsalis%29_albicollis_Pauraque.JPG/960px-Nyctidromus_%28Hydropsalis%29_albicollis_Pauraque.JPG",
+      "info_url": "https://es.wikipedia.org/wiki/Nyctidromus_albicollis"
+    },
+    "Odontophorus hyperythrus": {
+      "scientific_name": "Odontophorus hyperythrus",
+      "english_name": "Chestnut Wood Quail",
+      "inat_sightings": 156,
+      "xeno_canto_recordings": 39,
+      "description": "El corcovado castaño o perdiz colorada (Odontophorus hyperythrus)​​ es una especie de ave galliforme de la familia Odontophoridae endémica de Colombia.​",
+      "description_source": "Wikipedia ES",
+      "conservation_status": {
+        "code": "NT",
+        "label_es": "Casi amenazada",
+        "label_en": "Near Threatened"
+      },
+      "taxonomy": {
+        "kingdom": "Animalia",
+        "phylum": "Chordata",
+        "class": "Aves",
+        "order": "Galliformes",
+        "family": "Odontophoridae",
+        "genus": "Odontophorus",
+        "species": "hyperythrus"
+      },
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Chestnut_wood_quail_%28Odontophorus_hyperythrus%29.jpg/960px-Chestnut_wood_quail_%28Odontophorus_hyperythrus%29.jpg",
+      "info_url": "https://es.wikipedia.org/wiki/Odontophorus_hyperythrus"
+    },
+    "Ognorhynchus icterotis": {
+      "scientific_name": "Ognorhynchus icterotis",
+      "english_name": "Yellow-eared Parrot",
+      "inat_sightings": 175,
+      "xeno_canto_recordings": 58,
+      "description": "El loro orejiamarillo, aratinga orejigualda o periquito orejiamarillo (Ognorhynchus icterotis) es una especie de ave psitaciforme de la familia de los loros (Psittacidae). Es endémica de los Andes de Colombia, entre los 1.200 y 3500 m de altitud.​ Está en peligro de extinción. Se encuentra en los bosques andinos húmedos de Colombia, principalmente en los sitios donde crece la palma de cera, que le brinda refugio, nidos y frutos para alimentarse.",
+      "description_source": "Wikipedia ES",
+      "conservation_status": {
+        "code": "VU",
+        "label_es": "Vulnerable",
+        "label_en": "Vulnerable"
+      },
+      "taxonomy": {
+        "kingdom": "Animalia",
+        "phylum": "Chordata",
+        "class": "Aves",
+        "order": "Psittaciformes",
+        "family": "Psittacidae",
+        "genus": "Ognorhynchus",
+        "species": "icterotis"
+      },
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/2/25/Ognorhynchus_icterotis_-Colombia-8.jpg",
+      "info_url": "https://es.wikipedia.org/wiki/Ognorhynchus_icterotis"
+    },
+    "Ortalis columbiana": {
+      "scientific_name": "Ortalis columbiana",
+      "english_name": "Colombian Chachalaca",
+      "inat_sightings": 2654,
+      "xeno_canto_recordings": 60,
+      "description": "La chachalaca colombiana o guacharaca colombiana​ (Ortalis columbiana) es una especie de ave crácida del género Ortalis. Es una de las especies endémicas más carismáticas de Colombia, donde habita en bosques del norte, centro y oeste de ese país sudamericano, siempre al oeste de los Andes. Fue considerada como una subespecie de Ortalis guttata, pero a la luz de diferencias vocales, morfológicas y consideraciones biogeográficas, en una mejor aproximación hacia el concepto de especie biológica, y teniendo en consideración las formas prevalecientes en la constitución de los límites entre el resto de las especies del género (del cual se postuló q",
+      "description_source": "Wikipedia ES",
+      "conservation_status": {
+        "code": "LC",
+        "label_es": "Preocupación menor",
+        "label_en": "Least Concern"
+      },
+      "taxonomy": {
+        "kingdom": "Animalia",
+        "phylum": "Chordata",
+        "class": "Aves",
+        "order": "Galliformes",
+        "family": "Cracidae",
+        "genus": "Ortalis",
+        "species": "columbiana"
+      },
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Ortalis_columbiana_Guacharaca_colombiana_Colombian_Chachalaca_%2815517188011%29.jpg/960px-Ortalis_columbiana_Guacharaca_colombiana_Colombian_Chachalaca_%2815517188011%29.jpg",
+      "info_url": "https://es.wikipedia.org/wiki/Ortalis_columbiana"
+    },
+    "Patagioenas subvinacea": {
+      "scientific_name": "Patagioenas subvinacea",
+      "english_name": "Ruddy Pigeon",
+      "inat_sightings": 512,
+      "xeno_canto_recordings": 40,
+      "description": "La paloma vinosa,​ paloma colorada, paloma morada o paloma rojiza (Patagioenas subvinacea)​ es una especie de ave columbiforme de la familia Columbidae que vive desde el sur de Costa Rica hasta el oeste de Ecuador, Bolivia y Brasil central. Pertenece a un pequeño subgénero, Oenoenas,​ dentro de Patagioenas de aspecto bastante sencillo y con llamadas característicos.​ Al igual que los demás miembros de su género, anteriormente estaba incluida dentro del género Columba, hasta que se reconoció el género Patagioenas. La paloma vinosa mide 28 cm de largo y pesa alrededor de 170 g y es de color rosado violáceo, que se torna más rojizo en la espalda",
+      "description_source": "Wikipedia ES",
+      "conservation_status": {
+        "code": "LC",
+        "label_es": "Preocupación menor",
+        "label_en": "Least Concern"
+      },
+      "taxonomy": {
+        "kingdom": "Animalia",
+        "phylum": "Chordata",
+        "class": "Aves",
+        "order": "Columbiformes",
+        "family": "Columbidae",
+        "genus": "Patagioenas",
+        "species": "subvinacea"
+      },
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/4/44/Patagioenas_subvinacea_-NW_Ecuador-8.jpg",
+      "info_url": "https://es.wikipedia.org/wiki/Patagioenas_subvinacea"
+    },
+    "Pharomachrus auriceps": {
+      "scientific_name": "Pharomachrus auriceps",
+      "english_name": "Golden-headed Quetzal",
+      "inat_sightings": 1019,
+      "xeno_canto_recordings": 36,
+      "description": "El quetzal de cabeza dorada, viuda de la montaña, quetzal colinegro, quetzal cabeza dorada o quetzal cabecidorado (Pharomachrus auriceps) es una especie de ave de la familia de los trogones (Trogonidae), autóctona de gran parte de Sudamérica y Panamá.",
+      "description_source": "Wikipedia ES",
+      "conservation_status": {
+        "code": "LC",
+        "label_es": "Preocupación menor",
+        "label_en": "Least Concern"
+      },
+      "taxonomy": {
+        "kingdom": "Animalia",
+        "phylum": "Chordata",
+        "class": "Aves",
+        "order": "Trogoniformes",
+        "family": "Trogonidae",
+        "genus": "Pharomachrus",
+        "species": "auriceps"
+      },
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/0/02/Golden-headed_Quetzal.jpg",
+      "info_url": "https://es.wikipedia.org/wiki/Pharomachrus_auriceps"
+    },
+    "Pheugopedius mystacalis": {
+      "scientific_name": "Pheugopedius mystacalis",
+      "english_name": "Whiskered Wren",
+      "inat_sightings": 71,
+      "xeno_canto_recordings": 115,
+      "description": "El cucarachero bigotudo montano,​ cucarachero bigotudo (en Venezuela y Colombia) o soterrey bigotillo (en Ecuador) (Pheugopedius mystacalis),​ es una especie de ave paseriforme de la familia Troglodytidae perteneciente al numeroso género Pheugopedius. Es nativo de regiones montañosas y andinas del norte y noroeste de América del Sur.",
+      "description_source": "Wikipedia ES",
+      "conservation_status": {
+        "code": "LC",
+        "label_es": "Preocupación menor",
+        "label_en": "Least Concern"
+      },
+      "taxonomy": {
+        "kingdom": "Animalia",
+        "phylum": "Chordata",
+        "class": "Aves",
+        "order": "Passeriformes",
+        "family": "Troglodytidae",
+        "genus": "Pheugopedius",
+        "species": "mystacalis"
+      },
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/Pheugopedius_mystacalis_102096526.jpg/960px-Pheugopedius_mystacalis_102096526.jpg",
+      "info_url": "https://es.wikipedia.org/wiki/Pheugopedius_mystacalis"
+    },
+    "Pheugopedius sclateri": {
+      "scientific_name": "Pheugopedius sclateri",
+      "english_name": "Speckle-breasted Wren",
+      "inat_sightings": 85,
+      "xeno_canto_recordings": 37,
+      "description": "El cucarachero jaspeado​ (Pheugopedius sclateri), también denominado cucarachero de pecho jaspeado (en Perú), cucarachero barrado o cucarachero buchipecoso (en Colombia), chochín pechijaspeado o soterrey pechijaspeado (en Ecuador),​ es una especie de ave paseriforme de la familia Troglodytidae perteneciente al numeroso género Pheugopedius. Es nativo del noroeste de América del Sur.",
+      "description_source": "Wikipedia ES",
+      "conservation_status": {
+        "code": "LC",
+        "label_es": "Preocupación menor",
+        "label_en": "Least Concern"
+      },
+      "taxonomy": {
+        "kingdom": "Animalia",
+        "phylum": "Chordata",
+        "class": "Aves",
+        "order": "Passeriformes",
+        "family": "Troglodytidae",
+        "genus": "Pheugopedius",
+        "species": "sclateri"
+      },
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/2/23/Pheugopedius_sclateri_12870149.jpg",
+      "info_url": "https://es.wikipedia.org/wiki/Pheugopedius_sclateri"
+    },
+    "Pheugopedius spadix": {
+      "scientific_name": "Pheugopedius spadix",
+      "english_name": "Sooty-headed Wren",
+      "inat_sightings": 43,
+      "xeno_canto_recordings": 47,
+      "description": "El cucarachero cabecigrís,​ cucarachero cabecinegro (en Colombia) o soterrey cabecigrís (en Panamá) (Pheugopedius spadix)​ es una especie de ave paseriforme de la familia Troglodytidae perteneciente al numeroso género Pheugopedius. Es nativo del noroeste de América del Sur y extremo sureste de América Central.",
+      "description_source": "Wikipedia ES",
+      "conservation_status": {
+        "code": "LC",
+        "label_es": "Preocupación menor",
+        "label_en": "Least Concern"
+      },
+      "taxonomy": {
+        "kingdom": "Animalia",
+        "phylum": "Chordata",
+        "class": "Aves",
+        "order": "Passeriformes",
+        "family": "Troglodytidae",
+        "genus": "Pheugopedius",
+        "species": "spadix"
+      },
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Pheugopedius_spadix_249899567_%28cropped%29.jpg/960px-Pheugopedius_spadix_249899567_%28cropped%29.jpg",
+      "info_url": "https://es.wikipedia.org/wiki/Pheugopedius_spadix"
+    },
+    "Pionus menstruus": {
+      "scientific_name": "Pionus menstruus",
+      "english_name": "Blue-headed Parrot",
+      "inat_sightings": 3336,
+      "xeno_canto_recordings": 54,
+      "description": "El loro cabeciazul o Cotorra cabeciazul (Pionus menstruus) es una especie de ave psitaciforme de la familia Psittacidae endémica de regiones neotropicales. De cabeza grande y cola corta; este robusto loro suele vivir en las copas de áreas arboladas. Forma bandadas cuando no cría, y pasa la noche en grandes grupos en los árboles.",
+      "description_source": "Wikipedia ES",
+      "conservation_status": {
+        "code": "LC",
+        "label_es": "Preocupación menor",
+        "label_en": "Least Concern"
+      },
+      "taxonomy": {
+        "kingdom": "Animalia",
+        "phylum": "Chordata",
+        "class": "Aves",
+        "order": "Psittaciformes",
+        "family": "Psittacidae",
+        "genus": "Pionus",
+        "species": "menstruus"
+      },
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/2/21/Pionus_menstruus_-in_captivity.jpg",
+      "info_url": "https://es.wikipedia.org/wiki/Pionus_menstruus"
+    },
+    "Pipreola riefferii": {
+      "scientific_name": "Pipreola riefferii",
+      "english_name": "Green-and-black Fruiteater",
+      "inat_sightings": 597,
+      "xeno_canto_recordings": 51,
+      "description": "El frutero verdinegro​ (en Colombia y Ecuador) (Pipreola riefferii), también denominado frutero verde y negro (en Perú), granicera verdecita (en Venezuela) o granicera verde,​ es una especie de ave paseriforme de la familia Cotingidae perteneciente al género Pipreola. Es nativo de los Andes del noroeste de América del Sur.",
+      "description_source": "Wikipedia ES",
+      "conservation_status": {
+        "code": "LC",
+        "label_es": "Preocupación menor",
+        "label_en": "Least Concern"
+      },
+      "taxonomy": {
+        "kingdom": "Animalia",
+        "phylum": "Chordata",
+        "class": "Aves",
+        "order": "Passeriformes",
+        "family": "Cotingidae",
+        "genus": "Pipreola",
+        "species": "riefferii"
+      },
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1c/Green-and-black_Fruiteater_-_Colombia_S4E1819.jpg/960px-Green-and-black_Fruiteater_-_Colombia_S4E1819.jpg",
+      "info_url": "https://es.wikipedia.org/wiki/Pipreola_riefferii"
+    },
+    "Pitangus sulphuratus": {
+      "scientific_name": "Pitangus sulphuratus",
+      "english_name": "Great Kiskadee",
+      "inat_sightings": 74469,
+      "xeno_canto_recordings": 70,
+      "description": "El benteveo (Pitangus sulphuratus)​​​ es una especie de ave paseriforme perteneciente a la familia Tyrannidae,​ la única del género monotípico Pitangus. Mide entre 21 y 26 cm de longitud. La cabeza es grande, las alas largas y las patas cortas.",
+      "description_source": "Wikipedia ES",
+      "conservation_status": {
+        "code": "LC",
+        "label_es": "Preocupación menor",
+        "label_en": "Least Concern"
+      },
+      "taxonomy": {
+        "kingdom": "Animalia",
+        "phylum": "Chordata",
+        "class": "Aves",
+        "order": "Passeriformes",
+        "family": "Tyrannidae",
+        "genus": "Pitangus",
+        "species": "sulphuratus"
+      },
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/Great_kiskadee_%2870240%29.jpg/960px-Great_kiskadee_%2870240%29.jpg",
+      "info_url": "https://es.wikipedia.org/wiki/Pitangus_sulphuratus"
+    },
+    "Poecilotriccus sylvia": {
+      "scientific_name": "Poecilotriccus sylvia",
+      "english_name": "Slaty-headed Tody-Flycatcher",
+      "inat_sightings": 176,
+      "xeno_canto_recordings": 37,
+      "description": "El titirijí gris​ (Poecilotriccus sylvia) es una especie de ave paseriforme de la familia Tyrannidae perteneciente al género Poecilotriccus. Es nativo de México, América Central y del norte de Sudamérica.",
+      "description_source": "Wikipedia ES",
+      "conservation_status": {
+        "code": "LC",
+        "label_es": "Preocupación menor",
+        "label_en": "Least Concern"
+      },
+      "taxonomy": {
+        "kingdom": "Animalia",
+        "phylum": "Chordata",
+        "class": "Aves",
+        "order": "Passeriformes",
+        "family": "Tyrannidae o Rhynchocyclidae",
+        "genus": "Poecilotriccus",
+        "species": "sylvia"
+      },
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/Poecilotriccus_sylvia_-_Slaty-headed_tody-tyrant.JPG/960px-Poecilotriccus_sylvia_-_Slaty-headed_tody-tyrant.JPG",
+      "info_url": "https://es.wikipedia.org/wiki/Poecilotriccus_sylvia"
+    },
+    "Polioptila plumbea": {
+      "scientific_name": "Polioptila plumbea",
+      "english_name": "Tropical Gnatcatcher",
+      "inat_sightings": 1012,
+      "xeno_canto_recordings": 39,
+      "description": "La perlita tropical​ (en Perú) (Polioptila plumbea), también denominada perlita gris, curruca tropical (en Colombia) o chirito de chaparrales (en Venezuela),​ es una especie de ave paseriforme de la familia Polioptilidae perteneciente al género Polioptila; el grupo de subespecies agrupado en la perlita cejiancha (Polioptila bilineata) fue separado de la presente en 2021,​ así como también la perlita del Marañón (Polioptila maior).​ Es nativa del norte, noroeste y este de América del Sur.",
+      "description_source": "Wikipedia ES",
+      "conservation_status": {
+        "code": "LC",
+        "label_es": "Preocupación menor",
+        "label_en": "Least Concern"
+      },
+      "taxonomy": {
+        "kingdom": "Animalia",
+        "phylum": "Chordata",
+        "class": "Aves",
+        "order": "Passeriformes",
+        "family": "Polioptilidae",
+        "genus": "Polioptila",
+        "species": "plumbea"
+      },
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Tropical_Gnatcatcher_Annai_march_2015_%2816654698237%29.jpg/960px-Tropical_Gnatcatcher_Annai_march_2015_%2816654698237%29.jpg",
+      "info_url": "https://es.wikipedia.org/wiki/Polioptila_plumbea"
+    },
+    "Psarocolius angustifrons": {
+      "scientific_name": "Psarocolius angustifrons",
+      "english_name": "Russet-backed Oropendola",
+      "inat_sightings": 2436,
+      "xeno_canto_recordings": 46,
+      "description": "El cacique dorsirrufo (Psarocolius angustifrons),​ también denominado oropéndola variable, oropéndola dorsirrojiza y conoto aceituno,​ es una especie de ave paseriforme de la familia Icteridae que vive en el noroeste de Sudamérica. Se extiende por la Amazonía occidental y las selvas de tierras altas del norte y centro de los Andes y la cordillera de la costa venezolana.",
+      "description_source": "Wikipedia ES",
+      "conservation_status": {
+        "code": "LC",
+        "label_es": "Preocupación menor",
+        "label_en": "Least Concern"
+      },
+      "taxonomy": {
+        "kingdom": "Animalia",
+        "phylum": "Chordata",
+        "class": "Aves",
+        "order": "Passeriformes",
+        "family": "Icteridae",
+        "genus": "Psarocolius",
+        "species": "angustifrons"
+      },
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/Psarocolius_angustifrons_-Aragua_State_-Venezuela-8b.jpg/960px-Psarocolius_angustifrons_-Aragua_State_-Venezuela-8b.jpg",
+      "info_url": "https://es.wikipedia.org/wiki/Psarocolius_angustifrons"
+    },
+    "Psittacara wagleri": {
+      "scientific_name": "Psittacara wagleri",
+      "english_name": "Scarlet-fronted Parakeet",
+      "inat_sightings": 484,
+      "xeno_canto_recordings": 47,
+      "description": "El perico de frente escarlata (Psittacara wagleri), también conocido como aratinga de Wagler,​ perico frentirrojo, periquito de frente roja o chacaraco,​ es una especie de ave sudamericana del género Psittacara, de la familia de los loros (Psittacidae), que se distribuye por Venezuela, Colombia, Ecuador y Perú. En quechua ancashino, reciben el nombre de qaqchu.en el departamento del Huila, en Colombia son conocidos como Catarnica.",
+      "description_source": "Wikipedia ES",
+      "conservation_status": {
+        "code": "NT",
+        "label_es": "Casi amenazada",
+        "label_en": "Near Threatened"
+      },
+      "taxonomy": {
+        "kingdom": "Animalia",
+        "phylum": "Chordata",
+        "class": "Aves",
+        "order": "Psittaciformes",
+        "family": "Psittacidae",
+        "genus": "Psittacara",
+        "species": "wagleri"
+      },
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/8/8f/Aratinga_wagleri_-Jurong_BirdPark-4.jpg",
+      "info_url": "https://es.wikipedia.org/wiki/Psittacara_wagleri"
+    },
+    "Pyrrhomyias cinnamomeus": {
+      "scientific_name": "Pyrrhomyias cinnamomeus",
+      "english_name": "Cinnamon Flycatcher",
+      "inat_sightings": 1882,
+      "xeno_canto_recordings": 72,
+      "description": "El birro chico​ (en Argentina) (Pyrrhomyias cinnamomeus), también denominado atrapamoscas canela o canelo (en Colombia), atrapamoscas acanelado (en Venezuela) o mosquerito canela o canelo (en Perú y Ecuador),​ es una especie de ave paseriforme de la familia Tyrannidae, la única del género monotípico Pyrrhomyias. Es nativo de regiones andinas y montañosas adyacentes de América del Sur.",
+      "description_source": "Wikipedia ES",
+      "conservation_status": {
+        "code": "LC",
+        "label_es": "Preocupación menor",
+        "label_en": "Least Concern"
+      },
+      "taxonomy": {
+        "kingdom": "Animalia",
+        "phylum": "Chordata",
+        "class": "Aves",
+        "order": "Passeriformes",
+        "family": "Tyrannidae",
+        "genus": "Pyrrhomyias",
+        "species": "cinnamomeus"
+      },
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/5/52/Cinnamon_Flycatcher_-_Colombia_S4E9442_%2816872325001%29.jpg",
+      "info_url": "https://es.wikipedia.org/wiki/Pyrrhomyias_cinnamomeus"
+    },
+    "Rallus semiplumbeus": {
+      "scientific_name": "Rallus semiplumbeus",
+      "english_name": "Bogota Rail",
+      "inat_sightings": 159,
+      "xeno_canto_recordings": 47,
+      "description": "La tingua bogotana o rascón andino (Rallus semiplumbeus) es una especie de ave gruiforme de la familia Rallidae endémica de la Cordillera Oriental de Colombia, donde vive en pantanos y humedales entre los 2000 y 4000 m de altitud. Está amenazada por la destrucción de hábitat.​",
+      "description_source": "Wikipedia ES",
+      "conservation_status": {
+        "code": "VU",
+        "label_es": "Vulnerable",
+        "label_en": "Vulnerable"
+      },
+      "taxonomy": {
+        "kingdom": "Animalia",
+        "phylum": "Chordata",
+        "class": "Aves",
+        "order": "Gruiformes",
+        "family": "Rallidae",
+        "genus": "Rallus",
+        "species": "semiplumbeus"
+      },
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Rallus_semiplumbeus.jpg/960px-Rallus_semiplumbeus.jpg",
+      "info_url": "https://es.wikipedia.org/wiki/Rallus_semiplumbeus"
+    },
+    "Ramphocaenus melanurus": {
+      "scientific_name": "Ramphocaenus melanurus",
+      "english_name": "Trilling Gnatwren",
+      "inat_sightings": 611,
+      "xeno_canto_recordings": 48,
+      "description": "El soterillo picudo​ (Ramphocaenus melanurus) es una especie de ave paseriforme perteneciente a la familia Polioptilidae. Anteriormente se consideraba la única especie del género Ramphocaenus, hasta que se escindió el soterillo parloteador (Ramphocaenus sticturus). Es nativo de la América tropical (Neotrópico), donde se encuentra distribuido desde el sur de México hasta el sureste de Brasil y norte de Bolivia.​",
+      "description_source": "Wikipedia ES",
+      "conservation_status": {
+        "code": "LC",
+        "label_es": "Preocupación menor",
+        "label_en": "Least Concern"
+      },
+      "taxonomy": {
+        "kingdom": "Animalia",
+        "phylum": "Chordata",
+        "class": "Aves",
+        "order": "Passeriformes",
+        "family": "Polioptilidae",
+        "genus": "Ramphocaenus",
+        "species": "melanurus"
+      },
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/Ramphocaenus_melanurus_-_Miguel_-_569295463.jpeg/960px-Ramphocaenus_melanurus_-_Miguel_-_569295463.jpeg",
+      "info_url": "https://es.wikipedia.org/wiki/Ramphocaenus_melanurus"
+    },
+    "Rhodinocichla rosea": {
+      "scientific_name": "Rhodinocichla rosea",
+      "english_name": "Rosy Thrush-tanager",
+      "inat_sightings": 294,
+      "xeno_canto_recordings": 41,
+      "description": "La tangara rosada​ (Rhodinocichla rosea) es una especie de ave paseriforme, la única del género Rhodinocichla y de la familia Rhodinocichlidae, anteriormente situada en Thraupidae.​ Se distribuye en dos grupos de poblaciones separados: uno en el noroeste de México y otro desde Costa Rica hasta el norte de América del Sur.",
+      "description_source": "Wikipedia ES",
+      "conservation_status": {
+        "code": "LC",
+        "label_es": "Preocupación menor",
+        "label_en": "Least Concern"
+      },
+      "taxonomy": {
+        "kingdom": "Animalia",
+        "phylum": "Chordata",
+        "class": "Aves",
+        "order": "Passeriformes",
+        "family": "'''Rhodinocichlidae'''",
+        "genus": "Rhodinocichla",
+        "species": "rosea"
+      },
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/8/8e/Rhodinocichla_rosea.jpg",
+      "info_url": "https://es.wikipedia.org/wiki/Rhodinocichla_rosea"
+    },
+    "Rupornis magnirostris": {
+      "scientific_name": "Rupornis magnirostris",
+      "english_name": "Roadside Hawk",
+      "inat_sightings": 32636,
+      "xeno_canto_recordings": 93,
+      "description": "El gavilán pollero (Rupornis magnirostris), también conocido como aguilucho de ala rojiza, gavilán caminero, taguato común o Pupa; y también como aguililla caminera, busardo caminero, gavilán chapulinero, chuubi o guío, ​ es una especie de ave accipitriforme de la familia Accipitridae (milanos, aguilillas, gavilanes y águilas,​). Es a veces colocado en el género Buteo en vez de Rupornis.​ Es autóctona de la Región Neotropical, encontrándose desde el sur de México hasta Uruguay.​ Mide aproximadamente 35 cm y pesa alrededor de 295 g. Se alimenta de insectos, pequeños mamíferos y pequeños reptiles.",
+      "description_source": "Wikipedia ES",
+      "conservation_status": {
+        "code": "LC",
+        "label_es": "Preocupación menor",
+        "label_en": "Least Concern"
+      },
+      "taxonomy": {
+        "kingdom": "Animalia",
+        "phylum": "Chordata",
+        "class": "Aves",
+        "order": "Accipitriformes",
+        "family": "Accipitridae",
+        "genus": "Rupornis",
+        "species": "magnirostris"
+      },
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Buteo_magnirostris_-Goias_-Brazil-8.jpg/960px-Buteo_magnirostris_-Goias_-Brazil-8.jpg",
+      "info_url": "https://es.wikipedia.org/wiki/Rupornis_magnirostris"
+    },
+    "Sakesphorus canadensis": {
+      "scientific_name": "Sakesphorus canadensis",
+      "english_name": "Black-crested Antshrike",
+      "inat_sightings": 657,
+      "xeno_canto_recordings": 39,
+      "description": "El batará crestinegro​ (Sakesphorus canadensis), también denominado batará de cresta negra (en Perú), batará copetón (en Colombia) , hormiguero copetón (en Venezuela) o batará del Canadá ,​ es una especie de ave paseriforme de la familia Thamnophilidae perteneciente al género Sakesphorus. Vive y se reproduce en la zona tropical de Sudamérica.",
+      "description_source": "Wikipedia ES",
+      "conservation_status": {
+        "code": "LC",
+        "label_es": "Preocupación menor",
+        "label_en": "Least Concern"
+      },
+      "taxonomy": {
+        "kingdom": "Animalia",
+        "phylum": "Chordata",
+        "class": "Aves",
+        "order": "Passeriformes",
+        "family": "Thamnophilidae",
+        "genus": "Sakesphorus",
+        "species": "canadensis"
+      },
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Black-crested_Antshrike_male.jpg/960px-Black-crested_Antshrike_male.jpg",
+      "info_url": "https://es.wikipedia.org/wiki/Sakesphorus_canadensis"
+    },
+    "Saltator striatipectus": {
+      "scientific_name": "Saltator striatipectus",
+      "english_name": "Streaked Saltator",
+      "inat_sightings": 2426,
+      "xeno_canto_recordings": 75,
+      "description": "El pepitero listado​ (Saltator striatipectus), también conocido como saltador listado (en Panamá, Ecuador y Costa Rica), saltador rayado (en Perú), saltador pío-judío (en Colombia) o lechosero pechirrayado (en Venezuela),​ es una especie de ave paseriforme de la familia Thraupidae perteneciente al numeroso género Saltator, anteriormente colocada en la familia Cardinalidae. Es nativo del este de América Central, del norte y oeste de América del Sur y de Trinidad y Tobago.",
+      "description_source": "Wikipedia ES",
+      "conservation_status": {
+        "code": "LC",
+        "label_es": "Preocupación menor",
+        "label_en": "Least Concern"
+      },
+      "taxonomy": {
+        "kingdom": "Animalia",
+        "phylum": "Chordata",
+        "class": "Aves",
+        "order": "Passeriformes",
+        "family": "Thraupidae",
+        "genus": "Saltator",
+        "species": "striatipectus"
+      },
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/Saltator_striatipectus_-Manizales%2C_Caldas%2C_Colombia-8_%281%29.jpg/960px-Saltator_striatipectus_-Manizales%2C_Caldas%2C_Colombia-8_%281%29.jpg",
+      "info_url": "https://es.wikipedia.org/wiki/Saltator_striatipectus"
+    },
+    "Scytalopus alvarezlopezi": {
+      "scientific_name": "Scytalopus alvarezlopezi",
+      "english_name": "Tatama Tapaculo",
+      "inat_sightings": 17,
+      "xeno_canto_recordings": 36,
+      "description": "El churrín de Tatamá (Scytalopus alvarezlopezi), también denominado tapaculo de Alto Pisones,​ es una especie de ave paseriforme de la familia Rhinocryptidae perteneciente al numeroso género Scytalopus. Es endémico de la pendiente del Pacífico de los Andes de Colombia. Fue recientemente descrito para la ciencia, en 2017.​",
+      "description_source": "Wikipedia ES",
+      "conservation_status": {
+        "code": "NT",
+        "label_es": "Casi amenazada",
+        "label_en": "Near Threatened"
+      },
+      "taxonomy": {
+        "kingdom": "Animalia",
+        "phylum": "Chordata",
+        "class": "Aves",
+        "order": "Passeriformes",
+        "family": "Rhinocryptidae",
+        "genus": "Scytalopus",
+        "species": "alvarezlopezi"
+      },
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/Scytalopus_alvarezlopezi_-_Tatama_Tapaculo%3B_Tatama_Reserve%2C_Pueblo_Rico%2C_Risaralda%2C_Colombia.jpg/960px-Scytalopus_alvarezlopezi_-_Tatama_Tapaculo%3B_Tatama_Reserve%2C_Pueblo_Rico%2C_Risaralda%2C_Colombia.jpg",
+      "info_url": "https://es.wikipedia.org/wiki/Scytalopus_alvarezlopezi"
+    },
+    "Scytalopus atratus": {
+      "scientific_name": "Scytalopus atratus",
+      "english_name": "White-crowned Tapaculo",
+      "inat_sightings": 37,
+      "xeno_canto_recordings": 36,
+      "description": "El churrín coroniblanco​ (Scytalopus atratus), también denominado churrín de corona blanca, tapaculo de corona blanca (en Perú), tapaculo cabeziblanco (en Colombia) o pájaro ratón de corona blanca (en Venezuela),​ es una especie de ave paseriforme perteneciente al numeroso género Scytalopus de la familia Rhinocryptidae. Es nativa de los Andes del noroeste y oeste de América del Sur.",
+      "description_source": "Wikipedia ES",
+      "conservation_status": {
+        "code": "LC",
+        "label_es": "Preocupación menor",
+        "label_en": "Least Concern"
+      },
+      "taxonomy": {
+        "kingdom": "Animalia",
+        "phylum": "Chordata",
+        "class": "Aves",
+        "order": "Passeriformes",
+        "family": "Rhinocryptidae",
+        "genus": "Scytalopus",
+        "species": "atratus"
+      },
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/3/31/Scytalopus_atratus_168095436_%28cropped%29.jpg",
+      "info_url": "https://es.wikipedia.org/wiki/Scytalopus_atratus"
+    },
+    "Scytalopus griseicollis": {
+      "scientific_name": "Scytalopus griseicollis",
+      "english_name": "Pale-bellied Tapaculo",
+      "inat_sightings": 32,
+      "xeno_canto_recordings": 83,
+      "description": "El churrín de matorral​ (Scytalopus griseicollis), también denominado tapaculo andino (en Colombia) o pájaro ratón oscuro (en Venezuela),​ es una especie de ave paseriforme perteneciente al numeroso género Scytalopus de la familia Rhinocryptidae. Es nativo de los Andes del noroeste de América del Sur.",
+      "description_source": "Wikipedia ES",
+      "conservation_status": {
+        "code": "LC",
+        "label_es": "Preocupación menor",
+        "label_en": "Least Concern"
+      },
+      "taxonomy": {
+        "kingdom": "Animalia",
+        "phylum": "Chordata",
+        "class": "Aves",
+        "order": "Passeriformes",
+        "family": "Rhinocryptidae",
+        "genus": "Scytalopus",
+        "species": "griseicollis"
+      },
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/5/58/Scytalopus_griseicollis_morenoi_%2826041459182%29.jpg",
+      "info_url": "https://es.wikipedia.org/wiki/Scytalopus_griseicollis"
+    },
+    "Scytalopus latebricola": {
+      "scientific_name": "Scytalopus latebricola",
+      "english_name": "Brown-rumped Tapaculo",
+      "inat_sightings": 8,
+      "xeno_canto_recordings": 37,
+      "description": "El churrín ratona​ o tapaculo ratón (Scytalopus latebricola), también denominado tapacola lomipardo,​ es una especie de ave paseriforme de la familia Rhinocryptidae perteneciente al numeroso género Scytalopus. Es endémico de Colombia.",
+      "description_source": "Wikipedia ES",
+      "conservation_status": {
+        "code": "NT",
+        "label_es": "Casi amenazada",
+        "label_en": "Near Threatened"
+      },
+      "taxonomy": {
+        "kingdom": "Animalia",
+        "phylum": "Chordata",
+        "class": "Aves",
+        "order": "Passeriformes",
+        "family": "Rhinocryptidae",
+        "genus": "Scytalopus",
+        "species": "latebricola"
+      },
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/Scytalopus_latebricola.jpg/960px-Scytalopus_latebricola.jpg",
+      "info_url": "https://es.wikipedia.org/wiki/Scytalopus_latebricola"
+    },
+    "Scytalopus latrans": {
+      "scientific_name": "Scytalopus latrans",
+      "english_name": "Blackish Tapaculo",
+      "inat_sightings": 53,
+      "xeno_canto_recordings": 86,
+      "description": "El churrín negruzco​ (Scytalopus latrans), también denominado tapaculo negruzco (en Colombia y Perú), pájaro ratón negruzco (en Venezuela),​ lobito chico o surero,​ es una especie de ave paseriforme de la familia Rhinocryptidae perteneciente al numeroso género Scytalopus; el churrín de Utcubamba (Scytalopus intermedius), era considerado una subespecie de la presente, hasta el año 2020, en que fue separado. Es nativo de regiones andinas del noroeste de América del Sur.",
+      "description_source": "Wikipedia ES",
+      "conservation_status": {
+        "code": "LC",
+        "label_es": "Preocupación menor",
+        "label_en": "Least Concern"
+      },
+      "taxonomy": {
+        "kingdom": "Animalia",
+        "phylum": "Chordata",
+        "class": "Aves",
+        "order": "Passeriformes",
+        "family": "Rhinocryptidae",
+        "genus": "Scytalopus",
+        "species": "latrans"
+      },
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Scytalopus_latrans_-NBII_Image_Gallery-a00273.jpg/960px-Scytalopus_latrans_-NBII_Image_Gallery-a00273.jpg",
+      "info_url": "https://es.wikipedia.org/wiki/Scytalopus_latrans"
+    },
+    "Scytalopus spillmanni": {
+      "scientific_name": "Scytalopus spillmanni",
+      "english_name": "Spillmann's Tapaculo",
+      "inat_sightings": 25,
+      "xeno_canto_recordings": 69,
+      "description": "El churrín de Spillmann​ o tapaculo de Spillmann (Scytalopus spillmanni),​ es una especie de ave paseriforme perteneciente al numeroso género Scytalopus de la familia Rhinocryptidae. Es nativo de los Andes del noroeste de América del Sur.",
+      "description_source": "Wikipedia ES",
+      "conservation_status": {
+        "code": "LC",
+        "label_es": "Preocupación menor",
+        "label_en": "Least Concern"
+      },
+      "taxonomy": {
+        "kingdom": "Animalia",
+        "phylum": "Chordata",
+        "class": "Aves",
+        "order": "Passeriformes",
+        "family": "Rhinocryptidae",
+        "genus": "Scytalopus",
+        "species": "spillmanni"
+      },
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/Scytalopus_spillmanni_map.svg/960px-Scytalopus_spillmanni_map.svg.png",
+      "info_url": "https://es.wikipedia.org/wiki/Scytalopus_spillmanni"
+    },
+    "Sipia palliata": {
+      "scientific_name": "Sipia palliata",
+      "english_name": "Magdalena Antbird",
+      "inat_sightings": 12,
+      "xeno_canto_recordings": 39,
+      "description": "El hormiguero de Magdalena (Sipia palliata), también denominado hormiguero alimanchado (en Colombia)​ u hormiguero guardarribera oriental,​ es una especie de ave paseriforme de la familia Thamnophilidae perteneciente al género Sipia. Anteriormente formaba parte del amplio género Myrmeciza, de donde fue separada recientemente, en 2013.​ Es nativa del noroeste de América del Sur.",
+      "description_source": "Wikipedia ES",
+      "conservation_status": {
+        "code": "NT",
+        "label_es": "Casi amenazada",
+        "label_en": "Near Threatened"
+      },
+      "taxonomy": {
+        "kingdom": "Animalia",
+        "phylum": "Chordata",
+        "class": "Aves",
+        "order": "Passeriformes",
+        "family": "Thamnophilidae",
+        "genus": "Sipia",
+        "species": "palliata"
+      },
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Magdalena_Antbird.jpg/960px-Magdalena_Antbird.jpg",
+      "info_url": "https://es.wikipedia.org/wiki/Sipia_palliata"
+    },
+    "Sporophila nigricollis": {
+      "scientific_name": "Sporophila nigricollis",
+      "english_name": "Yellow-bellied Seedeater",
+      "inat_sightings": 4266,
+      "xeno_canto_recordings": 49,
+      "description": "El semillero ventriamarillo​ o espiguero vientriamarillo (Sporophila nigricollis), es una especie de ave paseriforme de la familia Thraupidae perteneciente al numeroso género Sporophila. Es nativo de América del Sur y Central, y de las Antillas menores.",
+      "description_source": "Wikipedia ES",
+      "conservation_status": {
+        "code": "LC",
+        "label_es": "Preocupación menor",
+        "label_en": "Least Concern"
+      },
+      "taxonomy": {
+        "kingdom": "Animalia",
+        "phylum": "Chordata",
+        "class": "Aves",
+        "order": "Passeriformes",
+        "family": "Thraupidae",
+        "genus": "Sporophila",
+        "species": "nigricollis"
+      },
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/7/7b/Sporophila_nigricollis_%28male%29_-NW_Ecuador.jpg",
+      "info_url": "https://es.wikipedia.org/wiki/Sporophila_nigricollis"
+    },
+    "Synallaxis albescens": {
+      "scientific_name": "Synallaxis albescens",
+      "english_name": "Pale-breasted Spinetail",
+      "inat_sightings": 845,
+      "xeno_canto_recordings": 78,
+      "description": "El pijuí pechiblanco (Synallaxis albescens),​ es una especie de ave paseriforme de la familia Furnariidae perteneciente al numeroso género Synallaxis. Es nativa de Centro y Sudamérica, desde Costa Rica hasta Uruguay y Argentina, y en la isla Trinidad.",
+      "description_source": "Wikipedia ES",
+      "conservation_status": {
+        "code": "LC",
+        "label_es": "Preocupación menor",
+        "label_en": "Least Concern"
+      },
+      "taxonomy": {
+        "kingdom": "Animalia",
+        "phylum": "Chordata",
+        "class": "Aves",
+        "order": "Passeriformes",
+        "family": "Furnariidae",
+        "genus": "Synallaxis",
+        "species": "albescens"
+      },
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Synallaxis_albescens_-Piraju%2C_Sao_Paulo%2C_Brazil-8.jpg/960px-Synallaxis_albescens_-Piraju%2C_Sao_Paulo%2C_Brazil-8.jpg",
+      "info_url": "https://es.wikipedia.org/wiki/Synallaxis_albescens"
+    },
+    "Synallaxis azarae": {
+      "scientific_name": "Synallaxis azarae",
+      "english_name": "Azara's Spinetail",
+      "inat_sightings": 525,
+      "xeno_canto_recordings": 96,
+      "description": "El pijuí de Azara​ (Synallaxis azarae), también denominado chamicero piscuís (en Colombia), pijuí de ceja canela (en Argentina), cola-espina de Azara (en Perú) o güitío de Azara (en Venezuela),​ es una especie de ave paseriforme de la familia Furnariidae perteneciente al numeroso género Synallaxis. Es nativa de la región andina de Sudamérica.",
+      "description_source": "Wikipedia ES",
+      "conservation_status": {
+        "code": "LC",
+        "label_es": "Preocupación menor",
+        "label_en": "Least Concern"
+      },
+      "taxonomy": {
+        "kingdom": "Animalia",
+        "phylum": "Chordata",
+        "class": "Aves",
+        "order": "Passeriformes",
+        "family": "Furnariidae",
+        "genus": "Synallaxis",
+        "species": "azarae"
+      },
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Synallaxis_azarae_76608368.jpg/960px-Synallaxis_azarae_76608368.jpg",
+      "info_url": "https://es.wikipedia.org/wiki/Synallaxis_azarae"
+    },
+    "Synallaxis subpudica": {
+      "scientific_name": "Synallaxis subpudica",
+      "english_name": "Silvery-throated Spinetail",
+      "inat_sightings": 122,
+      "xeno_canto_recordings": 36,
+      "description": "El pijuí de Cundinamarca​ (Synallaxis subpudica), también denominado chamicero cundiboyacense, pijuí de garganta plateada o rastrojero rabilargo,​ es una especie de ave paseriforme de la familia Furnariidae perteneciente al numeroso género Synallaxis. Es endémica de Colombia.",
+      "description_source": "Wikipedia ES",
+      "conservation_status": {
+        "code": "LC",
+        "label_es": "Preocupación menor",
+        "label_en": "Least Concern"
+      },
+      "taxonomy": {
+        "kingdom": "Animalia",
+        "phylum": "Chordata",
+        "class": "Aves",
+        "order": "Passeriformes",
+        "family": "Furnariidae",
+        "genus": "Synallaxis",
+        "species": "subpudica"
+      },
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Synallaxis_subpudica_-_Silvery-throated_Spinetail.jpg/960px-Synallaxis_subpudica_-_Silvery-throated_Spinetail.jpg",
+      "info_url": "https://es.wikipedia.org/wiki/Synallaxis_subpudica"
+    },
+    "Synallaxis unirufa": {
+      "scientific_name": "Synallaxis unirufa",
+      "english_name": "Rufous Spinetail",
+      "inat_sightings": 71,
+      "xeno_canto_recordings": 44,
+      "description": "El pijuí rufo​ (Synallaxis unirufa), también denominado güitío rufo (en Venezuela), chamicero o rastrojero de antifaz (en Colombia), cola-espina rufo (en Perú) o colaespina rufa (en Ecuador),​ es una especie de ave paseriforme de la familia Furnariidae perteneciente al numeroso género Synallaxis. Es nativa de la región andina del noroeste y oeste de Sudamérica.",
+      "description_source": "Wikipedia ES",
+      "conservation_status": {
+        "code": "LC",
+        "label_es": "Preocupación menor",
+        "label_en": "Least Concern"
+      },
+      "taxonomy": {
+        "kingdom": "Animalia",
+        "phylum": "Chordata",
+        "class": "Aves",
+        "order": "Passeriformes",
+        "family": "Furnariidae",
+        "genus": "Synallaxis",
+        "species": "unirufa"
+      },
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/Synallaxis_unirufa_Chamicero_de_antifaz_Rufous_Spinetail_%288442244746%29.jpg/960px-Synallaxis_unirufa_Chamicero_de_antifaz_Rufous_Spinetail_%288442244746%29.jpg",
+      "info_url": "https://es.wikipedia.org/wiki/Synallaxis_unirufa"
+    },
+    "Thamnophilus atrinucha": {
+      "scientific_name": "Thamnophilus atrinucha",
+      "english_name": "Black-crowned Antshrike",
+      "inat_sightings": 1556,
+      "xeno_canto_recordings": 38,
+      "description": "El batará pizarroso occidental​ (Thamnophilus atrinucha), también conocido como tiojorita pintada (en Venezuela),​ batará occidental (en Colombia), batará plomizo (en Nicaragua), hormiguero plomizo (en Nicaragua) o batará de corona negra (en Perú),​ es una especie de ave paseriforme de la familia Thamnophilidae perteneciente al numeroso género Thamnophilus. Es nativo de América Central y del noroeste de Sudamérica.",
+      "description_source": "Wikipedia ES",
+      "conservation_status": {
+        "code": "LC",
+        "label_es": "Preocupación menor",
+        "label_en": "Least Concern"
+      },
+      "taxonomy": {
+        "kingdom": "Animalia",
+        "phylum": "Chordata",
+        "class": "Aves",
+        "order": "Passeriformes",
+        "family": "Thamnophilidae",
+        "genus": "Thamnophilus",
+        "species": "atrinucha"
+      },
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Western_Slaty_Antshrike_-_Bonaventura_Lodge_S4E8427_%2816797228026%29.jpg/960px-Western_Slaty_Antshrike_-_Bonaventura_Lodge_S4E8427_%2816797228026%29.jpg",
+      "info_url": "https://es.wikipedia.org/wiki/Thamnophilus_atrinucha"
+    },
+    "Thamnophilus multistriatus": {
+      "scientific_name": "Thamnophilus multistriatus",
+      "english_name": "Bar-crested Antshrike",
+      "inat_sightings": 960,
+      "xeno_canto_recordings": 69,
+      "description": "El batará crestibarrado​ (Thamnophilus multistriatus), también denominado batará carcajada (en Colombia), pavita hormiguera coronipintada u hormiguero espalda negra (en Venezuela) o choca de corona pintada,​ es una especie de ave paseriforme de la familia Thamnophilidae perteneciente al numeroso género Thamnophilus. Es nativo de la región andina del noroeste de América del Sur.",
+      "description_source": "Wikipedia ES",
+      "conservation_status": {
+        "code": "LC",
+        "label_es": "Preocupación menor",
+        "label_en": "Least Concern"
+      },
+      "taxonomy": {
+        "kingdom": "Animalia",
+        "phylum": "Chordata",
+        "class": "Aves",
+        "order": "Passeriformes",
+        "family": "Thamnophilidae",
+        "genus": "Thamnophilus",
+        "species": "multistriatus"
+      },
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/d/d7/Bar-crested_Antshrike_-_Colombia_S4E9188_%2816203168903%29.jpg",
+      "info_url": "https://es.wikipedia.org/wiki/Thamnophilus_multistriatus"
+    },
+    "Thraupis episcopus": {
+      "scientific_name": "Thraupis episcopus",
+      "english_name": "Blue-grey Tanager",
+      "inat_sightings": 26140,
+      "xeno_canto_recordings": 40,
+      "description": "La tangara azuleja​ (en Costa Rica, Panamá y Perú) (Thraupis episcopus) también denominada tángara azulada (en Nicaragua), azulejo de jardín (en Venezuela), azulejo común (en Colombia), tangara azulgrís (en México), simplemente azulejo (en Honduras y Ecuador), viudita (en Costa Rica),​ sui sui o suy suy (en la Amazonía peruana),​ es una especie de ave paseriforme de la familia Thraupidae, perteneciente al género Thraupis. Es nativa de México, América Central y del centro norte de América del Sur.",
+      "description_source": "Wikipedia ES",
+      "conservation_status": {
+        "code": "LC",
+        "label_es": "Preocupación menor",
+        "label_en": "Least Concern"
+      },
+      "taxonomy": {
+        "kingdom": "Animalia",
+        "phylum": "Chordata",
+        "class": "Aves",
+        "order": "Passeriformes",
+        "family": "Thraupidae",
+        "genus": "Thraupis",
+        "species": "episcopus"
+      },
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Blue-gray_Tanager_%2845494712395%29.jpg/960px-Blue-gray_Tanager_%2845494712395%29.jpg",
+      "info_url": "https://es.wikipedia.org/wiki/Thraupis_episcopus"
+    },
+    "Thryophilus nicefori": {
+      "scientific_name": "Thryophilus nicefori",
+      "english_name": "Niceforo's Wren",
+      "inat_sightings": 35,
+      "xeno_canto_recordings": 51,
+      "description": "El cucarachero de Nicéforo,​ cucarachero del Chicamocha o ratona de Nicéforo​ (Thryophilus nicefori) es una especie de ave paseriforme de la familia Troglodytidae perteneciente al género Thryophilus. Es endémica de Colombia y se encuentra críticamente amenazada de extinción.​",
+      "description_source": "Wikipedia ES",
+      "conservation_status": {
+        "code": "CR",
+        "label_es": "En peligro crítico",
+        "label_en": "Critically Endangered"
+      },
+      "taxonomy": {
+        "kingdom": "Animalia",
+        "phylum": "Chordata",
+        "class": "Aves",
+        "order": "Passeriformes",
+        "family": "Troglodytidae",
+        "genus": "Thryophilus",
+        "species": "nicefori"
+      },
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/Niceforo%27s_Wren.jpg/960px-Niceforo%27s_Wren.jpg",
+      "info_url": "https://es.wikipedia.org/wiki/Thryophilus_nicefori"
+    },
+    "Thryophilus sernai": {
+      "scientific_name": "Thryophilus sernai",
+      "english_name": "Antioquia Wren",
+      "inat_sightings": 29,
+      "xeno_canto_recordings": 42,
+      "description": "El cucarachero de Antioquia, cucarachero antioqueño o cucarachero paisa (Thryophilus sernai)​ es una especie de ave paseriforme de la familia Troglodytidae perteneciente al género Thryophilus. Es endémica de Colombia.",
+      "description_source": "Wikipedia ES",
+      "conservation_status": {
+        "code": "VU",
+        "label_es": "Vulnerable",
+        "label_en": "Vulnerable"
+      },
+      "taxonomy": {
+        "kingdom": "Animalia",
+        "phylum": "Chordata",
+        "class": "Aves",
+        "order": "Passeriformes",
+        "family": "Troglodytidae",
+        "genus": "Thryophilus",
+        "species": "sernai"
+      },
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/Antioquia_wren_-_Thryophilus_sernai.jpg/960px-Antioquia_wren_-_Thryophilus_sernai.jpg",
+      "info_url": "https://es.wikipedia.org/wiki/Thryophilus_sernai"
+    },
+    "Todirostrum cinereum": {
+      "scientific_name": "Todirostrum cinereum",
+      "english_name": "Common Tody-Flycatcher",
+      "inat_sightings": 7345,
+      "xeno_canto_recordings": 47,
+      "description": "El titirijí común​ (Todirostrum cinereum) es una especie de ave paseriforme de la familia Tyrannidae, perteneciente al género Todirostrum. Es nativo de América Central y del Sur.",
+      "description_source": "Wikipedia ES",
+      "conservation_status": {
+        "code": "LC",
+        "label_es": "Preocupación menor",
+        "label_en": "Least Concern"
+      },
+      "taxonomy": {
+        "kingdom": "Animalia",
+        "phylum": "Chordata",
+        "class": "Aves",
+        "order": "Passeriformes",
+        "family": "Tyrannidae o Rhynchocyclidae",
+        "genus": "Todirostrum",
+        "species": "cinereum"
+      },
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/Todirostrum_cinereum_Espatulilla_com%C3%BAn_Common_Tody-Flycatcher_%2811037801296%29.jpg/960px-Todirostrum_cinereum_Espatulilla_com%C3%BAn_Common_Tody-Flycatcher_%2811037801296%29.jpg",
+      "info_url": "https://es.wikipedia.org/wiki/Todirostrum_cinereum"
+    },
+    "Tolmomyias sulphurescens": {
+      "scientific_name": "Tolmomyias sulphurescens",
+      "english_name": "Yellow-olive Flatbill",
+      "inat_sightings": 2927,
+      "xeno_canto_recordings": 37,
+      "description": "El picoplano sulfuroso ​ (Tolmomyias sulphurescens) es una especie de ave paseriforme de la familia Tyrannidae. Es nativo del sur de México, América Central y norte y centro de América del Sur.",
+      "description_source": "Wikipedia ES",
+      "conservation_status": {
+        "code": "LC",
+        "label_es": "Preocupación menor",
+        "label_en": "Least Concern"
+      },
+      "taxonomy": {
+        "kingdom": "Animalia",
+        "phylum": "Chordata",
+        "class": "Aves",
+        "order": "Passeriformes",
+        "family": "Tyrannidae o Rhynchocyclidae",
+        "genus": "Tolmomyias",
+        "species": "sulphurescens"
+      },
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/c/ce/Tolmomyias_sulphurescens_-Parque_Estadual_da_Cantareira%2C_Sao_Paulo%2C_Brazil-8.jpg",
+      "info_url": "https://es.wikipedia.org/wiki/Tolmomyias_sulphurescens"
+    },
+    "Troglodytes aedon": {
+      "scientific_name": "Troglodytes aedon",
+      "english_name": "House Wren",
+      "inat_sightings": 48074,
+      "xeno_canto_recordings": 177,
+      "description": "El chochín criollo (Troglodytes aedon)​ es una especie de ave paseriforme de la familia Troglodytidae, perteneciente al numeroso género Troglodytes. Es nativa de América del Norte.",
+      "description_source": "Wikipedia ES",
+      "conservation_status": {
+        "code": "LC",
+        "label_es": "Preocupación menor",
+        "label_en": "Least Concern"
+      },
+      "taxonomy": {
+        "kingdom": "Animalia",
+        "phylum": "Chordata",
+        "class": "Aves",
+        "order": "Passeriformes",
+        "family": "Troglodytidae",
+        "genus": "Troglodytes",
+        "species": "aedon"
+      },
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/Troglodytes_aedon%2C_Rutgers_1.jpg/960px-Troglodytes_aedon%2C_Rutgers_1.jpg",
+      "info_url": "https://es.wikipedia.org/wiki/Troglodytes_aedon"
+    },
+    "Trogon personatus": {
+      "scientific_name": "Trogon personatus",
+      "english_name": "Masked Trogon",
+      "inat_sightings": 1693,
+      "xeno_canto_recordings": 40,
+      "description": "El surucuá verde azul, sorocuá enmascarado o trogón enmascarado (Trogon personatus) es una especie de ave de la familia Trogonidae. Se le conoce popularmente con el nombre de La Soledad.",
+      "description_source": "Wikipedia ES",
+      "conservation_status": {
+        "code": "LC",
+        "label_es": "Preocupación menor",
+        "label_en": "Least Concern"
+      },
+      "taxonomy": {
+        "kingdom": "Animalia",
+        "phylum": "Chordata",
+        "class": "Aves",
+        "order": "Trogoniformes",
+        "family": "Trogonidae",
+        "genus": "Trogon",
+        "species": "personatus"
+      },
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Masked_Trogon_%28Trogon_personatus%29_%2820144038635%29.jpg/960px-Masked_Trogon_%28Trogon_personatus%29_%2820144038635%29.jpg",
+      "info_url": "https://es.wikipedia.org/wiki/Trogon_personatus"
+    },
+    "Trogon viridis": {
+      "scientific_name": "Trogon viridis",
+      "english_name": "Green-backed Trogon",
+      "inat_sightings": 2154,
+      "xeno_canto_recordings": 36,
+      "description": "El trogón dorsiverde, trogón coliblanco (Colombia)​ (Trogon viridis), también denominado sorocuá cola blanca (Venezuela) o surucuá violeta,​ es una especie de ave trogoniforme perteneciente al género Trogon que integra la familia Trogonidae. Es nativo de América del Sur.",
+      "description_source": "Wikipedia ES",
+      "conservation_status": {
+        "code": "LC",
+        "label_es": "Preocupación menor",
+        "label_en": "Least Concern"
+      },
+      "taxonomy": {
+        "kingdom": "Animalia",
+        "phylum": "Chordata",
+        "class": "Aves",
+        "order": "Trogoniformes",
+        "family": "Trogonidae",
+        "genus": "Trogon",
+        "species": "viridis"
+      },
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/5/53/Trogon_viridis_%28Green-backed_Trogon%29%2C_male%2C_Restinga_de_Bertioga_-_SP_-_Brasil.jpg",
+      "info_url": "https://es.wikipedia.org/wiki/Trogon_viridis"
+    },
+    "Turdus fuscater": {
+      "scientific_name": "Turdus fuscater",
+      "english_name": "Great Thrush",
+      "inat_sightings": 10157,
+      "xeno_canto_recordings": 70,
+      "description": "La paraulata morera, mirla patinaranja, o mirlo (Turdus fuscater) es una especie de ave paseriforme sudamericana de la familia del género Turdus. Puebla zonas boscosas y de matorral de Venezuela, Colombia, Ecuador, Perú, Bolivia.",
+      "description_source": "Wikipedia ES",
+      "conservation_status": {
+        "code": "LC",
+        "label_es": "Preocupación menor",
+        "label_en": "Least Concern"
+      },
+      "taxonomy": {
+        "kingdom": "Animalia",
+        "phylum": "Chordata",
+        "class": "Aves",
+        "order": "Passeriformes",
+        "family": "Turdidae",
+        "genus": "Turdus",
+        "species": "fuscater"
+      },
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/GreatThrush.jpg/960px-GreatThrush.jpg",
+      "info_url": "https://es.wikipedia.org/wiki/Turdus_fuscater"
+    },
+    "Tyrannus melancholicus": {
+      "scientific_name": "Tyrannus melancholicus",
+      "english_name": "Tropical Kingbird",
+      "inat_sightings": 53894,
+      "xeno_canto_recordings": 56,
+      "description": "El tirano melancólico​ (Tyrannus melancholicus) es una especie de ave paseriforme de la familia Tyrannidae perteneciente al género Tyrannus. Es nativo de la América tropical (Neotrópico) y se distribuye desde el sur de Estados Unidos, por América Central y del Sur hasta el centro de Argentina.",
+      "description_source": "Wikipedia ES",
+      "conservation_status": {
+        "code": "LC",
+        "label_es": "Preocupación menor",
+        "label_en": "Least Concern"
+      },
+      "taxonomy": {
+        "kingdom": "Animalia",
+        "phylum": "Chordata",
+        "class": "Aves",
+        "order": "Passeriformes",
+        "family": "Tyrannidae",
+        "genus": "Tyrannus",
+        "species": "melancholicus"
+      },
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Flickr_-_Dario_Sanches_-_SUIRIRI_%28Tyrannus_melancholicus%29.jpg/960px-Flickr_-_Dario_Sanches_-_SUIRIRI_%28Tyrannus_melancholicus%29.jpg",
+      "info_url": "https://es.wikipedia.org/wiki/Tyrannus_melancholicus"
+    },
+    "Vanellus chilensis": {
+      "scientific_name": "Vanellus chilensis",
+      "english_name": "Southern Lapwing",
+      "inat_sightings": 36135,
+      "xeno_canto_recordings": 67,
+      "description": "El tero​ o queltehue​ (Vanellus chilensis), también referido como avefría tero,​ entre otros nombres comunes,​ es una especie de ave caradriforme muy extendida en la zona austral de Sudamérica. Su hábitat son praderas llanas, por lo que es mucho más habitual en el sector austral del continente americano que en el norte, aunque también se lo puede ver en Centroamérica, tan al norte como El Salvador,​ producto de una extensión reciente desde Sudamérica.​",
+      "description_source": "Wikipedia ES",
+      "conservation_status": {
+        "code": "LC",
+        "label_es": "Preocupación menor",
+        "label_en": "Least Concern"
+      },
+      "taxonomy": {
+        "kingdom": "Animalia",
+        "phylum": "Chordata",
+        "class": "Aves",
+        "order": "Charadriiformes",
+        "family": "Charadriidae",
+        "genus": "Vanellus",
+        "species": "chilensis"
+      },
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/Vanellus_chilensis_%28close-up-2%29.jpg/960px-Vanellus_chilensis_%28close-up-2%29.jpg",
+      "info_url": "https://es.wikipedia.org/wiki/Vanellus_chilensis"
+    },
+    "Volatinia jacarina": {
+      "scientific_name": "Volatinia jacarina",
+      "english_name": "Blue-black Grassquit",
+      "inat_sightings": 12062,
+      "xeno_canto_recordings": 46,
+      "description": "El semillero volatinero​ (Volatinia jacarina) es una especie de ave paseriforme de la familia Thraupidae, la única perteneciente al género Volatinia. Es nativo de la América tropical (Neotrópico), donde se distribuye ampliamente desde el norte de México hasta el centro de Argentina.",
+      "description_source": "Wikipedia ES",
+      "conservation_status": {
+        "code": "LC",
+        "label_es": "Preocupación menor",
+        "label_en": "Least Concern"
+      },
+      "taxonomy": {
+        "kingdom": "Animalia",
+        "phylum": "Chordata",
+        "class": "Aves",
+        "order": "Passeriformes",
+        "family": "Thraupidae",
+        "genus": "Volatinia",
+        "species": "jacarina"
+      },
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/Volatinia_jacarina_Espiguero_saltar%C3%ADn_Blue-Black_Grassquit_%28male%29_%2811481649833%29.jpg/960px-Volatinia_jacarina_Espiguero_saltar%C3%ADn_Blue-Black_Grassquit_%28male%29_%2811481649833%29.jpg",
+      "info_url": "https://es.wikipedia.org/wiki/Volatinia_jacarina"
+    },
+    "Xiphocolaptes promeropirhynchus": {
+      "scientific_name": "Xiphocolaptes promeropirhynchus",
+      "english_name": "Strong-billed Woodcreeper",
+      "inat_sightings": 538,
+      "xeno_canto_recordings": 40,
+      "description": "El trepatroncos picofuerte​ (Xiphocolaptes promeropirhynchus) es una especie de ave paseriforme de la familia Furnariidae, subfamilia Dendrocolaptinae, perteneciente al género Xiphocolaptes. Es nativa de la América tropical (Neotrópico), desde el sur de México, por América Central y del Sur, hasta el sur de la Amazonia brasileña y el centro de Bolivia.",
+      "description_source": "Wikipedia ES",
+      "conservation_status": {
+        "code": "LC",
+        "label_es": "Preocupación menor",
+        "label_en": "Least Concern"
+      },
+      "taxonomy": {
+        "kingdom": "Animalia",
+        "phylum": "Chordata",
+        "class": "Aves",
+        "order": "Passeriformes",
+        "family": "Furnariidae",
+        "genus": "Xiphocolaptes",
+        "species": "promeropirhynchus"
+      },
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Strong-billed_woodcreeper_2.jpg/960px-Strong-billed_woodcreeper_2.jpg",
+      "info_url": "https://es.wikipedia.org/wiki/Xiphocolaptes_promeropirhynchus"
+    },
+    "Xiphorhynchus susurrans": {
+      "scientific_name": "Xiphorhynchus susurrans",
+      "english_name": "Cocoa Woodcreeper",
+      "inat_sightings": 1255,
+      "xeno_canto_recordings": 36,
+      "description": "El trepatroncos cacao​ (Xiphorhynchus susurrans) es una especie de ave paseriforme de la familia Furnariidae, subfamilia Dendrocolaptinae, perteneciente al numeroso género Xiphorhynchus. Es nativa de América Central y del norte de América del Sur.",
+      "description_source": "Wikipedia ES",
+      "conservation_status": {
+        "code": "LC",
+        "label_es": "Preocupación menor",
+        "label_en": "Least Concern"
+      },
+      "taxonomy": {
+        "kingdom": "Animalia",
+        "phylum": "Chordata",
+        "class": "Aves",
+        "order": "Passeriformes",
+        "family": "Furnariidae",
+        "genus": "Xiphorhynchus",
+        "species": "susurrans"
+      },
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/Cocoa_Woodcreeper.jpg/960px-Cocoa_Woodcreeper.jpg",
+      "info_url": "https://es.wikipedia.org/wiki/Xiphorhynchus_susurrans"
+    },
+    "Zimmerius chrysops": {
+      "scientific_name": "Zimmerius chrysops",
+      "english_name": "Golden-faced Tyrannulet",
+      "inat_sightings": 1001,
+      "xeno_canto_recordings": 76,
+      "description": "El mosquerito caridorado​ (Zimmerius chrysops), también denominado tiranuelo cejiamarillo (en Colombia), moscareta de cara dorada (en Perú), atrapamoscas caridorado (en Venezuela) o tiranolete caridorado (en Ecuador)​ es una especie de ave paseriforme de la familia Tyrannidae perteneciente al género Zimmerius, algunos autores sostienen que se divide en dos especies. Es nativo del norte y oeste de América del Sur.",
+      "description_source": "Wikipedia ES",
+      "conservation_status": {
+        "code": "LC",
+        "label_es": "Preocupación menor",
+        "label_en": "Least Concern"
+      },
+      "taxonomy": {
+        "kingdom": "Animalia",
+        "phylum": "Chordata",
+        "class": "Aves",
+        "order": "Passeriformes",
+        "family": "Tyrannidae",
+        "genus": "Zimmerius",
+        "species": "chrysops"
+      },
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/Zimmerius_chrysops.JPG/960px-Zimmerius_chrysops.JPG",
+      "info_url": "https://es.wikipedia.org/wiki/Zimmerius_chrysops"
+    },
+    "Zonotrichia capensis": {
+      "scientific_name": "Zonotrichia capensis",
+      "english_name": "Rufous-collared Sparrow",
+      "inat_sightings": 41505,
+      "xeno_canto_recordings": 131,
+      "description": "El chingolo común (Zonotrichia capensis), también conocido como pichitanka, chincol o copetón, es una especie de ave paseriforme neotropical de la familia Passerellidae. Es la única de esta distribución entre los mal llamados \"gorriones americanos\" del género Zonotrichia. Es similar a la especie alóctona del gorrión doméstico (Passer domesticus), distinguiéndose por poseer un copete con rayas negras y una figura menos rotunda.",
+      "description_source": "Wikipedia ES",
+      "conservation_status": {
+        "code": "LC",
+        "label_es": "Preocupación menor",
+        "label_en": "Least Concern"
+      },
+      "taxonomy": {
+        "kingdom": "Animalia",
+        "phylum": "Chordata",
+        "class": "Aves",
+        "order": "Passeriformes",
+        "family": "Passerellidae",
+        "genus": "Zonotrichia",
+        "species": "capensis"
+      },
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/0/0e/Zonotrichia_capensis_-Manizales%2C_Caldas%2C_Colombia-8-b.jpg",
+      "info_url": "https://es.wikipedia.org/wiki/Zonotrichia_capensis"
+    },
+    "Mystery Mystery": {
+      "scientific_name": "Unknown / Uncatalogued Species",
+      "english_name": "Unknown / Uncatalogued Species",
+      "inat_sightings": 0,
+      "xeno_canto_recordings": 0,
+      "description": "No se pudo determinar una especie específica para esta grabación, pero se confirmó que es un canto de ave registrado en Colombia.",
+      "description_source": "manual",
+      "conservation_status": {
+        "code": "NE",
+        "label_es": "No evaluada",
+        "label_en": "Not Evaluated"
+      },
+      "taxonomy": {
+        "kingdom": "Unknown",
+        "phylum": "Unknown",
+        "class": "Unknown",
+        "order": "Unknown",
+        "family": "Unknown",
+        "genus": "Unknown",
+        "species": "Unknown"
+      },
+      "image_url": "",
+      "info_url": ""
+    },
+    "Mystery mystery": {
+      "scientific_name": "Unknown / Uncatalogued Species",
+      "english_name": "Unknown / Uncatalogued Species",
+      "inat_sightings": 0,
+      "xeno_canto_recordings": 0,
+      "description": "No se pudo determinar una especie específica para esta grabación, pero se confirmó que es un canto de ave registrado en Colombia.",
+      "description_source": "manual",
+      "conservation_status": {
+        "code": "NE",
+        "label_es": "No evaluada",
+        "label_en": "Not Evaluated"
+      },
+      "taxonomy": {
+        "kingdom": "Unknown",
+        "phylum": "Unknown",
+        "class": "Unknown",
+        "order": "Unknown",
+        "family": "Unknown",
+        "genus": "Unknown",
+        "species": "Unknown"
+      },
+      "image_url": "",
+      "info_url": ""
+    }
+  }
+}
