@@ -12,7 +12,7 @@ RUN pip install --no-cache-dir fastapi "uvicorn[standard]" numpy "tensorflow-cpu
 COPY services/bird-identifier-agent/app /app/app
 
 # Point at where the mount makes the files appear inside the container.
-ENV WEIGHTS_PATH=/models/fold2_best.weights.h5
-ENV LABEL_MAP_PATH=/models/label_map.json
+ENV WEIGHTS_PATH=/bird_models/resnet50v2_fold3_best.weights.h5
+ENV LABEL_MAP_PATH=/bird_models/label_map.json
 EXPOSE 8000
 CMD ["uvicorn", "app.main:app", "--host", "0.0.0.0", "--port", "8000"]

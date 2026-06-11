@@ -81,6 +81,8 @@ services:
     environment:
       WEIGHTS_PATH: "/bird_models/resnet50v2_fold3_best.weights.h5"
       LABEL_MAP_PATH: "/bird_models/label_map.json"
+    volumes:
+      - ../../bird_models:/bird_models:ro
     ports: ["8002:8000"]
 
 

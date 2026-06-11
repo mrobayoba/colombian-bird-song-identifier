@@ -28,7 +28,7 @@ class Settings:
     redis_url: str = _get("REDIS_URL", "redis://redis:6379/0")
 
     enrich_timeout_s: float = float(_get("ENRICH_TIMEOUT_S", "6.0"))
-    downstream_timeout_s: float = float(_get("DOWNSTREAM_TIMEOUT_S", "15.0"))
+    downstream_timeout_s: float = float(_get("DOWNSTREAM_TIMEOUT_S", "60.0"))
 
     max_upload_bytes: int = int(_get("MAX_UPLOAD_BYTES", str(15 * 1024 * 1024)))
 

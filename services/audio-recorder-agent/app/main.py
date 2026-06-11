@@ -14,7 +14,10 @@ from __future__ import annotations
 
 import base64
 import io
+import struct
+import wave
 
+import librosa
 import numpy as np
 from fastapi import FastAPI, HTTPException, Request
 
@@ -22,6 +25,27 @@ from contracts import SpectrogramTensors
 from shared.preprocessing import audio as P
 
 app = FastAPI(title="CBSI Audio Recorder Agent", version="0.1.0")
+
+
+@app.on_event("startup")
+async def _warmup() -> None:
+    """Pre-initialize librosa/soundfile/scipy to avoid a ~15s cold-start penalty
+    on the first real request (caused by Docker overlay-FS page faults loading
+    libsndfile and the numpy FFT planner for the first time)."""
+    if not P.libs_available():
+        return
+    # Build the shortest valid WAV that actually produces a chunk (≥ 3 s).
+    sr = P.SR
+    n = P.CHUNK_SAMPLES  # exactly one chunk's worth of samples
+    pcm = struct.pack("<" + "h" * n, *([0] * n))
+    buf = io.BytesIO()
+    with wave.open(buf, "wb") as wf:
+        wf.setnchannels(1)
+        wf.setsampwidth(2)
+        wf.setframerate(sr)
+        wf.writeframes(pcm)
+    audio_arr, _ = librosa.load(io.BytesIO(buf.getvalue()), sr=sr, mono=True)
+    P.audio_bytes_to_tensors(audio_arr)  # warm up butter + sosfilt + melspectrogram
 
 
 @app.get("/health")
@@ -39,8 +63,6 @@ async def preprocess(request: Request, job_id: str) -> SpectrogramTensors:
         raise HTTPException(status_code=400, detail="empty audio")
 
     # Decode to mono 32 kHz via librosa (handles mp3/wav/ogg/m4a).
-    import librosa
-
     audio, _ = librosa.load(io.BytesIO(raw), sr=P.SR, mono=True)
     tensors = P.audio_bytes_to_tensors(audio)  # (K, 128, 188)
 

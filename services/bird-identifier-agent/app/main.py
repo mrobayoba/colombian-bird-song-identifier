@@ -10,7 +10,7 @@ the contract (SpectrogramTensors in -> ClassificationResult out) matches the
 stub the orchestrator already expects.
 
 Inputs:
-  MODEL_PATH      path to the .keras file (mounted from Drive/bird_models)
+  WEIGHTS_PATH    path to the .weights.h5 file (mounted from bird_models/)
   LABEL_MAP_PATH  path to label_map.json ({"0": "Turdus_fuscater", ...})
 """
 
@@ -30,8 +30,10 @@ from app.model import BirdSongClassifier
 
 
 _classifier = None
-WEIGHTS_PATH   = os.environ.get("WEIGHTS_PATH",   "/models/fold2_best_weights.h5")
-LABEL_MAP_PATH = os.environ.get("LABEL_MAP_PATH", "/models/label_map.json")
+WEIGHTS_PATH = os.environ.get(
+    "WEIGHTS_PATH", "/bird_models/resnet50v2_fold3_best.weights.h5"
+)
+LABEL_MAP_PATH = os.environ.get("LABEL_MAP_PATH", "/bird_models/label_map.json")
 
 app = FastAPI(title="CBSI Bird Identifier Agent", version="0.1.0")
 
@@ -42,9 +44,8 @@ def _load() -> None:
         return
     _classifier = BirdSongClassifier(
         weights_path=WEIGHTS_PATH,
-        label_map_path=LABEL_MAP_PATH
+        label_map_path=LABEL_MAP_PATH,
     )
-
 
 
 @app.on_event("startup")
@@ -54,10 +55,6 @@ async def _startup() -> None:
         _classifier.model.predict(
             np.zeros((1, 128, 188, 1), dtype="float32"), verbose=0
         )
-
-
-        
-
 
 
 def _decode_tensors(t: SpectrogramTensors) -> np.ndarray:
@@ -73,22 +70,34 @@ def _decode_tensors(t: SpectrogramTensors) -> np.ndarray:
 @app.get("/health")
 async def health() -> dict:
     return {"status": "ok", "model_loaded": _classifier is not None}
-    
 
 
 @app.post("/classify", response_model=ClassificationResult)
 async def classify(tensors: SpectrogramTensors) -> ClassificationResult:
-    _load()
-    arr = _decode_tensors(tensors)       # (K, 128, 188) — unchanged
-    import json
-    result = json.loads(_classifier.predict_top3(arr))
-    top    = result[0]
-    label  = top["species"].replace(" ", "_")
-    alts   = [
+    try:
+        _load()
+    except FileNotFoundError as exc:
+        raise HTTPException(status_code=503, detail="model not loaded") from exc
+
+    arr = _decode_tensors(tensors)
+    if arr.shape[0] == 0:
+        raise HTTPException(status_code=400, detail="no chunks")
+
+    try:
+        result = json.loads(_classifier.predict_top3(arr))
+    except ValueError as exc:
+        raise HTTPException(status_code=400, detail=str(exc)) from exc
+
+    if not result:
+        raise HTTPException(status_code=500, detail="classifier returned no candidates")
+
+    top = result[0]
+    label = top["species"].replace(" ", "_")
+    alts = [
         Candidate(
             label=r["species"].replace(" ", "_"),
             display_name=r["species"],
-            confidence=r["confidence"]
+            confidence=r["confidence"],
         )
         for r in result[1:]
     ]
@@ -100,5 +109,3 @@ async def classify(tensors: SpectrogramTensors) -> ClassificationResult:
         n_chunks=int(arr.shape[0]),
         model_version=Path(WEIGHTS_PATH).stem,
     )
-
-

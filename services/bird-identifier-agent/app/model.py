@@ -62,15 +62,22 @@ class BirdSongClassifier:
         # Ensure correct dimensionality
         if len(tensors.shape) == 2:
             tensors = np.expand_dims(tensors, axis=0)  # (1, 128, 188)
-            
+
+        if tensors.shape[0] == 0:
+            raise ValueError("no spectrogram chunks to classify")
+
         tensors_in = np.expand_dims(tensors, axis=-1)  # (K, 128, 188, 1)
-        
+
         # Run inference
         chunk_probs = self.model.predict(tensors_in, verbose=0)  # (K, N_CLASSES)
         avg_probs = chunk_probs.mean(axis=0)  # average across chunks
 
-        # Get top 3
-        top3_indices = np.argsort(avg_probs)[::-1][:3]
+        if avg_probs.size == 0 or not np.isfinite(avg_probs).any():
+            raise ValueError("model produced no valid probabilities")
+
+        # Get top 3 (or fewer if fewer classes exist)
+        top_k = min(3, avg_probs.size)
+        top3_indices = np.argsort(avg_probs)[::-1][:top_k]
         
         results = []
         for rank, idx in enumerate(top3_indices, 1):
