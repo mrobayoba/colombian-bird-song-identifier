@@ -1,0 +1,105 @@
+# Colombian Bird Song Identifier — local backend stack (build steps 2 & 3).
+#
+# Brings up MongoDB, Redis, Elasticsearch, NATS, and the Bird Index Agent in
+# STUB mode so POST /api/v1/identify works immediately with zero ML wiring.
+#
+# Run from the repo root:
+#   docker compose -f infra/docker/docker-compose.dev.yml up -d --build
+#   curl -F "audio=@sample.wav" http://localhost:8000/api/v1/identify
+#
+# When you are ready to use the REAL agents, set CBSI_USE_STUBS=false on
+# index-agent and enable the recorder / identifier / birddex-mcp services
+# below (uncomment), mounting your trained model into the identifier.
+
+name: cbsi-dev
+
+services:
+  mongo:
+    image: mongo:7
+    container_name: cbsi-mongo
+    ports: ["27017:27017"]
+    volumes:
+      - mongo_data:/data/db
+    healthcheck:
+      test: ["CMD", "mongosh", "--quiet", "--eval", "db.adminCommand('ping')"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+  redis:
+    image: redis:7
+    container_name: cbsi-redis
+    ports: ["6379:6379"]
+    healthcheck:
+      test: ["CMD", "redis-cli", "ping"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+  elasticsearch:
+    image: docker.elastic.co/elasticsearch/elasticsearch:8.13.0
+    container_name: cbsi-es
+    environment:
+      - discovery.type=single-node
+      - xpack.security.enabled=false
+      - ES_JAVA_OPTS=-Xms512m -Xmx512m
+    ports: ["9200:9200"]
+
+  nats:
+    image: nats:2
+    container_name: cbsi-nats
+    command: ["-js"]
+    ports: ["4222:4222", "8222:8222"]
+
+  index-agent:
+    build:
+      context: ../..
+      dockerfile: services/bird-index-agent/Dockerfile
+    container_name: cbsi-index-agent
+    environment:
+      CBSI_USE_STUBS: "true"          # step 3: stubs. Flip to "false" later.
+      MONGO_URI: "mongodb://mongo:27017"
+      MONGO_DB: "cbsi"
+      REDIS_URL: "redis://redis:6379/0"
+      RECORDER_URL: "http://recorder:8000"
+      IDENTIFIER_URL: "http://identifier:8000"
+      MCP_URL: "http://birddex-mcp:8000"
+    ports: ["8000:8000"]
+    depends_on:
+      mongo: { condition: service_healthy }
+      redis: { condition: service_healthy }
+
+  # ---- Real agents: uncomment when you reach the later build steps ----------
+  #
+  # recorder:
+  #   build:
+  #     context: ../..
+  #     dockerfile: services/audio-recorder-agent/Dockerfile
+  #   container_name: cbsi-recorder
+  #   expose: ["8000"]
+  #
+  # identifier:
+  #   build:
+  #     context: ../..
+  #     dockerfile: services/bird-identifier-agent/Dockerfile
+  #   container_name: cbsi-identifier
+  #   environment:
+  #     MODEL_PATH: "/models/resnet50v2_fold0.keras"
+  #     LABEL_MAP_PATH: "/models/label_map.json"
+  #   volumes:
+  #     # Point this at wherever you copied the trained model + label_map.
+  #     - ${HOME}/bird_models:/models:ro
+  #   expose: ["8000"]
+  #
+  # birddex-mcp:
+  #   build:
+  #     context: ../..
+  #     dockerfile: services/birddex-mcp-agent/Dockerfile
+  #   container_name: cbsi-birddex-mcp
+  #   environment:
+  #     MONGO_URI: "mongodb://mongo:27017"
+  #     MONGO_DB: "cbsi"
+  #   expose: ["8000"]
+
+volumes:
+  mongo_data:
