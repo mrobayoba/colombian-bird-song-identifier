@@ -58,6 +58,8 @@ export interface EnrichmentResult {
   summary_es: string;
   behavior_notes?: string | null;
   semantic_tags: string[];
+  alternatives: string[];
+  read_more_target: string;
   sources: string[];
   model?: string | null;
 }

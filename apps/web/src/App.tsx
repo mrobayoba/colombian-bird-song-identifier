@@ -160,7 +160,22 @@ export function App() {
       )}
 
       <footer className="footnote">
-        Un fragmento de canto, una especie. Datos de Xeno-Canto.
+        <div className="footnote-col">
+          <span className="footnote-title">Cantos</span>
+          <span className="footnote-item">Identificador de aves de Colombia</span>
+          <span className="footnote-item">v0.1.0 · CBSI</span>
+        </div>
+        <div className="footnote-col">
+          <span className="footnote-title">Fuentes</span>
+          <span className="footnote-item">Xeno-Canto</span>
+          <span className="footnote-item">iNaturalist</span>
+          <span className="footnote-item">IUCN Red List</span>
+        </div>
+        <div className="footnote-col">
+          <span className="footnote-title">Acerca</span>
+          <span className="footnote-item">Proyecto CBSI</span>
+          <span className="footnote-item">Código abierto</span>
+        </div>
       </footer>
     </div>
   );

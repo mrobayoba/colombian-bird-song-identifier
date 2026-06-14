@@ -125,6 +125,8 @@ class StubEnrichment:
         return EnrichmentResult(
             summary_es=f"[STUB] {req.scientific_name} es un ave registrada en Colombia.",
             semantic_tags=["stub", "placeholder"],
+            alternatives=[],
+            read_more_target=req.scientific_name,
             sources=[f"stub:{req.label}"],
             model="stub-0",
         )

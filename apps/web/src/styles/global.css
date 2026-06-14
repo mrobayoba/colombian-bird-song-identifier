@@ -44,13 +44,7 @@ body,
 }
 
 body {
-  background:
-    radial-gradient(
-      ellipse 120% 80% at 50% -10%,
-      var(--forest-700),
-      var(--forest-900) 70%
-    ),
-    var(--forest-900);
+  background: var(--forest-900);
   color: var(--parchment);
   font-family: var(--font-body);
   -webkit-font-smoothing: antialiased;
@@ -60,9 +54,10 @@ body {
 #root {
   display: flex;
   flex-direction: column;
-  max-width: 460px;
+  width: 100%;
+  max-width: 1400px;
   margin: 0 auto;
-  padding: 0 20px;
+  padding: 0 clamp(20px, 4vw, 64px);
   position: relative;
 }
 

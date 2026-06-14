@@ -1,7 +1,8 @@
 """BirdDex MCP Agent — LLM enrichment via Google Gemini.
 
 Invoked ONLY by the Bird Index Agent. Given a species, it returns a grounded
-Spanish summary, behavior notes, and semantic tags.
+Spanish summary, behavior notes, semantic tags, taxonomically related
+alternatives, and a read_more_target identifier for the frontend UI.
 
 Anti-hallucination design (defense in depth):
   1. The LLM is given ONLY the trusted card fields fetched from MongoDB. It is
@@ -33,7 +34,7 @@ from pydantic import BaseModel
 
 from contracts import EnrichRequest, EnrichmentResult
 
-app = FastAPI(title="CBSI BirdDex MCP Agent", version="0.1.0")
+app = FastAPI(title="CBSI BirdDex MCP Agent", version="0.2.0")
 
 GEMINI_API_KEY = os.environ.get("GEMINI_API_KEY", "")
 GEMINI_MODEL = os.environ.get("GEMINI_MODEL", "gemini-2.5-flash")
@@ -48,6 +49,8 @@ class _LLMEnrichment(BaseModel):
     summary_es: str
     behavior_notes: Optional[str] = None
     semantic_tags: list[str] = []
+    alternatives: list[str] = []
+    read_more_target: str
 
 
 # --------------------------------------------------------------------------- #
@@ -116,13 +119,15 @@ def _template(req: EnrichRequest, card: Optional[dict]) -> EnrichmentResult:
         ),
         behavior_notes=None,
         semantic_tags=["colombia", "ave"],
+        alternatives=[],
+        read_more_target=req.scientific_name,
         sources=[f"card:{req.label}"],
         model="template-fallback",
     )
 
 
 def _build_prompt(card: dict) -> str:
-    """Give the model ONLY trusted fields; instruct it to use nothing else."""
+    """Give the model ONLY trusted fields and precise extraction instructions."""
     import json
 
     trusted = {
@@ -130,15 +135,47 @@ def _build_prompt(card: dict) -> str:
         "english_name": card.get("english_name"),
         "family": card.get("taxonomy", {}).get("family"),
         "order": card.get("taxonomy", {}).get("order"),
-        "conservation_status": card.get("conservation_status", {}).get("code"),
+        "genus": card.get("taxonomy", {}).get("genus"),
+        "conservation_status_code": card.get("conservation_status", {}).get("code"),
+        "conservation_status_es": card.get("conservation_status", {}).get("label_es"),
         "description": card.get("description"),
+        "physical_description": card.get("physical_description"),
+        "plumage": card.get("plumage"),
+        "habitat": card.get("habitat"),
+        "behavior": card.get("behavior"),
+        "diet": card.get("diet"),
+        "related_species": card.get("related_species"),
+        "lookalike_species": card.get("lookalike_species"),
+        "inat_sightings": card.get("inat_sightings"),
+        "xeno_canto_recordings": card.get("xeno_canto_recordings"),
     }
+    # Strip absent fields so the LLM is not misled by explicit nulls.
+    trusted = {k: v for k, v in trusted.items() if v is not None}
+
     return (
-        "Eres un ornitologo. Con base UNICAMENTE en los datos verificados de la "
-        "siguiente ficha, escribe un resumen breve en espanol (2-3 frases), notas "
-        "de comportamiento si la ficha las respalda, y de 3 a 6 etiquetas "
-        "semanticas. No inventes datos que no esten en la ficha. Si un campo "
-        "falta, no lo menciones.\n\n"
+        "Eres un ornitologo experto en aves colombianas. Tu unica fuente de "
+        "informacion es la ficha verificada que aparece al final. PROHIBIDO "
+        "inventar, extrapolar o usar conocimiento de tu entrenamiento que no "
+        "este explicitamente presente en dicha ficha.\n\n"
+        "Produce un objeto JSON con exactamente los siguientes cinco campos:\n\n"
+        "1. summary_es (string): Resumen de divulgacion en espanol de 3 a 5 "
+        "   frases. Incluye morfologia (tamano, coloracion, plumaje) si la ficha "
+        "   los describe, estado de conservacion IUCN con su significado, y "
+        "   distribucion o habitat si estan disponibles. No menciones campos "
+        "   ausentes.\n\n"
+        "2. behavior_notes (string | null): Una o dos frases sobre comportamiento, "
+        "   dieta o vocalizaciones si la ficha los respalda. null si no hay datos.\n\n"
+        "3. semantic_tags (array de strings): Entre 3 y 6 etiquetas cortas en "
+        "   espanol o ingles utiles para busqueda (familia, habitat, codigo IUCN, "
+        "   orden, etc.).\n\n"
+        "4. alternatives (array de strings): Nombres cientificos de 2 a 3 especies "
+        "   taxonomicamente cercanas o visualmente similares. Usa EXCLUSIVAMENTE "
+        "   los valores de los campos 'related_species' o 'lookalike_species' de "
+        "   la ficha. Si esos campos no existen o estan vacios, devuelve [].\n\n"
+        "5. read_more_target (string): El nombre cientifico canonico de esta "
+        "   especie en formato binomial limpio (sin guiones bajos, sin abreviaturas), "
+        "   por ejemplo 'Turdus fuscater'. El frontend lo usara como parametro del "
+        "   boton 'Leer mas'.\n\n"
         f"FICHA VERIFICADA:\n{json.dumps(trusted, ensure_ascii=False, indent=2)}"
     )
 
@@ -176,6 +213,8 @@ async def enrich(req: EnrichRequest) -> EnrichmentResult:
             summary_es=parsed.summary_es,
             behavior_notes=parsed.behavior_notes,
             semantic_tags=parsed.semantic_tags,
+            alternatives=parsed.alternatives,
+            read_more_target=parsed.read_more_target,
             sources=[f"card:{req.label}", f"gemini:{GEMINI_MODEL}"],
             model=GEMINI_MODEL,
         )
