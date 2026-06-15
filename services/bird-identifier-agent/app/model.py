@@ -82,7 +82,10 @@ class BirdSongClassifier:
         results = []
         for rank, idx in enumerate(top3_indices, 1):
             species = self.label_map[idx].replace("_", " ")
-            confidence = float(avg_probs[idx])
+            # Clamp to [0, 0.9999] so float32 softmax saturation (which can
+            # produce exactly 1.0 when logit differences are extreme) never
+            # reaches the API as a literal 1.0 confidence.
+            confidence = float(np.clip(avg_probs[idx], 0.0, 1.0 - 1e-4))
             results.append({
                 "rank": rank,
                 "species": species,

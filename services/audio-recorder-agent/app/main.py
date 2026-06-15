@@ -35,9 +35,13 @@ async def _warmup() -> None:
     if not P.libs_available():
         return
     # Build the shortest valid WAV that actually produces a chunk (≥ 3 s).
+    # Use a low-amplitude sine wave so the signal survives the RMS energy gate
+    # and rms_normalise(); all-zero PCM would be discarded as pure silence.
     sr = P.SR
     n = P.CHUNK_SAMPLES  # exactly one chunk's worth of samples
-    pcm = struct.pack("<" + "h" * n, *([0] * n))
+    t = np.linspace(0, n / sr, n, endpoint=False)
+    sine = (np.sin(2 * np.pi * 2000 * t) * 1000).astype(np.int16)
+    pcm = sine.tobytes()
     buf = io.BytesIO()
     with wave.open(buf, "wb") as wf:
         wf.setnchannels(1)
@@ -45,7 +49,7 @@ async def _warmup() -> None:
         wf.setframerate(sr)
         wf.writeframes(pcm)
     audio_arr, _ = librosa.load(io.BytesIO(buf.getvalue()), sr=sr, mono=True)
-    P.audio_bytes_to_tensors(audio_arr)  # warm up butter + sosfilt + melspectrogram
+    P.audio_bytes_to_tensors(audio_arr)  # warm up rms_normalise + butter + sosfilt + melspectrogram
 
 
 @app.get("/health")

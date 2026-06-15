@@ -6,7 +6,7 @@ interface ResultCardProps {
 }
 
 function confidencePct(c: number): string {
-  return `${Math.round(c * 100)}%`;
+  return `${(c * 100).toFixed(2)}%`;
 }
 
 function statusColor(code: string): string {
@@ -29,7 +29,7 @@ function readMoreHref(
 export function ResultCard({ result, onReset }: ResultCardProps) {
   const { identification, card, enrichment, degraded } = result;
   const top = identification;
-  const conf = Math.round(top.confidence * 100);
+  const conf = top.confidence * 100;
   const lowConfidence = top.confidence < 0.4;
 
   const href = readMoreHref(card?.info_url, enrichment?.read_more_target);
@@ -74,7 +74,7 @@ export function ResultCard({ result, onReset }: ResultCardProps) {
           <p className="result-common">{taxonomyLine}</p>
         ) : null}
 
-        <div className="conf-bar" aria-label={`Confianza ${conf}%`}>
+        <div className="conf-bar" aria-label={`Confianza ${confidencePct(top.confidence)}`}>
           <span style={{ width: `${conf}%` }} />
         </div>
 
