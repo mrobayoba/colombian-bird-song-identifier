@@ -10,6 +10,12 @@ NOTE on the bandpass low cut: train.ipynb's inference helper uses 1000 Hz,
 while PREPROCESSING_CONTEXT.md documents 500 Hz. The notebook's actual value
 wins for serving parity, so BUTTER_LOW_HZ = 1000 here. Reconcile the doc when
 convenient, but do not silently diverge the serving code from the trained model.
+
+NOTE on fmin/fmax and BUTTER_HIGH_HZ: train.ipynb Step 11 does NOT specify
+fmin/fmax in melspectrogram (librosa defaults apply: 0–16 000 Hz) and uses
+BUTTER_HIGH_HZ = 15 000. pre_processing.ipynb uses different values (fmin=300,
+fmax=10 000, F_MAX=10 000) but those reflect a later notebook revision that
+diverges from the trained model. Do not change these constants here.
 """
 
 from __future__ import annotations
@@ -48,6 +54,14 @@ DB_MAX: float = 0.0
 INPUT_HEIGHT: int = N_MELS                           # 128
 INPUT_WIDTH: int = TARGET_FRAMES                     # 188
 
+# RMS normalisation (mirrors pre_processing.ipynb Block 4)
+TARGET_RMS: float = 0.1      # −20 dBFS target; matches training corpus normalisation
+PEAK_CEILING: float = 0.99   # anti-clip safety margin after RMS scaling
+MIN_RMS: float = 1e-6        # below this the recording is treated as pure silence
+
+# Per-chunk energy gate (mirrors pre_processing.ipynb Block 3 SILENCE_DB)
+SILENCE_DB: float = -40.0    # chunks whose RMS falls below this dBFS are discarded
+
 
 # --------------------------------------------------------------------------- #
 # Core functions (mirror train.ipynb Step 11)
@@ -62,14 +76,40 @@ def make_bandpass_sos(
     return butter(order, [low_hz / nyq, high_hz / nyq], btype="band", output="sos")
 
 
+def rms_normalise(audio: np.ndarray) -> np.ndarray | None:
+    """Scale audio to TARGET_RMS with a PEAK_CEILING anti-clip pass.
+
+    Returns None when the recording is too quiet to normalise (pure silence or
+    a dead microphone), which the caller should treat as zero surviving chunks.
+    Mirrors pre_processing.ipynb Block 4 two-step normalisation.
+    """
+    rms = float(np.sqrt(np.mean(audio ** 2)))
+    if rms < MIN_RMS:
+        return None
+    y = audio * (TARGET_RMS / rms)
+    peak = float(np.max(np.abs(y)))
+    if peak > PEAK_CEILING:
+        y = y * (PEAK_CEILING / peak)
+    return y.astype(np.float32)
+
+
 def audio_to_chunks(audio: np.ndarray) -> list[np.ndarray]:
-    """Bandpass-filter then slice into overlapping 3 s chunks."""
+    """Bandpass-filter, slice into overlapping 3 s chunks, drop silent ones.
+
+    Chunks whose RMS energy falls below SILENCE_DB are discarded before mel
+    computation, matching the silence-rejection logic in pre_processing.ipynb
+    Block 3 and avoiding wasted inference on noise-only windows.
+    """
     sos = make_bandpass_sos()
     filtered = sosfilt(sos, audio).astype(np.float32)
-    return [
-        filtered[s : s + CHUNK_SAMPLES].copy()
-        for s in range(0, len(filtered) - CHUNK_SAMPLES + 1, STRIDE_SAMPLES)
-    ]
+    chunks = []
+    for s in range(0, len(filtered) - CHUNK_SAMPLES + 1, STRIDE_SAMPLES):
+        chunk = filtered[s : s + CHUNK_SAMPLES].copy()
+        rms = float(np.sqrt(np.mean(chunk ** 2)))
+        rms_db = 20.0 * np.log10(rms) if rms > 0.0 else -200.0
+        if rms_db >= SILENCE_DB:
+            chunks.append(chunk)
+    return chunks
 
 
 def chunk_to_tensor(chunk: np.ndarray) -> np.ndarray:
@@ -89,8 +129,13 @@ def chunk_to_tensor(chunk: np.ndarray) -> np.ndarray:
 def audio_bytes_to_tensors(audio: np.ndarray) -> np.ndarray:
     """Full path: raw mono 32 kHz audio array -> stacked (K, 128, 188) tensors.
 
-    Returns an empty array with the right trailing shape if no chunk survives.
+    Returns an empty array with the right trailing shape if no chunk survives
+    (pure silence, dead mic, or all chunks below the energy gate).  The
+    orchestrator detects n_chunks == 0 and raises IdentificationError cleanly.
     """
+    audio = rms_normalise(audio)
+    if audio is None:
+        return np.empty((0, N_MELS, TARGET_FRAMES), dtype=np.float32)
     chunks = audio_to_chunks(audio)
     if not chunks:
         return np.empty((0, N_MELS, TARGET_FRAMES), dtype=np.float32)

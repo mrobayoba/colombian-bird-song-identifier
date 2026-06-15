@@ -9,3 +9,16 @@
 
 # Downloaded metadata and audio
 data/
+
+bird_models/resnet50v2_fold3_best.weights.h5
+
+.venv312/
+
+infra/docker/.env
+
+
+
+
+
+
+

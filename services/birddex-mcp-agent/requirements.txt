@@ -2,4 +2,7 @@ fastapi>=0.110
 uvicorn[standard]>=0.29
 httpx>=0.27
 motor>=3.4
-# add your MCP SDK + LLM client here when wiring step 8
+anyio>=4.0
+google-genai>=1.0
+# shared contracts — install separately with:
+#   pip install -e libs/contracts   (run from repo root)

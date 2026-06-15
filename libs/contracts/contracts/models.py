@@ -99,6 +99,13 @@ class EnrichmentResult(BaseModel):
     summary_es: str
     behavior_notes: Optional[str] = None
     semantic_tags: list[str] = Field(default_factory=list)
+    alternatives: list[str] = Field(
+        default_factory=list,
+        description="Scientific names of taxonomically related or lookalike species",
+    )
+    read_more_target: str = Field(
+        "", description="Canonical binomial name used by the frontend Read More button"
+    )
     sources: list[str] = Field(
         default_factory=list, description="Provenance, e.g. ['card:Turdus_fuscater']"
     )

@@ -57,7 +57,8 @@ services:
       dockerfile: services/bird-index-agent/Dockerfile
     container_name: cbsi-index-agent
     environment:
-      CBSI_USE_STUBS: "true"          # step 3: stubs. Flip to "false" later.
+      # Flip to "true" to run without the real agents (stub mode).
+      CBSI_USE_STUBS: "false"
       MONGO_URI: "mongodb://mongo:27017"
       MONGO_DB: "cbsi"
       REDIS_URL: "redis://redis:6379/0"
@@ -68,38 +69,59 @@ services:
     depends_on:
       mongo: { condition: service_healthy }
       redis: { condition: service_healthy }
+      recorder: { condition: service_started }
+      identifier: { condition: service_started }
+      birddex-mcp: { condition: service_started }
 
-  # ---- Real agents: uncomment when you reach the later build steps ----------
-  #
-  # recorder:
-  #   build:
-  #     context: ../..
-  #     dockerfile: services/audio-recorder-agent/Dockerfile
-  #   container_name: cbsi-recorder
-  #   expose: ["8000"]
-  #
-  # identifier:
-  #   build:
-  #     context: ../..
-  #     dockerfile: services/bird-identifier-agent/Dockerfile
-  #   container_name: cbsi-identifier
-  #   environment:
-  #     MODEL_PATH: "/models/resnet50v2_fold0.keras"
-  #     LABEL_MAP_PATH: "/models/label_map.json"
-  #   volumes:
-  #     # Point this at wherever you copied the trained model + label_map.
-  #     - ${HOME}/bird_models:/models:ro
-  #   expose: ["8000"]
-  #
-  # birddex-mcp:
-  #   build:
-  #     context: ../..
-  #     dockerfile: services/birddex-mcp-agent/Dockerfile
-  #   container_name: cbsi-birddex-mcp
-  #   environment:
-  #     MONGO_URI: "mongodb://mongo:27017"
-  #     MONGO_DB: "cbsi"
-  #   expose: ["8000"]
+  identifier:
+    build:
+      context: ../..
+      dockerfile: services/bird-identifier-agent/Dockerfile
+    container_name: cbsi-identifier
+    environment:
+      WEIGHTS_PATH: "/bird_models/resnet50v2_fold3_best.weights.h5"
+      LABEL_MAP_PATH: "/bird_models/label_map.json"
+    volumes:
+      - ../../bird_models:/bird_models:ro
+    ports: ["8002:8000"]
+
+
+  recorder:
+    build:
+      context: ../..
+      dockerfile: services/audio-recorder-agent/Dockerfile
+    container_name: cbsi-recorder
+    expose: ["8000"]   # internal only; reached via index-agent
+
+  birddex-mcp:
+    build:
+      context: ../..
+      dockerfile: services/birddex-mcp-agent/Dockerfile
+    container_name: cbsi-birddex-mcp
+    environment:
+      MONGO_URI: "mongodb://mongo:27017"
+      MONGO_DB: "cbsi"
+      GEMINI_MODEL: "gemini-2.5-flash"
+      # GEMINI_API_KEY is loaded from infra/docker/.env (see env_file below).
+      GEMINI_API_KEY: "${GEMINI_API_KEY:-}"
+    expose: ["8000"]
+    depends_on:
+      mongo: { condition: service_healthy }
+
+
+  web:
+    build:
+      context: ../..
+      dockerfile: apps/web/Dockerfile
+    container_name: cbsi-web
+    ports: ["8080:80"]
+    depends_on:
+      index-agent: { condition: service_started }
 
 volumes:
   mongo_data:
+
+
+
+
+  
